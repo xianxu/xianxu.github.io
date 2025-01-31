@@ -7,6 +7,8 @@ categories: blog
 
 Being old fashioned, you'd always want simplicity and speed. Here's my setup on Mac.
 
+# WIP...
+
 ## On mac
 
 * First install font on mac, basically to display some symbols used in various plugins. I found [nerd fonts](https://github.com/ryanoasis/nerd-fonts#patched-fonts) patch alright. 
