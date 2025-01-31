@@ -21,8 +21,8 @@
 title: Nomadic Monadic
 #email: nomadic.monads@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Random thoughts on things, society, current events, technology.
-  Personal take.
+  Random thoughts on current events, society and technology. Mostly technology. 
+  This represents my personal opinion.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://xianxu.github.io"
 # twitter_username: jekyllrb
