@@ -2,7 +2,7 @@
 layout: post
 title:  "Mac Setup"
 date:   2025-01-30 21:23:00 -0800
-categories: blog
+categories: coding
 ---
 
 Being old fashioned, you'd always want simplicity and speed. Here's my setup on Mac.
