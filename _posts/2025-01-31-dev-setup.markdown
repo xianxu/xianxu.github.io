@@ -9,6 +9,18 @@ Being old fashioned, you'd always want simplicity and speed. Here's my setup on 
 
 # WIP...
 
+## Basics
+
+I'll start use yadm to track dotfiles, so reproduce my environment's simply cloning in yadm. Will otherwise document other things to be installed (typically on a Mac).
+
+## yadm
+
+I started to use yadm to keep dotfiles in sync. yadm wraps around git and creates the illusion that some files and directories under $HOME is source controlled. Seems to worth a try.
+
+1. `brew install yadm`
+2. `yadm clone ...` to clone your dotfiles repo. Or check [yadm manual[(https://yadm.io/docs/getting_started) on how to initiate a repo from yadm.
+3. For example, you can `cd $HOME/.config/nvim` and `yadm add .` to add the nvim configuration to be tracked. Then, you use the same git-isk command, such as `yadm commit -a` to commit files you added (and changed). `yadm push` would push to changes to remote repo. That's all!
+
 ## On mac
 
 * First install font on mac, basically to display some symbols used in various plugins. I found [nerd fonts](https://github.com/ryanoasis/nerd-fonts#patched-fonts) patch alright. 
