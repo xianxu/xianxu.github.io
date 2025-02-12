@@ -7,7 +7,7 @@ categories: coding
 
 Being old fashioned, you'd always want simplicity and speed. Here's my setup on Mac.
 
-# WIP...
+# WIP... And TODOs
 
 ## Basics
 
