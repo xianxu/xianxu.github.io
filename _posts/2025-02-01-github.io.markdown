@@ -28,7 +28,7 @@ Note to keep your authorship private, you will need to pay attention to use a Gi
 
 A single `username` can have multiple blogs. Just that a single can be addressed as `https://username.github.io`. The others: `https://username.github.io/reponame`.
 
-# 2/ Copy files and set up your blog
+# 2/ Copy files and start writing your blog
 
 Once you have your public repo, the first step is to copy all the files from [xianxu/minima](https://github.com/xianxu/minima) to your public repo. Or you can just make a fork. You will then need to change the following:
 
@@ -38,7 +38,11 @@ Once you have your public repo, the first step is to copy all the files from [xi
 
 After that, commit and push. Your blog should show up in `username.github.io` soon.
 
-# 3/ A private repo
+Locally, you can take a preview of how it looks like. You can use any Markdown viewer to read the markdown file formatted. I use `glow`. 
+
+You can use `bundle exec jekyll serve`, which will start a static website locally that you can see the effect of your change. Before that, you need to run `bundle install` to make sure necessary local dependencies are installed.
+
+# 3/ Using a private repo as a staging area
 
 If you want to hide some part of the blog from public, let's say during writing, you can pick any private repo, create a folder with the following structure:
 
@@ -50,6 +54,8 @@ blogs/
       2025-01-01-your-post.markdown
       ...
     draft/
+  another_blog/
+    ...
 ```
 
 And the publish.sh looks like the following. It basically fetches the public repo, override the _posts folder with what's currently in the private repo. Easy enough! When I want to actually publish, I'd copy from file from draft/ directory to _posts/ directory in my private repo, and run `./publish.sh`.
@@ -88,3 +94,12 @@ rm -rf $CLONE_DIR
 
 echo "Sync complete!"
 ```
+
+# 4/ Keep things really private
+
+To really keep things private, you will need to make sure your identity used of your *secret* blog is not traced back to your real identity, at least not easily traceable. To do that, something to think about:
+
+1. Use a new email address.
+2. Use a new GitHub account.
+3. Generate [PAT](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens), not using SSH.
+4. Check the publish.sh script, to make sure it does not pick up from global git settings that might reveal your identity. 
