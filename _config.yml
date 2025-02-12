@@ -21,7 +21,7 @@
 title: Xian Xu
 email: first_name.last_name@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Person thoughts on current events, society and technology.
+  Personal thoughts on current events, society and technology.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://xianxu.github.io"
 twitter_username: xianxu
