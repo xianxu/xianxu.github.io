@@ -1,8 +1,0 @@
----
-layout: post
-title:  "A Test"
-date:   2025-02-12
-categories: coding
----
-
-# Just a test
