@@ -13,8 +13,7 @@
       </div>
     </main>
 
-    {%- include footer.html -%}
-
+    {% if page.comments %}
     <script src="https://utteranc.es/client.js"
         repo="xianxu/xianxu.github.io"
         issue-term="pathname"
@@ -22,6 +21,9 @@
         crossorigin="anonymous"
         async>
     </script>
+    {% endif %}
+
+    {%- include footer.html -%}
 
   </body>
 
