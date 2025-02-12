@@ -21,17 +21,18 @@
 title: Xian Xu
 email: first_name.last_name@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Random thoughts on current events, society and technology. Mostly technology. 
-  This represents my personal opinion.
+  Person thoughts on current events, society and technology.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://xianxu.github.io"
 twitter_username: xianxu
 github_username:  xianxu
 
-# Build settings
-theme: minima
+# Build settings, I copied minima theme locally so I can add the comment section.
+# theme: minima
+
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
