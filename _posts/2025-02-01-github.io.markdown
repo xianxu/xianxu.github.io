@@ -1,0 +1,90 @@
+---
+layout: post
+title:  "Publish Public and Private Blogs GitHub Gages"
+date:   2025-02-01
+categories: blog
+comments: true
+---
+
+If you decide that this is a good time to start a blog, where should you host it? GitHub Pages is a good choice for something simple, that you have full control of. You do need to be able to configure stuff to use this. The fact you write in Markdown can be both a feature, or a bug. 
+
+Here's how to use GitHub to manage multiple blogs, with separate identities.
+
+# TL;DR
+
+After following instructions here, you will get:
+
+* Free blog hosting service backed by GitHub Pages, that supports Markdown format, with good formatting support for `code` and `math`.
+* Private repo where you can have private unpublished drafts. To publish, copy your blogpost.markdown to a folder, and run a script.
+* You can manage multiple blogs with different identity this way, but share a single private "blog factory".
+
+# 0/ Sketches of what we are doing
+
+We want to create one private repo, where you can draft without prying eyes. A public repo to host your blog, from where GitHub manages hosting and publishing. And a script is used to publish the from your private repo to public repo.
+
+# 1/ Create a public GitHub repo
+
+Note to keep your authorship private, you will need to pay attention to use a GitHub account that is not easily traceable to you. After that, create a public repo, with name the same as your username. E.g. `username`/`username.github.io`. This blog, when online, can be accessed with `https://username.github.io`.
+
+A single `username` can have multiple blogs. Just that a single can be addressed as `https://username.github.io`. The others: `https://username.github.io/reponame`.
+
+# 2/ Copy files and set up your blog
+
+Once you have your public repo, the first step is to copy all the files from [xianxu/minima](https://github.com/xianxu/minima) to your public repo. Or you can just make a fork. You will then need to change the following:
+
+1. update `_config.yml` to your liking. Mostly, blog's title and description, and your contact information.
+2. update `_layout/base.html`, replace `xianxu/minima` to the public repo hosting your blog. That script block is used to enable comments via [utterances](https://utteranc.es)
+3. try update posts in `_posts` directory, or write your first post. There are two examples there.
+
+After that, commit and push. Your blog should show up in `username.github.io` soon.
+
+# 3/ A private repo
+
+If you want to hide some part of the blog from public, let's say during writing, you can pick any private repo, create a folder with the following structure:
+
+```
+blogs/
+  username.github.io/
+    publish.sh
+    _posts/
+      2025-01-01-your-post.markdown
+      ...
+    draft/
+```
+
+And the publish.sh looks like the following. It basically fetches the public repo, override the _posts folder with what's currently in the private repo. Easy enough! When I want to actually publish, I'd copy from file from draft/ directory to _posts/ directory in my private repo, and run `./publish.sh`.
+
+All you need to do is to replace `USERNAME` and `USEREMAIL`. 
+
+```sh
+#!/bin/bash
+
+# Set repo names
+PUBLIC_REPO="git@github.com:USERNAME/USERNAME.github.io.git"
+CLONE_DIR="blog_sync_temp"
+
+# Remove any existing directory
+rm -rf $CLONE_DIR
+
+# Clone the public repo
+git clone --depth=1 $PUBLIC_REPO $CLONE_DIR
+
+# Copy only _posts/ from private repo
+rsync -av --delete _posts/ $CLONE_DIR/_posts/
+
+# Commit and push changes
+cd $CLONE_DIR
+
+git config user.name "USERNAME"
+git config user.email "USEREMAIL"
+
+git add _posts/
+git commit -m "Sync latest _posts from private repo" || echo "No changes to commit"
+git push origin main
+
+# Cleanup
+cd ..
+rm -rf $CLONE_DIR
+
+echo "Sync complete!"
+```
