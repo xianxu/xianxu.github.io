@@ -6,37 +6,39 @@ categories: blog
 comments: true
 ---
 
-If you decide that this is a good time to start a blog, where should you host it? GitHub Pages is a good choice for something simple, that you have full control of. You do need to be able to configure stuff to use this. The fact you write in Markdown can be both a feature, or a bug. 
+If you, like me, have decided that this is a good time to start blogging, the next question is where should you host it? There are many choices, like [Medium](https://medium.com/) or [Substack](https://substack.com/about). GitHub Pages is a good choice for something simple, that you have full control of, that uses [Markdown](https://en.wikipedia.org/wiki/Markdown) format, that you can easily quote code or write math formula. The flip side is that you do need to be able tinker to make this work well. The fact you write in Markdown can also be both a feature, or a bug. 
 
-Here's how to use GitHub to manage multiple blogs, with separate identities.
+Here's how to use GitHub to manage multiple blogs, with separate identities. I'm hoping to get the tinkering part out of your way, so you can focus on writing. By *you*, I also meant my future self.
 
 # TL;DR
 
 After following instructions here, you will get:
 
 * Free blog hosting service backed by GitHub Pages, that supports Markdown format, with good formatting support for `code` and `math`.
-* Private repo where you can have private unpublished drafts. To publish, copy your blogpost.markdown to a folder, and run a script.
-* You can manage multiple blogs with different identity this way, but share a single private "blog factory".
+* Private repo where you can have your private unpublished drafts, or any other things. There is a folder representing all published posts, so when you are ready, simply copy the markdown file to that folder, and run a script.
+* You can manage multiple blogs with different identity this way, but share a single private where you tinker.The private repo aspect is important for me, as I often update my draft several times before it's ready to be published.
 
 # 0/ Sketches of what we are doing
 
-We want to create one private repo, where you can draft without prying eyes. A public repo to host your blog, from where GitHub manages hosting and publishing. And a script is used to publish the from your private repo to public repo.
+We want to create `1/` one private repo, where you can draft without prying eyes. `2/` a public repo to host your blog, from where GitHub manages hosting and publishing. And `3/` a script is used to publish the from your private repo to the public repo.
 
-# 1/ Create a public GitHub repo
+# 1/ Create a private repo for you private stuff
 
-Note to keep your authorship private, you will need to pay attention to use a GitHub account that is not easily traceable to you. After that, create a public repo, with name the same as your username. E.g. `username`/`username.github.io`. This blog, when online, can be accessed with `https://username.github.io`.
+Really nothing special, but if you are brand new, check out [GitHub's tutorial](https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories) on it.
 
-A single `username` can have multiple blogs. Just that a single can be addressed as `https://username.github.io`. The others: `https://username.github.io/reponame`.
+# 2/ Create a public GitHub repo for your blog
 
-# 2/ Copy files and start writing your blog
+Note to keep your authorship private, you will need to pay attention to use a GitHub account that is not easily traceable to your real identity. After that, create a public repo, with the name following some rules. E.g. For account `username`, if you use `username.github.io` as repo name, then the blog, when online, can be accessed with `https://username.github.io`. Pretty neat.
 
-Once you have your public repo, the first step is to copy all the files from [xianxu/minima](https://github.com/xianxu/minima) to your public repo. Or you can just make a fork. You will then need to change the following:
+A single account `username` can have multiple blogs. Just that a single can be addressed as `https://username.github.io`. The others: `https://username.github.io/reponame`. There's that.
+
+Once you have your public repo set up, we will need to set up some bare bone code and configs, that is your blog. The first step is to copy all the files from [xianxu/minima](https://github.com/xianxu/minima) to your public repo. Or you can just make a fork. You will then need to change the following:
 
 1. update `_config.yml` to your liking. Mostly, blog's title and description, and your contact information.
-2. update `_layout/base.html`, replace `xianxu/minima` to the public repo hosting your blog. That script block is used to enable comments via [utterances](https://utteranc.es)
+2. update `_layout/base.html`, replace `xianxu/minima` to the public repo hosting your blog. That HTML script block is used to enable comments via [utterances](https://utteranc.es). If you don't want comment, you can remove that block and have a totally static blog.
 3. try update posts in `_posts` directory, or write your first post. There are two examples there.
 
-After that, commit and push. Your blog should show up in `username.github.io` soon.
+After that, commit and push to GitHub. Your blog should show up in `https://username.github.io` soon. You can check the status of it, by checking the Repo > Settings (top bar) > Pages (left bar in Settings). If successful, you should see a message like *"Your site is live at https://username.github.io"*.
 
 Locally, you can take a preview of how it looks like. You can use any Markdown viewer to read the markdown file formatted. I use `glow`. 
 
@@ -44,7 +46,8 @@ You can use `bundle exec jekyll serve`, which will start a static website locall
 
 # 3/ Using a private repo as a staging area
 
-If you want to hide some part of the blog from public, let's say during writing, you can pick any private repo, create a folder with the following structure:
+OK, so by now you have a blog website up. If you want to hide some part of the blog from public, let's say during writing, you can pick any private repo, create a folder with the following structures.
+
 
 ```
 blogs/
@@ -58,9 +61,11 @@ blogs/
     ...
 ```
 
-And the publish.sh looks like the following. It basically fetches the public repo, override the _posts folder with what's currently in the private repo. Easy enough! When I want to actually publish, I'd copy from file from draft/ directory to _posts/ directory in my private repo, and run `./publish.sh`.
+I hope the structure is self explanatory. Basically, private repo is private, and we use a script to publish what's in `_posts`, to pre-configured (in the script) public GitHub destinations.
 
-All you need to do is to replace `USERNAME` and `USEREMAIL`. 
+And the publish.sh looks like the following. It basically fetches the public repo, override the `_posts` folder with what's currently in the private repo's `\_post folder`. Easy enough! When I want to actually publish, I'd copy from file from draft/ directory to `_posts` directory in my private repo, and run `./publish.sh`.
+
+All you need to do is to replace `USERNAME` and `USEREMAIL`. Do read the script in full though, pays to understand what those automation is doing.
 
 ```sh
 #!/bin/bash
@@ -95,11 +100,11 @@ rm -rf $CLONE_DIR
 echo "Sync complete!"
 ```
 
-# 4/ Keep things really private
+# 4/ And One More Thing: Keep things really private
 
-To really keep things private, you will need to make sure your identity used of your *secret* blog is not traced back to your real identity, at least not easily traceable. To do that, something to think about:
+To really keep things private, you will need to make sure your identity used of your *secret* yet public blog is not traced back to your real identity, or your private repo. At least not easily traceable. To do that, something to think about:
 
 1. Use a new email address.
 2. Use a new GitHub account.
-3. Generate [PAT](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens), not using SSH.
+3. Generate [PAT](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens), not using SSH to clone, as PAT token can be stored locally in your machine, yet SSH keys need to be uploaded to your public blog repo.
 4. Check the publish.sh script, to make sure it does not pick up from global git settings that might reveal your identity. 
