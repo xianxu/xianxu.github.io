@@ -29,6 +29,8 @@ github_username:  xianxu
 
 # Build settings, I copied minima theme locally so I can add the comment section.
 # theme: minima
+minima:
+  skin: solarized-light
 
 plugins:
   - jekyll-feed
