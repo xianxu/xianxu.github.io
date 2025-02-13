@@ -17,11 +17,21 @@ layout: base
           {{ mdate | date: date_format }}
         </time>
       {%- endif -%}
+
       {%- if page.author -%}
         • {% for author in page.author %}
           <span itemprop="author" itemscope itemtype="http://schema.org/Person">
             <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
             {%- if forloop.last == false %}, {% endif -%}
+        {% endfor %}
+      {%- endif -%}
+
+      {%- if page.tags -%}
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        {% for tag in page.tags %}
+            <a href="{{site.baseurl}}/archive.html#{{tag | slugize}}">
+                #{{ tag }}
+            </a>
         {% endfor %}
       {%- endif -%}</p>
   </header>
