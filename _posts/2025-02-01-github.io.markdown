@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Publish Blogs With GitHub Gages From A Private Repository"
+title:  "Blogging With GitHub Gages, From A Private Repository"
 date:   2025-02-01
 tags: setup
 comments: true
