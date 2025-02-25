@@ -12,29 +12,27 @@ Being old fashioned, I always want simplicity and speed. That's why I use termin
 
 I use the following. 
 
-* `yadm` to track dotfiles.
+* `yadm` to track dotfiles, I treat this as a must.
 
 # yadm
 
 I started to use yadm to keep dotfiles in sync. yadm wraps around git and creates the illusion that some files and directories under `$HOME` is source controlled. Otherwise it behaves just like `git`.
 
 1. `brew install yadm`
-2. `yadm clone ...` to clone your dotfiles repo. Or check [yadm manual[(https://yadm.io/docs/getting_started) on how to initiate a repo from yadm. I'd suggest have a separate GitHub private repo to track your configuration files.
+2. `yadm clone ...` to clone your dotfiles repo. Or check [yadm manual](https://yadm.io/docs/getting_started) on how to initiate a repo from yadm. I'd suggest have a separate GitHub private repo to track your configuration files.
 3. In ideal case, that's all you need to do, you have recovered all the configuration files tracked by `yadm`!
-4. To track a new file, it's simply `yadm add ~/.zshrc`. You use `yadm status` to check what's changed. And `yadm commit; yadm push` to commit and push your changes to your repo on GitHub. It basically behaves the same as `git` command.
+4. To track a new file, it's simply something like: `yadm add ~/.zshrc`. You use `yadm status` to check what's changed. And `yadm commit; yadm push` to commit and push your changes to your repo on GitHub. It basically behaves the same as `git` command.
 
 # Software on Mac
 
 * Install [iTerm2](https://iterm2.com), vastly better than Terminal.app, especially if you need to connect to remote servers. Even just for local use, it's pretty good.
-* Install [Alfred](https://www.alfredapp.com). I use the `1/` multi clipboard; `2/` global hot keys; `3/` snippets (e.g. having quick access to `¯\_(ツ)_/¯`)
+* Install [Alfred](https://www.alfredapp.com). I use the `1/` multi clipboard; `2/` global hot keys; `3/` snippets (e.g. having quick access to ASCII art like `¯\_(ツ)_/¯`, for example).
 * Use `zsh`, a modern shell.
-* Use [Oh My Zsh](https://ohmyz.sh/) to customize your `zsh`. It adds all the cool bars and fonts here and there, also much better command completion.
+* Use [Oh My Zsh](https://ohmyz.sh/) to customize your `zsh`. It adds all the cool bars and fonts here and there, also much better command completion. It does all those largely out of box.
 * Install [HomeBrew](https://brew.sh/), which makes installing software on Mac much easier.
 * You will need some fonts to display some weird Unicode, I use [nerd fonts](https://github.com/ryanoasis/nerd-fonts#patched-fonts), particular `DejaVuSansMNerdFontPropo-Regular.ttf`.
-* Install `NeoVIM` if you use VIM at all.
+* Install `NeoVIM` if you use VIM at all, you should use NeoVIM. 
 * `brew install ack`, `ack` is a much better grep.
 
-# One More Thing
-TODO
 
 
