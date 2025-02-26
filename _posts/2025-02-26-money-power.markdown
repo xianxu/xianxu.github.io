@@ -6,8 +6,6 @@ tags: philosophy
 comments: true
 ---
 
-# Happiness @ Work: Money, Power and the Rest
-
   *Reflection from a Silicon Valley insider*
 
 Consider things that make you happy. In your pursuit of happiness at work, be it picking a career, or changing a team, or a company, consider the following: `money`, `power`, `domain`, `people`, and `growth`. Not in particular order. 
