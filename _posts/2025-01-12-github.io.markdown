@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Blogging With GitHub Gages, From A Private Repository"
-date:   2025-02-01
+title: "Blogging With GitHub Gages, From A Private Repository"
+date: 2025-01-12
 tags: tech
 comments: true
 ---

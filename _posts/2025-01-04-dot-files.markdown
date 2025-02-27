@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Dot Files and Mac Setup"
-date:   2025-02-13
-tags: setup 
+title: "Dot Files and Mac Setup"
+date: 2025-01-04
+tags: tech 
 comments: true
 ---
 
