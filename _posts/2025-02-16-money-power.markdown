@@ -3,6 +3,7 @@ layout: post
 title:  "Happiness @ Work"
 date:   2025-02-16
 tags: philosophy 
+image: /assets/images/2025-02-27-work.jpeg
 comments: true
 ---
 
