@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Astrophotography"
-date:   2025-01-01
+date:   2025-02-26
 tags: life 
 comments: true
 ---
