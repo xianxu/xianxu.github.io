@@ -22,8 +22,17 @@ If I'm to try this again in the future (and likely this summer), I'm thinking of
 Anyway, here are some photos I took.
 
 ![family](/assets/images/2025-02-26-family.jpeg)
+
 ![sunset](/assets/images/2025-02-26-sunset.jpeg)
-![stars1](/assets/images/2025-02-26-stars1.jpeg)
-![stars2](/assets/images/2025-02-26-stars2.jpeg)
+
+![stars1](/assets/images/2025-02-26-porsche.jpeg)
+
+![stars2](/assets/images/2025-02-26-road.jpeg)
+
+![sky](/assets/images/2025-02-26-sky1.jpeg)
+
+![sky](/assets/images/2025-02-26-stars.jpeg)
+
 ![sky](/assets/images/2025-02-26-sky.jpeg)
+
 
