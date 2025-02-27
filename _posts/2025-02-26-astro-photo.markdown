@@ -33,6 +33,6 @@ Anyway, here are some photos I took.
 
 ![sky](/assets/images/2025-02-26-stars.jpeg)
 
-![sky](/assets/images/2025-02-26-sky.jpeg)
+![sky](/assets/images/2025-02-26-sky.jpg)
 
 
