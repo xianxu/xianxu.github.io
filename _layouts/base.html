@@ -6,6 +6,19 @@
   <body>
 
     {%- include header.html -%}
+    <script type="text/javascript">
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        },
+        loader: {load: ['input/tex', 'output/chtml']}
+      };
+    </script>
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+    </script>
+
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
