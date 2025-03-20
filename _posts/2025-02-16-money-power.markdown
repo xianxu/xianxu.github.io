@@ -12,9 +12,9 @@ Consider what makes you happy. In your pursuit of happiness at work, whether you
 
 ## Money, obviously important. 
 
-This does not matter for internal transfers, as it is often lateral moves. 
+This does not matter for internal transfers, as they are often lateral moves. 
 
-Looking outside (of Big Tech) in Silicon Valley, people fantasize about startups and sudden riches. On the other hand, statistically speaking, the few top tech companies often pay (much) better expected value than typical startups. Think about your whole family situation. Does your spouse bring in big checks, giving you more flexibility? How stable are their jobs? 
+Looking outside (of Big Tech) in Silicon Valley, people fantasize about startups and sudden riches. On the other hand, statistically speaking, the few top tech companies often pay (much) better in terms of expected value than typical startups. Think about your whole family situation. Does your spouse bring in big checks, giving you more flexibility? How stable are their jobs? 
 
 For people with the benefit of a good cushion, remember to ask: _what would you do if you were not afraid (about money)?_ 
 
@@ -28,7 +28,7 @@ How much autonomy do you have working on things you enjoy? That gives more energ
 
 ## Domain, the type of things we work on. 
 
-We are technologists; we must be intrigued and passionate about our domain. You can only excel in this pursuit if you are passionate about what you do, always curious to learn more and have an opinion on how to do it well. One of the yardsticks I'd use is to ask yourself, do you rather watch TikTok videos in your spare time or read technological news and papers in your domain?
+We are technologists; we must be intrigued and passionate about our domain. You can only excel in this pursuit if you are passionate about what you do, always curious to learn more and have an opinion on how to do it well. One of the yardsticks I'd use is to ask yourself, do you rather watch TikTok videos in your spare time or read tech/business news and papers in your domain? Are you excited about the product you are creating, or is that merely a vehicle to the next paycheck? 
 
 If you put **money** and **power** very high, chances are you won't go very far. 
 
@@ -49,5 +49,7 @@ Are you learning? It can be anything: technology, product, business, soft skills
 Is your organization's mission exciting and inspiring so that you can learn and become a better version of yourself?
 
 ## And one last thing: Are You Having Fun at Work?
+
+To have fun at work, you need to be energy-positive. Work itself should not be a net drain on your creative energy. Do you feel well-rested and energized to return to work on a Monday morning? 
 
 
