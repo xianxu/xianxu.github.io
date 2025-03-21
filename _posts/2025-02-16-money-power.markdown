@@ -38,7 +38,7 @@ Even truer is that people stay and leave for their managers.
 
 How are your key partners? Do you admire them as professionals and people? Do you learn from them? 
 
-Do you have a strong trust circle to weather inevitable storms? 
+Do you have a strong trust circle to weather inevitable storms? Have you established a shared [theory of mind](https://boz.com/articles/theory-mind) with them? 
 
 This also makes leaving a company you've worked for a long time very hard, as there are few ways to know the people you will work with from interviews alone. Culture can be a generic barometer. 
 
