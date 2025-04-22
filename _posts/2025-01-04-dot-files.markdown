@@ -22,6 +22,10 @@ I started to use yadm to keep dotfiles in sync. yadm wraps around git and create
 2. `yadm clone ...` to clone your dotfiles repo. Or check [yadm manual](https://yadm.io/docs/getting_started) on how to initiate a repo from yadm. I'd suggest having a separate private GitHub repo to track your configuration files.
 3. In the ideal case, that's all you need to do; you have recovered all the configuration files tracked by `yadm`!
 4. To track a new file, it's simply something like: `yadm add ~/.zshrc`. You use `yadm status` to check what's changed. And `yadm commit; yadm push` to commit and push your changes to your repo on GitHub. It basically behaves the same as `git` command.
+5. Some additional files I track:
+  1. Generate homebrew bundle file with `brew bundle dump --describe --file=~/.brewfile`. Recover on new host with `brew bundle --file=~/.brewfile`
+  2. ~/.crontab file contains periodical thing I run on a host. Recover on new host with `crontab ~/.crontab`
+  3. `Alfred` preference files in `~/Alfred.alfredpreferences/`
 
 # Software on Mac
 
@@ -29,10 +33,9 @@ I started to use yadm to keep dotfiles in sync. yadm wraps around git and create
 * Install [Alfred](https://www.alfredapp.com). I use the `1/` multi clipboard, `2/` global hot keys, and `3/` snippets (e.g. having quick access to ASCII art like `¯\_(ツ)_/¯`, for example).
 * Use `zsh`, a modern shell.
 * Use [Oh My Zsh](https://ohmyz.sh/) to customize your `zsh`. It adds all the cool bars and fonts here and there, and also much better command completion. It does all those largely out of the box.
-* Install [HomeBrew](https://brew.sh/), which makes installing software on Mac much easier.
+* Install [HomeBrew](https://brew.sh/), which makes installing software on Mac much easier. e.g. `rg`, `ack`, `nvim`, etc.
 * You will need some fonts to display some weird Unicode codepoints. I use nerd fonts, in particular, `DejaVuSansMNerdFontPropo-Regular.ttf`.
-* Install `NeoVIM`. If you use VIM at all, you should use NeoVIM. 
-* `brew install ack`, `ack` is a much better grep.
+* Some small utility: `Horo` (timer), `Quick View Calendar` for dates, `Tab Notes` for quick note.
 
 
 
