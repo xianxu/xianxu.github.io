@@ -6,21 +6,22 @@ tags: tech
 comments: true
 ---
 
-I use ChatGPT (and some other LLMs) a lot, mainly as a soundboard and a research tool. In such use cases, I'm looking for a collaborative tool where we can bounce ideas back and forth and construct a narrative I agree with. Using the stock ChatGPT app is pretty limiting for these purposes, as it does not allow me to easily organize and review a long conversation thread. Until the light bulb moment: Is there a NeoVIM plugin? 
+I use ChatGPT (and some other LLMs) a lot, mainly as a soundboard and a research tool. In such use cases, I'm looking for a collaborative tool where we can bounce ideas back and forth and construct a narrative I agree with. The transcript serves as note, where I can annotate/highlight important points to remember. Using the stock ChatGPT app is pretty limiting for such purpose, as it does not allow me to easily organize and review a long conversation thread. Until the light bulb moment: Is there a NeoVIM plugin, where the text in the editor are freely editable, but you can also pull advice from a chatbot?
 
 And of course there is! Several actually. I tried out [gp.nvim](https://github.com/Robitx/gp.nvim) and it works great. 
 
-At the end is a transcript of our discussion around the `Establishment Clause`. Isn't this pretty nice? As a bonus, it also gives you a test bed to test out various prompting strategies easily. Notice the lines starting 🧠: ? That's from my instruction for the model to first reason about what needs to be answered before answering. 
+At the end of this post is a transcript of our discussion around the `Establishment Clause`. Isn't this pretty nice? As a bonus, it also gives you a test bed to test out various prompting strategies easily. Notice the lines starting 🧠:? That's from my instruction for the model to first reason about what needs to be answered before answering. 
 
 The setup is very simple, largely just follow the instructions at: [gp.nvim](https://github.com/Robitx/gp.nvim). Some notes: 
 
-1. Sign up ChatGPT API, it seems pretty cheap to use for this purpose, it feels so far cheaper than the $20 monthly Plus plan. 
+1. Signed up ChatGPT API, it seems pretty cheap to use for this purpose, it feels so far cheaper than the $20 monthly Plus plan. 
 2. ChatGPT 4.1 is impressive, just the vanilla model without access to external tools.
-3. This can easily be extended to support external tools and a more agentic workflow. 
+3. Would be nice if this can be extended to support external tools and a more agentic workflow. 
 4. I will try Gemini, Claude, and other open-source models to get a sense of how big ChatGPT's moat is. A bit doubtful as every time I use them, they feel off. 
 5. This ChatGPT in VIM setup is great for researching something; day-to-day, small questions are still easier with a native app. On that, Google seems to be catching up with its `AI answers` for those tasks as well. 
 6. I customized how syntax highlight works, for example, lines starting with 🧠: are grayed out. I also customized the `system_prompt` used. One benefit of running in VIM is that it allows access to the API directly.
 7. Access to the full transcript and the ability to arbitrarily edit/format it, with the goal of continued refinement to form a consistent narrative, enables very productive research sessions. I can further research references and edit ChatGTP's responses with the right references, forming a durable document on a subject for my future reference. The building blocks of **a research report**, so to speak. 
+8. I added some customized `table of content` type of picker to easily jump among questions, and some special tags, such as `# markdown heading 1`, `## markdown heading 2`, and `=customized highlight syntax=` I added.
 
 --------  
 # topic: Constitutional Law: Establishment Clause and Scalia
@@ -40,7 +41,6 @@ Be cautious of very long chats. Start a fresh chat by using `<C-g>c` or :GpChatN
 
 
 🧠: User is asking about major legal precedents concerning interpretation of the Establishment Clause in the US Constitution, especially balancing history/tradition and the prohibition on government establishment or support of religion.
-
 
 🧠: They seem to understand that the founders had religious backgrounds but intended institutional separation of church and state: "secular government." User is interested in how courts distinguish between allowable civil religion (history/tradition) and unconstitutional religious endorsement or promotion.
 
