@@ -11,5 +11,5 @@ I'm able to accomplish this as a guy who hasn't coded in `lua` at all (well, I l
 
 I can't help but feel excited that startups equipped with those tools will be even more effective competing with behemoths!  
 
-PS, code is [here](https://github.com/Robitx/gp.nvim/compare/main...xianxu:gp.nvim:feature?expand=1). It's more just for my own use as explained here. 
+PS, code is [here](https://github.com/Robitx/gp.nvim/compare/main...xianxu:gp.nvim:feature?expand=1). It's more just for my own use as explained [here](https://xianxu.github.io/2025/04/24/chatgpt-in-neovim-collab.html). 
 
