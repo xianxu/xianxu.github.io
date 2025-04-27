@@ -5,10 +5,10 @@ date:   2025-04-18
 tags: tech philosophy
 comments: false
 ---
+		
+I have been fortunate to work for WhatsApp and have always wanted to write about its distinctive culture and the differences between it and its parent company, Facebook. In another post, I shall discuss Facebook culture, more precisely, the Facebook of then and the Facebook of now. As you have probably guessed, the six years I worked at WhatsApp were my happiest days during my tenure at Facebook/Meta.
 
-I have been fortunate to work for WhatsApp and have always wanted to write about its distinctive culture and the differences between it and its parent company, Facebook. In another post, I shall discuss Facebook culture, more precisely, the Facebook of then and the Facebook of now. You have probably guessed, the 6 years working at WhatsApp had been my happiest days working at Meta/Facebook.
-
-So what do I remember most about WhatsApp? **Keep it Simple** and **The F word is Focus**. 
+So, what do I remember most about WhatsApp? Their motto: **Keep it Simple** and **The F word is Focus**. 
 
 ------
 
