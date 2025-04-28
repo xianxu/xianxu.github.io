@@ -13,4 +13,5 @@ On the con side, well, it doesn't generate full error-free code, and sometimes g
 
 PS, code is [here](https://github.com/Robitx/gp.nvim/compare/main...xianxu:gp.nvim:feature?expand=1). It's more just for my own use as explained [here](https://xianxu.github.io/2025/04/24/chatgpt-in-neovim-collab.html). 
 PPS, yes, it does cost an arm and a leg. 
+PPPS, yes, it even has VIM mode! 
 
