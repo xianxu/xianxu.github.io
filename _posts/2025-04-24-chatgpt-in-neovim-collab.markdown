@@ -27,6 +27,8 @@ One way to do it is to collaboratively construct a **transcript**, which I can u
 
 Still a WIP, but already very useful! Have a try! 
 
+------
+
 [^disclaimer]: Parley's forked from [ChatGPT in NeoVIM](https://xianxu.github.io/2025/04/18/chatgpt-in-neovim.html).
 [^claude]: I talked about my early experience using Claude [here](https://xianxu.github.io/2025/04/24/claude-code.html)
 [^legal_geek]: Right, I'm a legal geek, particularly around constitutional laws.
