@@ -13,6 +13,7 @@ Being old fashioned, I always want simplicity and speed. That's why I use termin
 I use the following. 
 
 * `yadm` to track dotfiles, I treat this as a must.
+* TODO: still a WIP
 
 # yadm
 
