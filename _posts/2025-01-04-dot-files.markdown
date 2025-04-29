@@ -8,14 +8,56 @@ comments: true
 
 Being old fashioned, I always want simplicity and speed. That's why I use terminal and NeoVIM. Here's my setup on Mac. The key is I want to keep this deadly simple, thus when there are OK default, I would use that instead of heavily customize.
 
-# TL:DR
+## How to Set Up a New Mac
 
-I use the following. 
+1. Mac desktop basics:
+    1. Dock to the left, hide
+    2. Allow whole-screen zoom in Accessibility (for eyesight)
+    3. Customize modifier key, CAPS LOCK -> ESC (for vim)
+    4. Adjust trackpad scroll speed
+    5. Install Alfred, point settings sync to ~/settings.
+        1. Unbind Cmd+Space from Spotlight to Alfred.
+    6. Set screenshot to iCloud location
+       ```
+        1. defaults write com.apple.screencapture location "$HOME/Library/Mobile Documents/com~apple~CloudDocs/screenshots"
+        2. killall SystemUIServer
+        ```
+2. Set up the terminal
+    1. Install [iTerm2](https://iterm2.com/).
+        1. Set it to load from a custom folder in: `Preferences> General > Settings`. We will recover settings later in `yadm`. It's OK for now. 
+    2. Install [Oh My Zsh](https://ohmyz.sh/), with command: `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+    3. Get a new font, I use [DejaVuSansM Nerd Font](https://www.nerdfonts.com/font-downloads), direct [link](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/DejaVuSansMono.zip).
+3. Set up `SSH` and access to `Github`
+    1. Assuming you don't have the keys: `ls ~/.ssh/id\_\*`, use `ssh-keygen -t ed25519 -C "your-email@example.com"` to generate, and set up a passphrase to protect it.
+    2. Create ssh config file `~/.ssh/config` with the following content. This instructs ssh-add to use keychain.
+    ```
+    Host \*
+    UseKeychain yes
+    AddKeysToAgent yes
+    IdentityFile ~/.ssh/id\_ed25519
+    ```
+    1. Add to key to keychain so you don't need to keep input that passphrase: `ssh-add --apple-use-keychain ~/.ssh/id\_ed25519`
+    2. Copy your **public key** to [Github](https://github.com/settings/keys) `pbcopy < ~/.ssh/id_ed25519.pub`. Add a new SSH key there.
+    3. Test setup with `ssh -T git@github.com`
+4. Install `yadm` to recover settings
+    1. Install [Homebrew](https://brew.sh/), which downloads Xcode Command Line Tools. Command: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+    2. Install yadm `brew install yadm`
+    3. Get your configuration: `yadm clone git@github.com:username/dotfiles.git`
+    4. Use `yadm status` and check out what the differences are. It's great to always have a sane default.
+    5. TODO
+5. Set up the terminal-based development environment. 
+    1. Get neovim: `brew install neovim`
+    2. Get Node.js `brew install node`
+    3. Get Amazon Q `brew install amazon-q`
+    4. Get Claude Code `npm install -g @anthropic-ai/claude-code`
+    5. Get OpenAI Codex `npm install -g @openai/codex`
+6. Install other Mac Apps
+    1. `ChatGPT`, `Chrome`, `Edge`, `VimR`, `WhatsApp`, `Grammerly`, `Zettlr`
+    2. Chrome plugins: `Grammarly`, `Save Pinned Tabs`, `Switch between recent tabs (MRU tabs switch)`, `Video DownloadHelper`.
+    3. Safari plugins: `Grammarly`, `TabBack`. 
+    7. Some small utilities: `Horo` (timer), `Quick View Calendar` for dates, `Magnet` for window control. 
 
-* `yadm` to track dotfiles, I treat this as a must.
-* TODO: still a WIP
-
-# yadm
+## yadm
 
 I started to use yadm to keep dotfiles in sync. yadm wraps around git and creates the illusion that some files and directories under `$HOME` are source controlled. Otherwise, it behaves just like `git`.
 
@@ -28,7 +70,7 @@ I started to use yadm to keep dotfiles in sync. yadm wraps around git and create
   2. ~/.crontab file contains periodical thing I run on a host. Recover on new host with `crontab ~/.crontab`
   3. `Alfred` preference files in `~/Alfred.alfredpreferences/`
 
-# Software on Mac
+## Software Shortlist on Mac
 
 * Install [iTerm2](https://iterm2.com), which is vastly better than Terminal.app, especially if you need to connect to remote servers. Even just for local use, it's pretty good.
 * Install [Alfred](https://www.alfredapp.com). I use the `1/` multi clipboard, `2/` global hot keys, and `3/` snippets (e.g. having quick access to ASCII art like `¯\_(ツ)_/¯`, for example).
@@ -36,7 +78,5 @@ I started to use yadm to keep dotfiles in sync. yadm wraps around git and create
 * Use [Oh My Zsh](https://ohmyz.sh/) to customize your `zsh`. It adds all the cool bars and fonts here and there, and also much better command completion. It does all those largely out of the box.
 * Install [HomeBrew](https://brew.sh/), which makes installing software on Mac much easier. e.g. `rg`, `ack`, `nvim`, etc.
 * You will need some fonts to display some weird Unicode codepoints. I use nerd fonts, in particular, `DejaVuSansMNerdFontPropo-Regular.ttf`.
-* Some small utility: `Horo` (timer), `Quick View Calendar` for dates, `Tab Notes` for quick note.
-
-
+* Some small utilities: `Horo` (timer), `Quick View Calendar` for dates, `Magnet` for window control. 
 
