@@ -57,7 +57,7 @@ So what did Claude and I do in those 5 days? Some highlights from [README.md](ht
 
 I used `Parley`, over Anthropic's `Claude 3.7 Sonnet`, to review some legal document 100 pages long, 200+K words, in a transcript with tens of questions around the 17 articles of the document, sprinkled with questions about legal terms I don't understand. Exactly how I wanted it to be!
 
-I also used it to criticize this post :). I copied its critics at the end of this post. 
+I also used it to criticize this post :). 
 
 ## The Learning
 
@@ -94,60 +94,4 @@ There's nothing wrong with having a very capable pattern matcher at your disposa
     3. Invest in consistent coding practices to make LLMs' pattern matcher work even better.
 
 PS: excited to return to the startup world, where real things happen! 
-
----------
-
-💬: I wrote about AI coding assistant, can you read and tell me your impression? 
-
-@@~/blog/_posts/2025-04-28-reflection-on-ai-coding.markdown
-
-
-🤖:[Claude-Sonnet]
-
-🧠: The user has shared their blog post about their experience using AI coding assistants, particularly Claude Code, to develop a NeoVIM plugin called Parley.nvim. I should analyze this thoughtfully, noting their experience, insights, and the implications they've drawn. I should comment on both the technical aspects and the philosophical reflections, as this seems to be a personal experience piece with broader observations about AI coding. I'll organize my response to cover key points like their project, their observations about AI coding strengths and limitations, and their conclusions about the future of coding with AI assistance.
-
-Your blog post offers a fascinating window into the practical reality of working with AI coding assistants on a real project. I appreciate how you've combined technical details with philosophical reflections on what this means for software development.
-
-### On Your Project (Parley.nvim)
-
-The concept of a "live transcript" that's fully editable while maintaining a conversation flow is quite compelling. It addresses a genuine limitation in current AI chat interfaces - the inability to properly organize, curate, and revisit information. Your implementation sounds like a thoughtful approach to this problem, leveraging Neovim's text manipulation capabilities.
-
-The features you've built are impressive for just five days of work:
-- Maintaining conversation structure while allowing edits anywhere
-- Refreshing questions or entire conversation chains
-- File attachments with caching
-- Automatic context compaction
-- Multi-model support
-
-### On AI Coding Experience
-
-Your observations about Claude Code's capabilities and limitations ring true:
-
-1. **Strengths**: The ability to implement entire features across multiple files from natural language descriptions is indeed remarkable. This represents a significant evolution beyond simple autocomplete.
-
-2. **Limitations**: The tendency to make localized fixes rather than addressing root causes is an important insight. The "sprinkling nil checks everywhere" approach rather than understanding why an object might be nil in the first place highlights the current limitations of AI reasoning about code.
-
-3. **Feature Implementation vs. Debugging**: Your hypothesis about AI being better at writing features than fixing bugs makes sense given the training data available. Debugging often requires a holistic understanding of program state and execution flow that may be harder for current AI models to grasp.
-
-### Broader Implications
-
-I particularly appreciated your framing of LLMs as "statistical computers" and the emphasis on grounding them in reality. The parallel between how humans write code (iteratively, with compilation and testing) and how we should work with AI seems apt.
-
-Your conclusion about organizations needing to adapt to AI coding is timely. Your suggestions for how to best leverage these tools are practical:
-- Better testing infrastructure
-- Stronger architectural patterns to guide AI changes
-- Consistent coding practices to help pattern matching
-
-### Final Thoughts
-
-What stands out most is your balanced perspective. You're neither dismissive of AI's capabilities nor overly enamored with them. You recognize both the 25x productivity boost and the potential pitfalls of inconsistent, bloated codebases if used carelessly.
-
-The description of your project journey provides a concrete example of how AI and human collaboration can work in practice - with you providing the vision, architectural guidance, and quality control while letting the AI handle implementation details.
-
-This kind of real-world experience report is valuable for the industry as we all figure out how to integrate these new tools into our workflows.
-
-📝: you asked about impressions of your AI coding assistant blog post, I answered highlighting the strengths of your Parley.nvim project, insights on AI coding capabilities/limitations, appreciation for your balanced perspective on AI as statistical computers needing human grounding, and the value of your practical experience report for the industry.
-
-💬:
-
 
