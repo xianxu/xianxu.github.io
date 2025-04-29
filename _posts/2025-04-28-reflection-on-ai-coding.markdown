@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Reflecting on AI Coding"
-date:   2025-04-28
+date:   2025-04-29
 tags: tech philosophy 
 comments: true
 ---
