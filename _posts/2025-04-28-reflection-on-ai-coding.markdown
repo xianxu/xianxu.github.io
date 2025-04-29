@@ -10,7 +10,7 @@ I have a bit of downtime between jobs, so I picked up AI coding tools and worked
 
 ## About Me
 
-First, some background about myself, to give you some context to evaluate this blog.
+First, some background about myself, to give you some context to evaluate this blog and capabilities of `Claude Code`.
 
 I consider myself pretty technical. While I haven't written code for 5 years after moving into management, I was still thinking about architectural designs. I'm still the same language polymath, still like to learn new programming languages (latest being [Julia](https://julialang.org/)). I still maintain my good old [Neovim/terminal setup](https://xianxu.github.io/2025/01/04/dot-files.html). It's just my fancy that I will pick it up again in time. Recently, due to a planned job change, I have some free time, so I started picking it up again, mostly for fun. 
 
