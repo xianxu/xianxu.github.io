@@ -6,13 +6,13 @@ tags: tech philosophy
 comments: true
 ---
 
-I have a bit of downtime between jobs, so I picked up AI coding tools and worked on a real project. The journey was a bit fortuitous, but it was an extremely interesting and revealing experience. Here's my recount of it. Am I a Prompt Engineer now? Am I an AI engineer now? ¯\_(ツ)_/¯
+I have a bit of time, so I picked up AI coding tools and worked on a real project. The journey was a bit fortuitous, but it was an extremely interesting and revealing experience. Here's my recount of it. Am I a Prompt Engineer now? Am I an AI engineer now? ¯\_(ツ)_/¯
 
 ## About Me
 
-First, some background about myself, to give you some context to evaluate this blog and capabilities of `Claude Code`.
+First, some background about myself, to give you some context to evaluate this blog and the capabilities of `Claude Code`.
 
-I consider myself pretty technical. While I haven't written code for 5 years after moving into management, I was still thinking about architectural designs. I'm still the same language polymath, still like to learn new programming languages (latest being [Julia](https://julialang.org/)). I still maintain my good old [Neovim/terminal setup](https://xianxu.github.io/2025/01/04/dot-files.html). It's just my fancy that I will pick it up again in time. Recently, due to a planned job change, I have some free time, so I started picking it up again, mostly for fun. 
+I consider myself pretty technical. While I haven't written code for 5 years after moving into management, I was still thinking about architectural designs. I'm still the same language polymath, still like to learn new programming languages (latest being [Julia](https://julialang.org/)). I still maintain my good old [Neovim/terminal setup](https://xianxu.github.io/2025/01/04/dot-files.html). It's just my fancy that I will pick it up again in time. Recently, I have had some free time, so I started picking it up again, mostly for fun. 
 
 I've been fascinated by LLMs, just like everyone else. In the last two years, I gradually updated my outdated ML knowledge, completed many online courses, mostly on Coursera, and books, e.g., [LLM from scratch](https://github.com/rasbt/LLMs-from-scratch). My last gig at Meta forced me to go into GPU programming-related topics. 
 
@@ -94,6 +94,3 @@ As you can see, this project is haphazardly conceived and coded. I can envision 
     1. Setting up the right and fast testing infrastructure.
     2. Invest in better architecture to guide LLMs to make changes accordingly, with well-designed architectural patterns. 
     3. Invest in consistent coding practices to make LLMs' pattern matcher work even better.
-
-PS: excited to return to the startup world, where real things happen! 
-
