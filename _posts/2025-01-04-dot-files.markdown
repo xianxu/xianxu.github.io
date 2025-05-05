@@ -21,7 +21,7 @@ Being old-fashioned, I always want simplicity and speed. That's why I use the te
        ```
         1. defaults write com.apple.screencapture location "$HOME/Library/Mobile Documents/com~apple~CloudDocs/screenshots"
         2. killall SystemUIServer
-        ```
+       ```
 2. Set up the terminal
     1. Install [iTerm2](https://iterm2.com/).
         1. Set it to load from a custom folder in: `Preferences> General > Settings`. We will recover settings later in `yadm`. It's OK for now. 
