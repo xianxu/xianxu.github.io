@@ -1,0 +1,55 @@
+---
+layout: post
+title:  "Birthright Citizenship"
+date:   2025-05-11
+tags: law philosophy 
+comments: true
+---
+
+Trump's executive order to end birthright citizenship is a controversial topic that raises questions about the interpretation of the 14th Amendment. Granted, readers might have already shut down this article, as there's a significant majority, both in the legal profession and the general public, that treat birthright citizenship as a settled law. After all, the Art Wong precedent is over 100 years old and has repeatedly been upheld. I'm writing this merely to gather the arguments around it, so the discussions can be more informed. The rule of law is just another form of politics, so everything's plausible.
+
+## Early Colonial Times
+
+Birthright citizenship is rooted in English common law, which recognized the principle of Jus Soli, or "right of the soil." This principle held that individuals born on English soil were English subjects, regardless of their parentage, with limited carve-outs. The carve-outs are limited to the children of foreign diplomats and invading armies. Colonists in North America, being English subjects, generally followed the same Common Law, so Jus Soli was the rule at the start. 
+
+As drafted in this historical context, the US Constitution mentioned the concept of a natural-born citizen (only in the context of the president) but did not explicitly define it. Given the context of English common law, it's reasonable to follow the Jus Soli principle, that natural-born means born in the US's domain. 
+
+The Constitution did not explicitly define the concept of citizenship, which may be partly due to federalism, where each state retained the power to determine its citizenship laws. The Constitution merely requires shared privileges and immunities among citizens of several states. It also speculates that Congress should regulate naturalization, which, by extension, gives Congress the power to define citizenship. Of course, this ambiguity could also be the result of the compromise around slavery, maybe even federalism itself. 
+
+## The Original Sin
+
+The original US Constitution was a compromise regarding slavery between the Northern and Southern states. It's rather brilliant that it did so without explicitly mentioning the word slavery, thus lending credence to the framers' secret intention to let slavery eventually die out on its own. After all, slavery was so incompatible with the principle of "life, liberty, and pursuit of happiness". I wonder if the fact that citizenship was not explicitly defined in the Constitution is also part of this compromise, strategic ambiguity. 
+
+## The Dred Scott case
+
+The Dred Scott case (1857) is a landmark Supreme Court case that addressed the status of enslaved individuals and their descendants in the United States. The court ruled that African Americans, whether enslaved or free, could not be considered citizens of the United States and therefore had no standing to sue in federal court. This ruling was based on the belief that the framers of the Constitution did not intend for people of African descent to be included as citizens, the original sin of the Constitution. This was one of the most infamous Supreme Court decisions in US history and later led to the Civil War and the remake of the Constitution.
+
+## 14th Amendment
+
+The North won the Civil War, and the Constitution was reborn. The 14th Amendment states that "all persons born or naturalized in the United States, and subject to the jurisdiction thereof, are citizens of the United States." The contention is around what the "subject to the jurisdiction" means. What should be very clear is that the 14th Amendment was there to legalize the citizenship of formerly enslaved individuals. It is also written expansively, likely to ensure that the South can't find creative ways to disenfranchise the newly freed slaves.
+
+An earlier version of the amendment used the wording "not subject to any foreign power" instead of "subject to the jurisdiction". The contemporary legislative record did not show much debate over the wording change, indicating that the framers of the 14th Amendment thought them interchangeable. On the other hand, "not subject to any foreign power" feels a more precise framing, as citizenship is about pledging full allegiance to the US, and not being subject to any foreign power. That wording would also be more consistent with the duty of US citizens. 
+
+## The Wong Kim Ark Case
+
+The Wong Kim Ark case (1898) is a landmark Supreme Court case that addressed the issue of birthright citizenship in the United States. The court ruled that Wong Kim Ark, born in San Francisco to Chinese parents who were not US citizens, but legally domiciled in California, was a US citizen by birth under the 14th Amendment, despite the Chinese Exclusion Act of 1882. The majority relied on the Common Law practices. 
+
+It was a 7-2 decision; the chief justice at the time, Melville Fuller, dissented, arguing that the 14th Amendment was not intended to confer citizenship on children of foreign nationals. His dissent was based on a couple of points:
+
+1. The Jus Soli principle from Common Law, rooted in the English feudal system, where peasants traded their allegiance to the king for protection, is incompatible with the US republican system of governance. 
+2. Congress regulated citizenship through naturalization and expatriation for a hundred years without much challenge, and citizenship is a fundamental political question for which the political branches had legitimate authority.
+
+## Modern Landscape
+
+The UK, the origin of Common Law, changed its citizenship law in 1983 to no longer confer citizenship to children of foreign nationals born in the UK. The change was made in response to concerns about the increasing number of children born to foreign nationals in the UK and the potential for abuse of the birthright citizenship system. 
+
+I guess this shows the flexibility of the legal system with an unwritten constitution. The UK had a long history of Jus Soli, and the change was made without much controversy. Conversely, the US has a much shorter history of Jus Soli, and such a change would likely be met with significant resistance and likely require a constitutional amendment. 
+
+## 05/15: Birthright Citizenship Case Reaches The Supreme Court
+
+The Supreme Court has agreed to hear a case challenging the constitutionality of Trump's executive order regarding birthright citizenship and scheduled oral argument on May 15th, 2025. This round will likely focus on the scope of judicial national injunctions. Even the Trump administration didn't ask the Court to decide on Birthright Citizenship. It will be very interesting to see if the justices venture into the merits of the case and how they interpret the 14th Amendment. 
+
+## Prediction
+
+The Supreme Court limits the scope of the national injunctions, as you have Prelogar and Gorsuch on the same side. The Court will sustain the national injunctions on the Birthright Citizenship case though, as the justices are not ready to overturn Wong Kim Ark, and even regardless of merits, the way Trump went about the executive order was pretty haphazard. 
+
