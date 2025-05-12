@@ -6,7 +6,7 @@ tags: tech philosophy
 comments: true
 ---
 
-The following's a transcript to understand Python asyncio, trio and relationship to monadic functional program paradigm.
+The following's a transcript to understand Python asyncio, trio and relationship to monadic functional program paradigm, generated using [Parley](https://github.com/xianxu/parley.nvim).
 
 💬: for python asyncio, how to execute two things in parallel, when both ready, combine result, for example, if I await a and await b, seems a and b would be triggered sequentially?
 
