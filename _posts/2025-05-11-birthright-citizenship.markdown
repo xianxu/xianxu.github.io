@@ -41,9 +41,9 @@ It was a 7-2 decision; the chief justice at the time, Melville Fuller, dissented
 
 ## Modern Landscape
 
-The UK, the origin of Common Law, changed its citizenship law in 1983 to no longer confer citizenship to children of foreign nationals born in the UK. The change was made in response to concerns about the increasing number of children born to foreign nationals in the UK and the potential for abuse of the birthright citizenship system. 
+The UK, the origin of Common Law, changed its citizenship law in 1983 to no longer confer citizenship to children of foreign nationals born in the UK. The change was made in response to concerns about the increasing number of children born to foreign nationals in the UK and the potential for abuse of the birthright citizenship system. Their current rule is that one parent needs to be either in "settled" status or a citizen for their child to be automatically a British citizen. 
 
-I guess this shows the flexibility of the legal system with an unwritten constitution. The UK had a long history of Jus Soli, and the change was made without much controversy. Conversely, the US has a much shorter history of Jus Soli, and such a change would likely be met with significant resistance and likely require a constitutional amendment. 
+I guess this shows the flexibility of the legal system with an unwritten constitution, which I didn't realize. The UK had a long history of Jus Soli, and the change was made without much controversy. Conversely, the US has a much shorter history of Jus Soli tradition, and such a change would likely be met with significant resistance and likely require a constitutional amendment. Well, or a Supreme (Court) change of heart. 
 
 ## 05/15: Birthright Citizenship Case Reaches The Supreme Court
 
