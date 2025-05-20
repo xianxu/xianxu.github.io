@@ -36,7 +36,7 @@ The Wong Kim Ark case (1898) is a landmark Supreme Court case that addressed the
 
 It was a 7-2 decision; the chief justice at the time, Melville Fuller, dissented, arguing that the 14th Amendment was not intended to confer citizenship on children of foreign nationals. His dissent was based on a couple of points:
 
-1. The Jus Soli principle from Common Law, rooted in the English feudal system, where peasants traded their allegiance to the king for protection, is incompatible with the US republican system of governance. 
+1. The Jus Soli principle from Common Law, rooted in the English feudal system, where peasants traded their allegiance to the king for protection, is incompatible with the US republican system of governance. One big difference was for example, you can't renounce allegiance to the king; such allegiance was permanent, while in the US, you can renounce your citizenship from beginning, where citizenship was more of a voluntary association.
 2. Congress regulated citizenship through naturalization and expatriation for a hundred years without much challenge, and citizenship is a fundamental political question for which the political branches had legitimate authority.
 
 ## Modern Landscape
@@ -53,3 +53,19 @@ The Supreme Court has agreed to hear a case challenging the constitutionality of
 
 The Supreme Court limits the scope of the national injunctions, as you have Prelogar and Gorsuch on the same side. The Court will sustain the national injunctions on the Birthright Citizenship case though, as the justices are not ready to overturn Wong Kim Ark, and even regardless of merits, the way Trump went about the executive order was pretty haphazard. 
 
+## Update: The Oral Argument
+
+Sauer and Sodomyer got into a shouting match early on, and Roberts needed to forcefully get in the middle. The government's POV is:
+
+1. In the limited exchange on merit: the 14th Amendment is meant to ensure former slaves and their children are US citizens, not children born in the US to undocumented or temporary visitors. They argued "domicile" as the rule, not just happen to be present in the country.
+2. They want to get rid of the universal injunction as it exceeds the Article 3 principle around the "cases and controversies" clause. 
+
+On the procedural ground:
+
+1. There were questions about whether class action suits can replace universal injunctions.
+    1. There's some concern about the speed of class action suits and the difficulty around class certification. But it seems "putative class" can be done pretty fast and provide relief, so it seems a non-issue to me.
+    2. There's an indication from Roberts that the court can also resolve on merit pretty quickly if so needed.
+    3. There were questions about the actual efficacy of replacing universal injunctions with class action, as both have a similar effect around the ability to stop broad government policies. 
+2. There were surprises from justices to Sauer's position of only committing to "generally" following opinions of a circuit court, but not "always" following if the government wants to continue to litigate.
+    1. I guess the concern is that the government can slow walk the ruling and compliance, just keep losing the individual cases, but not appeal to resolve on merit. I think this will weigh on the justices' minds. Universal injunction represent a tool to stop the government such tacit. I remember Barrett asked about it. 
+    2. I guess Roberts would be OK, so long as there is a way for the case to get to the Supreme Court. I wonder if there would be reverse forum shopping, where plaintiffs forum shop to lose, so as to create a circuit split and the ability to appeal to the Supreme Court in such a future. People are creative. 

@@ -25,8 +25,10 @@ Being old-fashioned, I always want simplicity and speed. That's why I use the te
 2. Set up the terminal
     1. Install [iTerm2](https://iterm2.com/).
         1. Set it to load from a custom folder in: `Preferences> General > Settings`. We will recover settings later in `yadm`. It's OK for now. 
+    2. Or install [Gostty](https://ghostty.org/), which is much clearer/faster than `iTerm2`, with less features as it's pretty new.
     2. Install [Oh My Zsh](https://ohmyz.sh/), with command: `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
-    3. Get a new font, I use [DejaVuSansM Nerd Font](https://www.nerdfonts.com/font-downloads), direct [link](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/DejaVuSansMono.zip).
+        1. Additional `zsh` plugins: `git clone https://github.com/Aloxaf/fzf-tab ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fzf-tab`, `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions` and `git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fast-syntax-highlighting`
+    3. Get a new font, I use [DejaVuSansM Nerd Font](https://www.nerdfonts.com/font-downloads), direct [link](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/DejaVuSansMono.zip). If you are using `Ghostty`, built-in font is already good enough, so no need to install this.
 3. Set up `SSH` and access to `Github`
     1. Assuming you don't have the keys: `ls ~/.ssh/id\_\*`, use `ssh-keygen -t ed25519 -C "your-email@example.com"` to generate, and set up a passphrase to protect it.
     2. Create ssh config file `~/.ssh/config` with the following content. This instructs ssh-add to use keychain.
@@ -78,6 +80,24 @@ I started to use yadm to keep dotfiles in sync. yadm wraps around git and create
 ## Software Shortlist on Mac
 
 * Install [iTerm2](https://iterm2.com), which is vastly better than Terminal.app, especially if you need to connect to remote servers. Even just for local use, it's pretty good.
+* Install [Ghostty](https://ghostty.org/), with is much clearer/faster than `iTerm2`, with less features as it's pretty new. For example, there's no native integration with tmux on remote servers, meaning you can't map remote tmux operations to local window operations. But if you mainly use local terminal, it is already a good enough replacement of iTerm2. Example configurations: 
+```
+font-family = DejaVuSansM Nerd Font Mono
+font-size = 15
+theme = Apple System Colors
+keybind = cmd+left=previous_tab
+keybind = cmd+right=next_tab
+keybind = cmd+shift+left=move_tab:-1
+keybind = cmd+shift+right=move_tab:+1
+keybind = cmd+c=copy_to_clipboard
+keybind = cmd+v=paste_from_clipboard
+keybind = cmd+i=write_screen_file:paste
+keybind = cmd+d=new_split:right
+keybind = cmd+shift+d=new_split:down
+keybind = cmd+shift+enter=toggle_split_zoom
+keybind = cmd+shift+equal=equalize_splits
+copy-on-select = clipboard
+```
 * Install [Alfred](https://www.alfredapp.com). I use the `1/` multi clipboard, `2/` global hot keys, and `3/` snippets (e.g. having quick access to ASCII art like `¯\_(ツ)_/¯`, for example).
 * Use `zsh`, a modern shell.
 * Use [Oh My Zsh](https://ohmyz.sh/) to customize your `zsh`. It adds all the cool bars and fonts here and there, and also much better command completion. It does all those largely out of the box.
