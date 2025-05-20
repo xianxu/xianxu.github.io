@@ -6,7 +6,7 @@ tags: law philosophy
 comments: true
 ---
 
-Trump's executive order to end birthright citizenship is a controversial topic that raises questions about the interpretation of the 14th Amendment. Granted, readers might have already shut down this article, as there's a significant majority, both in the legal profession and the general public, that treat birthright citizenship as a settled law. After all, the Art Wong precedent is over 100 years old and has repeatedly been upheld. I'm writing this merely to gather the context around it, so the discussions can be more informed. Remember that the rule of law is just another form of politics, so everything's plausible.
+Trump's executive order to end birthright citizenship is a controversial topic that raises questions about the interpretation of the 14th Amendment. Granted, readers might have already shut down this article, as there's a significant majority, both in the legal profession and the general public, that treat birthright citizenship as a settled law. After all, the Wong Kim Ark precedent is over 100 years old and has repeatedly been upheld. I'm writing this merely to gather the context around it, so the discussions can be more informed. Remember that the rule of law is just another form of politics, so everything's plausible.
 
 ## Early Colonial Times
 
@@ -32,12 +32,13 @@ An earlier version of the amendment used the wording "not subject to any foreign
 
 ## The Wong Kim Ark Case
 
-The Wong Kim Ark case (1898) is a landmark Supreme Court case that addressed the issue of birthright citizenship in the United States. The court ruled that Wong Kim Ark, born in San Francisco to Chinese parents who were not US citizens, but legally domiciled in California, was a US citizen by birth under the 14th Amendment, despite the Chinese Exclusion Act of 1882. The majority relied on the Common Law practices. 
+The [Wong Kim Ark case (1898)](https://supreme.justia.com/cases/federal/us/169/649/#tab-opinion-1918089) is a landmark Supreme Court case that addressed the issue of birthright citizenship in the United States. The court ruled that Wong Kim Ark, born in San Francisco to Chinese parents who were not US citizens, but legally domiciled in California, was a US citizen by birth under the 14th Amendment, despite the Chinese Exclusion Act of 1882. The majority relied on the Common Law practices. The majority emphasized that the parents' permanent domicile and residence were significant factors in deciding in favor of Wong Kim Ark. 
 
 It was a 7-2 decision; the chief justice at the time, Melville Fuller, dissented, arguing that the 14th Amendment was not intended to confer citizenship on children of foreign nationals. His dissent was based on a couple of points:
 
 1. The Jus Soli principle from Common Law, rooted in the English feudal system, where peasants traded their allegiance to the king for protection, is incompatible with the US republican system of governance. One big difference was for example, you can't renounce allegiance to the king; such allegiance was permanent, while in the US, you can renounce your citizenship from beginning, where citizenship was more of a voluntary association.
 2. Congress regulated citizenship through naturalization and expatriation for a hundred years without much challenge, and citizenship is a fundamental political question for which the political branches had legitimate authority.
+3. Fuller also distinguished between territorial jurisdiction — the obligation to follow local law while physically present in a place — and sovereign/political jurisdiction, which involves full political allegiance to the governing sovereign.
 
 ## Modern Landscape
 
