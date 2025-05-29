@@ -1,2 +1,67 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+// Highlights page grid styling
+.highlights-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+
+  @media screen and (max-width: $on-palm) {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+.highlight-card {
+  border: 1px solid $border-color-01;
+  border-radius: 8px;
+  padding: 1.5rem;
+  background-color: $background-color;
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+
+  &:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+  }
+}
+
+.highlight-title {
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  line-height: 1.3;
+
+  a {
+    color: $text-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $link-base-color;
+      text-decoration: underline;
+    }
+  }
+}
+
+.highlight-meta {
+  font-size: $small-font-size;
+  color: $brand-color;
+  margin-bottom: 1rem;
+}
+
+.highlight-excerpt {
+  color: $text-color;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.highlight-read-more {
+  color: $link-base-color;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9rem;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

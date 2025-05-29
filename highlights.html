@@ -1,0 +1,31 @@
+---
+layout: page
+title: Highlights
+permalink: /highlights/
+---
+
+<div class="highlights-grid">
+  {%- assign highlighted_posts = site.posts | where: "highlight", true -%}
+  
+  {%- if highlighted_posts.size > 0 -%}
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    {%- for post in highlighted_posts -%}
+      <div class="highlight-card">
+        <h3 class="highlight-title">
+          <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h3>
+        <p class="highlight-meta">{{ post.date | date: date_format }}</p>
+        <div class="highlight-excerpt">
+          {%- if post.excerpt -%}
+            {{ post.excerpt | strip_html | truncatewords: 30 }}
+          {%- else -%}
+            {{ post.content | strip_html | truncatewords: 30 }}
+          {%- endif -%}
+        </div>
+        <a href="{{ post.url | relative_url }}" class="highlight-read-more">Read more →</a>
+      </div>
+    {%- endfor -%}
+  {%- else -%}
+    <p>No highlighted posts yet.</p>
+  {%- endif -%}
+</div>
