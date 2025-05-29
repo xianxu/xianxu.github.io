@@ -2,7 +2,8 @@
 layout: post
 title:  "Happiness @ Work"
 date:   2025-02-16
-tags: philosophy 
+tags: philosophy
+highlight: true
 comments: false
 ---
 
