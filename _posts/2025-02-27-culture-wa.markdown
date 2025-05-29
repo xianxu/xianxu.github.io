@@ -2,7 +2,7 @@
 layout: post
 title:  "WhatsApp Culture"
 date:   2025-04-18
-tags: tech philosophy
+tags: tech philosophy highlights
 comments: false
 ---
 		
