@@ -70,3 +70,29 @@ On the procedural ground:
 2. There were surprises from justices to Sauer's position of only committing to "generally" following opinions of a circuit court, but not "always" following if the government wants to continue to litigate.
     1. I guess the concern is that the government can slow walk the ruling and compliance, just keep losing the individual cases, but not appeal to resolve on merit. I think this will weigh on the justices' minds. Universal injunction represent a tool to stop the government such tacit. I remember Barrett asked about it. 
     2. I guess Roberts would be OK, so long as there is a way for the case to get to the Supreme Court. I wonder if there would be reverse forum shopping, where plaintiffs forum shop to lose, so as to create a circuit split and the ability to appeal to the Supreme Court in such a future. People are creative. 
+
+## Update: The Decision
+
+The court [ruled](https://www.supremecourt.gov/opinions/24pdf/24a884_8n59.pdf) 6-3 to limit the scope of national injunctions. Barrett wrote for the majority, Key sentences:
+
+> The Government’s applications to partially stay the preliminary injunctions are granted, **but only to the extent that the injunctions are broader than necessary to provide complete relief to each plaintiff with standing to sue**.
+>
+> and earlier: 
+>
+> Given the cross-border flow, the States say, a “patchwork injunction” would prove unworkable for the provision of certain federally funded benefits.
+> ...
+> The Court declines to take up these arguments in the first instance. The lower courts should determine whether a narrower injunction is appropriate, so we leave it to them to consider these and any related arguments.
+
+So it seems an invitation to consider the wide injunction for state litigants.
+
+Kavanaugh concur with a roadmap of two mechanisms with similar effect of preliminary injunction: preliminary classwide relief in class action suits, and the "set aside" clause in the Administrative Procedure Act (APA). Those, according to him, have more statutory support than universal injunction. So it seems to Kavanaugh, while the universal injunctions may be dead but there are plenty of other ways to provide relief, I guess a textualist read on law. 
+
+Overall, it's a win for executive branch, so that they will have easier time to implement controversial policies. The next 30 days is to watch how birthright citizenship case will actually evolve. Would the Kavanaugh roadmap be followed? Would the states get wider injunctive relief? 
+
+===
+
+Also for some legal popcorn: 
+
+> We observe only this: JUSTICE JACKSON decries an imperial Executive while embracing an imperial Judiciary.
+
+
