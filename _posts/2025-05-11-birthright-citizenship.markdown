@@ -76,20 +76,16 @@ On the procedural ground:
 The court [ruled](https://www.supremecourt.gov/opinions/24pdf/24a884_8n59.pdf) 6-3 to limit the scope of national injunctions. Barrett wrote for the majority, Key sentences:
 
 > The Government’s applications to partially stay the preliminary injunctions are granted, **but only to the extent that the injunctions are broader than necessary to provide complete relief to each plaintiff with standing to sue**.
->
-> and earlier: 
->
-> Given the cross-border flow, the States say, a “patchwork injunction” would prove unworkable for the provision of certain federally funded benefits.
-> ...
-> The Court declines to take up these arguments in the first instance. The lower courts should determine whether a narrower injunction is appropriate, so we leave it to them to consider these and any related arguments.
 
-So it seems an invitation to consider the wide injunction for state litigants.
+And earlier in the opinion:
 
-Kavanaugh concur with a roadmap of two mechanisms with similar effect of preliminary injunction: preliminary classwide relief in class action suits, and the "set aside" clause in the Administrative Procedure Act (APA). Those, according to him, have more statutory support than universal injunction. So it seems to Kavanaugh, while the universal injunctions may be dead but there are plenty of other ways to provide relief, I guess a textualist read on law. 
+> The inquiry is **more complicated for the state respondents**, because the relevant injunction does not purport to directly benefit nonparties. Instead, the District Court for the District of Massachusetts decided that a universal injunction was necessary to provide the States themselves complete relief. As the States see it, their harms—financial injuries and the administrative burdens flowing from citizen-dependent benefits programs—cannot be remedied without a blanket ban on the enforcement of the Executive Order. Children often move across state lines or are born outside their parents’ State of residence. Given the cross-border flow, the States say, a “patchwork injunction” would prove unworkable for the provision of certain federally funded benefits. The Government retorts that even if the injunction is designed to benefit only the States, it is “more burdensome than necessary to redress” their asserted harms, see Califano v. Yamasaki, 442 U. S. 682, 702, and that narrower relief is appropriate. **The Court declines to take up these arguments in the first instance**. The lower courts should determine whether a narrower injunction is appropriate, so we leave it to them to consider these and any related arguments
 
-Overall, it's a win for executive branch, so that they will have easier time to implement controversial policies. The next 30 days is to watch how birthright citizenship case will actually evolve. Would the Kavanaugh roadmap be followed? Would the states get wider injunctive relief? 
+So it seems leaving open the possibility of universal injunctions as remedy if complete relief to states is not possible otherwise.
 
-===
+Kavanaugh concur with a roadmap of two mechanisms with similar effect of preliminary injunction: preliminary classwide relief in class action suits, and the "set aside" clause in the Administrative Procedure Act (APA). Those, according to him, have more statutory support than universal injunction. So it seems to Kavanaugh, while the universal injunctions may be almost dead but there are plenty of other ways to provide relief, I guess a textualist read on law. 
+
+Overall, it's a win for executive branch, so that they will have easier time to implement controversial policies. The next 30 days is an interesting time to watch how birthright citizenship cases evolve. Would the Kavanaugh roadmap be followed? Would the states get wider universal injunctive relief nonetheless? Or the case find it back to the Supreme Court on merit somehow?
 
 Also for some legal popcorn: 
 
