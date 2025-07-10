@@ -91,4 +91,11 @@ Also for some legal popcorn:
 
 > We observe only this: JUSTICE JACKSON decries an imperial Executive while embracing an imperial Judiciary.
 
+## Two weeks later
+
+It took slightly less than two weeks, for a federal court granting [classwide preliminary injunction](https://www.documentcloud.org/documents/25995125-orders-in-birthright-citizenship-case) again against the Trump's birthright citizenship executive order. Kavanaugh's roadmap is followed, and court could act quickly with class action suits.
+
+Class defined as: 
+
+> All current and future persons who are born on or after February 20, 2025, where (1) that person’smother was unlawfully present in the United States and the person’s father was not a United States citizen or lawful permanent resident at the time of said person’s birth, or (2)that person’s mother’s presence in the United States was lawful but temporary, and the person’s father was not a United States citizen or lawful permanent resident at the time of said person’s birth.
 
