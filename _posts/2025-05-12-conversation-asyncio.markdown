@@ -6,7 +6,7 @@ tags: tech philosophy
 comments: true
 ---
 
-The following's a transcript to understand Python asyncio, trio and relationship to monadic functional program paradigm, generated using [Parley](https://github.com/xianxu/parley.nvim).
+The following's a transcript to understand Python asyncio, trio and relationship to monadic functional program paradigm, generated using [Parley](https://github.com/xianxu/parley.nvim). I came to realize the async/await, or the async callback async programming models is really failures. That leaves monadic approach, and actor model as the better alternatives.
 
 💬: for python asyncio, how to execute two things in parallel, when both ready, combine result, for example, if I await a and await b, seems a and b would be triggered sequentially?
 
