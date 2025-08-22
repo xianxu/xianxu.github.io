@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Glass Half Full vs Glass Half Empty"
+title:  "A Glass Half Full"
 date:   2025-08-21
 tags: philosophy, tech
 comments: true
