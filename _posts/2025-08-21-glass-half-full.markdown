@@ -3,6 +3,7 @@ layout: post
 title:  "A Glass Half Full"
 date:   2025-08-21
 tags: philosophy, tech
+highlight: true
 comments: true
 ---
 
