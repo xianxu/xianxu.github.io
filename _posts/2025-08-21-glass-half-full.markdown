@@ -39,9 +39,9 @@ Doesn’t make the problem go away.
 It’s probably also about maturity,  
 About how you deal with problems in life.  
 Once upon a time, when we were young, we complained.  
-And our parents are the guarantors of our happiness.  
+And our parents were the guarantors of our happiness.  
 Being spoon-fed happiness this way,  
-Maybe we never learn how to solve problems ourselves?  
+Maybe we never learned how to solve problems ourselves?  
 
 
 Think about it.  
