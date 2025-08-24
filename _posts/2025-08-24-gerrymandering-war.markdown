@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Gerrymandering War, How Bad is it and Designing a Fairer Electoral System"
+title:  "Designing a Fairer Electoral System"
 date:   2025-08-24
 tags: politics, philosophy
 comments: true
