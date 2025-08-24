@@ -8,13 +8,13 @@ comments: true
 
 In the news, Texas and California, the nation’s two largest states, are embroiled in a war over gerrymandering. California Governor Gavin Newsom responded to Texas’s mid-decade redistricting plan by proposing his own version. In both cases, the redistricting plans entrench the majority party’s power. I wanted to be an informed voter, so I did some research. It surely opened my eyes.
 
-# What's gerrymandering?
+## What's gerrymandering?
 
 Gerrymandering is the practice of manipulating electoral district boundaries to favor the political party in power. It’s probably as old as elections and political parties themselves. You often hear doomsday predictions that this is “the end of democracy.” But is that true? Let’s take a closer look.
 
 As with many political issues, we need to take a giant grain of salt when it comes to how mass media presents them. Free press is essential to democracy, but the mass-media economy often thrives on distortion. After all, doomsday sells. 
 
-# Let's measure it.
+## Let's measure it.
 
 One way to assess gerrymandering is to define a metric. I propose looking at the ratio between the percentage of seats won and the percentage of votes received by the minority party. Let's call this `minority disadvantage`.
 
@@ -37,7 +37,7 @@ The 2020 elections show a similar, though less extreme, pattern:
 
 Again, the Texan minority did better than the Californian one.
 
-# What's the "dark magic" beyond gerrymandering?
+## What's the "dark magic" beyond gerrymandering?
 
 How can a non-partisan commission produce worse outcomes than a partisan one, if we define "good" as protection of minority votes? The answer is that gerrymandering isn’t the only cause, nor even the primary cause, of minority vote dilution.
 
@@ -45,7 +45,7 @@ The deeper issue is the winner-takes-all system. If you consistently get 49% in 
 
 A single statewide district with proportional or ranked-choice voting would produce fairer results for minorities. But why do we have geography-based districts at all? That goes back to the U.S. Constitutional design: states are sovereign entities with distinct interests. Geography is a natural proxy for those interests: economies, cultures, and local priorities differ dramatically across the country.
 
-# How bad is it really?
+## How bad is it really?
 
 At the national level, things don’t look so dire:
 * In 2024, Democrats (minority) won 215 of 435 seats (49.4%) with 47.2% of votes → ratio = 1.05.
@@ -53,7 +53,7 @@ At the national level, things don’t look so dire:
 
 That’s pretty fair overall. Despite the media’s doomsday tone, the system balances out nationally.
 
-# Designing a better electoral system
+## Designing a better electoral system
 
 We’re stuck between two goals:
 * Local representation, to keep a diverse country stable.
