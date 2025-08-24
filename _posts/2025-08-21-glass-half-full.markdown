@@ -7,14 +7,17 @@ highlight: true
 comments: true
 ---
 
+
 Recently at work, I noticed some people complain a lot.  
-Upon further inspection, it is affecting others on the team, as expected.  
-I find it useful to write down my thoughts on this.  
+On closer look, it spreads,  
+weighing on others, as expected.  
+So I began writing down my thoughts.  
 
 
-In the end of the day, it is what type of person you want to be.  
-Are you the glass half full type of person,  
-Or your glass remains half empty?  
+At the end of the day,  
+it comes down to what kind of person you aspire to be.  
+Do you gaze at a glass half full,  
+or do you always see it half empty?  
 
 
 I think it is a very important choice.  
@@ -23,21 +26,22 @@ It affects you more in your life,
 Much more than in your work.  
 
 
-So what’s the glass half full type of person about?  
-As with everything in life, there are always two sides of a coin.  
-Do you tend to see the positive side of things,  
-Take comfort,  
-So you have the stamina to keep going?  
+So what does it mean to live glass half full?  
+Like every coin, there are two sides.  
+Do you turn toward the brighter side,  
+smile, take comfort where you can,  
+and find the strength to carry on?  
 
 
-Dwelling on the negative side of things,  
-And complaining about it,  
-While easy,  
-Doesn’t make the problem go away.  
+Or do you see life through misery?  
+Complaining feels easy,  
+but it never solves a problem.  
+And problems tend to grow larger,  
+when you lack the will to face them.  
 
 
 It’s probably also about maturity,  
-About how you deal with problems in life.  
+About how you deal with life's problems.  
 Once upon a time, when we were young, we complained.  
 And our parents were the guarantors of our happiness.  
 Being spoon-fed happiness this way,  
