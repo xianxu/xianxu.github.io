@@ -63,8 +63,10 @@ California shows these goals can conflict. One way forward is multi-seat distric
 
 This isn’t hypothetical. Illinois used multi-seat districts for a hundred years, until the [Cutback Amendment](https://en.wikipedia.org/wiki/Cutback_Amendment) of the 1980s. That reform punished legislators for giving themselves a pay raise, but in hindsight, it threw out a system that better represented minority voices. There are even calls to revive multi-seat districts.
 
-While there is a federal statue limiting single seat district for congressional elections, the U.S. has a two-level government system (states and federal), states are free to experiment at state level. California could lead here. If Governor Newsom truly wants to "save democracy", he could champion multi-seat districts with ranked-choice voting, rather than trying to entrench Democrats’ already overwhelming advantage. Democrats likely would still win a majority, but will have a meaningful opposition. 
+While there is a federal statue limiting single seat district for congressional elections ([1967 Uniform Congressional District Act](https://en.wikipedia.org/wiki/Uniform_Congressional_District_Act)), the U.S. has a two-level government system (states and federal), states are free to experiment at state level. California could lead here. If Governor Newsom truly wants to "save democracy", he could champion multi-seat districts with ranked-choice voting, rather than trying to entrench Democrats’ already overwhelming advantage. Democrats likely would still win a majority, but will have a meaningful opposition. 
 
 On the contrary, his proposed gerrymandering change ([Proposition 50](https://en.wikipedia.org/wiki/2025_California_Proposition_50)) will add 5 more Democratic seats. If we assume the same vote share as 2024, the `minority seat-to-vote` ratio in 2026 would collapse to 0.19. That’s an extraordinary imbalance.
 
 That’s where real reform, not window dressing, could make California a national leader. And since it's at state level, he can't use Texas as an excuse. 
+
+PS, it turns out [1967 Uniform Congressional District Act](https://en.wikipedia.org/wiki/Uniform_Congressional_District_Act) was passed to address southern states' scheme of using multi-seat district with multiple votes (not ranked choice) to dilute black votes.
