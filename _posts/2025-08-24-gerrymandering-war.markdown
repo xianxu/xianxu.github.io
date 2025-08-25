@@ -6,7 +6,7 @@ tags: law, philosophy
 comments: true
 ---
 
-In the news, Texas and California, the nation’s two largest states, are embroiled in a war over gerrymandering. California Governor Gavin Newsom responded to Texas’s mid-decade redistricting plan by proposing his own version. In both cases, the redistricting plans entrench the majority party’s power. I wanted to be an informed voter, so I did some research. It surely opened my eyes.
+In the news, Texas and California, the nation’s two largest states, are embroiled in a war over gerrymandering. California Governor Gavin Newsom responded to Texas’s mid-decade redistricting plan by proposing his own version. Fight fire with fire he announced. In both cases, the redistricting plans entrench the majority party’s power. I wanted to be an informed voter, so I did some research. It surely opened my eyes.
 
 ## What's gerrymandering?
 
@@ -16,7 +16,7 @@ As with many political issues, we need to take a giant grain of salt when it com
 
 ## Let's measure it.
 
-One way to assess gerrymandering is to define a metric. I propose looking at the ratio between the percentage of seats won and the percentage of votes received by the minority party. Let's call this `minority disadvantage`.
+One way to assess gerrymandering is to define a metric. I propose looking at the ratio between the percentage of seats won and the percentage of votes received by the minority party. Let's call this `minority seat-to-vote`.
 
 * If the ratio = 1 → minority votes are fully represented.
 * If the ratio < 1 → the minority is under-represented.
@@ -63,8 +63,8 @@ California shows these goals can conflict. One way forward is multi-seat distric
 
 This isn’t hypothetical. Illinois used multi-seat districts for a hundred years, until the [Cutback Amendment](https://en.wikipedia.org/wiki/Cutback_Amendment) of the 1980s. That reform punished legislators for giving themselves a pay raise, but in hindsight, it threw out a system that better represented minority voices. There are even calls to revive multi-seat districts.
 
-While there is a federal statue speculate single seat district for congressional elections, the U.S. has a two-level election system (states and federal), states are free to experiment at state level. California could lead here. If Governor Newsom truly wants to "save democracy", he could champion multi-seat districts with ranked-choice voting—rather than trying to entrench Democrats’ already overwhelming advantage.
+While there is a federal statue limiting single seat district for congressional elections, the U.S. has a two-level government system (states and federal), states are free to experiment at state level. California could lead here. If Governor Newsom truly wants to "save democracy", he could champion multi-seat districts with ranked-choice voting, rather than trying to entrench Democrats’ already overwhelming advantage. Democrats likely would still win a majority, but will have a meaningful opposition. 
 
-For example, if his proposed changes added 5 more Democratic seats, with the same vote share as 2024 data indicate, the minority’s seat-to-vote ratio in 2026 would collapse to ~0.002. That’s an extraordinary imbalance.
+On the contrary, his proposed gerrymandering change ([Proposition 50](https://en.wikipedia.org/wiki/2025_California_Proposition_50)) will add 5 more Democratic seats. If we assume the same vote share as 2024, the `minority seat-to-vote` ratio in 2026 would collapse to 0.19. That’s an extraordinary imbalance.
 
-That’s the real fire Newsom is playing with. And that’s where real reform, not window dressing, could make California a national leader.
+That’s where real reform, not window dressing, could make California a national leader. And since it's at state level, he can't use Texas as an excuse. 
