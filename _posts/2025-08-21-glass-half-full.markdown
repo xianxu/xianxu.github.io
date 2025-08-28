@@ -8,8 +8,8 @@ comments: true
 ---
 
 
-Recently at work, I noticed some people complain a lot.  
-On closer look, it spreads,  
+In my career, I noticed some people complain a lot.
+In retrospect, it always spreads,
 weighing on others, as expected.  
 So I began writing down my thoughts.  
 
