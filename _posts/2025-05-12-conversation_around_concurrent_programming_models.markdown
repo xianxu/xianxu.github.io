@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "Conversation: python asyncio"
+title:  "Conversation around concurrent programming models"
 date:   2025-05-12
-tags: tech philosophy
+tags: tech, programming
 comments: true
 ---
 
-The following's a transcript to understand Python asyncio, trio and relationship to monadic functional program paradigm, generated using [Parley](https://github.com/xianxu/parley.nvim). I came to realize the async/await, or the async callback async programming models is really failures. That leaves monadic approach, and actor model as the better alternatives.
+The following’s a transcript to understand Python asyncio, trio and relationship to monadic functional program paradigm, generated using Parley. I came to realize the `async/await`, or the async callback async programming models has really failed. `async/await` started as attempt to simplify programming in a concurrent world (call back hell); they made oversimplification to make happy case very easy to write, error handling and cancellation semantics harder to express. That leaves monadic approach, and actor model as the better alternatives.
 
-💬: for python asyncio, how to execute two things in parallel, when both ready, combine result, for example, if I await a and await b, seems a and b would be triggered sequentially?
+#### 💬: for python asyncio, how to execute two things in parallel, when both ready, combine result, for example, if I await a and await b, seems a and b would be triggered sequentially?
 
 🤖:[Claude-Sonnet]
 
@@ -117,7 +117,7 @@ Choose the approach that best fits your specific use case. `gather()` is typical
 📝: you asked about running async tasks in parallel with asyncio, I answered with asyncio.gather(), asyncio.create_task(), and asyncio.wait() methods to run coroutines concurrently instead of sequentially, with code examples showing how to combine results.
 
 
-💬: so "async" something is almost like "future" of something. await something is is a bit nicer syntax, than say some_future.flatmap { value => next_step } ?
+#### 💬: so "async" something is almost like "future" of something. await something is is a bit nicer syntax, than say some_future.flatmap { value => next_step } ?
 
 🤖:[Claude-Sonnet]
 
@@ -193,7 +193,7 @@ One important difference: Python's async/await is primarily for I/O-bound concur
 📝: you asked about comparing Python's async/await with futures and flatMap in functional programming, I answered with explanation of conceptual similarities (async functions returning coroutine objects similar to futures), syntax advantages of await over callback chains/flatMap (readability, error handling, variable scoping), and how Python's approach transforms code into state machines behind the scenes
 
 
-💬: can you explain the new python trio async library, what problem it tries to solve over asyncio? 
+#### 💬: can you explain the new python trio async library, what problem it tries to solve over asyncio? 
 
 🤖:[Claude-Sonnet]
 
@@ -345,7 +345,7 @@ Trio represents a thoughtful reimagining of how async programming should work in
 📝: you asked about Trio async library compared to asyncio, I answered with Trio's key innovations (structured concurrency with nurseries, better cancellation, timeouts, error handling), provided code comparisons between the two libraries, and explained when each might be preferred
 
 
-💬: why not incrementally fix asyncio. I guess it's hard to change API behavior anyway. on the other hand, many things you mentioned seems just implementation details, and I assume certain implementation choice was influenced by being pragmatic (e.g. interop with existing sync systems)? 
+#### 💬: why not incrementally fix asyncio. I guess it's hard to change API behavior anyway. on the other hand, many things you mentioned seems just implementation details, and I assume certain implementation choice was influenced by being pragmatic (e.g. interop with existing sync systems)? 
 
 🤖:[Claude-Sonnet]
 
@@ -432,7 +432,7 @@ This parallels other areas of Python where multiple approaches coexist (web fram
 📝: you asked about why create Trio instead of fixing asyncio, I answered with backward compatibility constraints, fundamental design differences, pragmatic ecosystem considerations, and how Trio has influenced asyncio despite being separate
 
 
-💬: to be frank, nursery's a pretty bad choice of name, yet another random concept. in comparison TaskGroup, immediately carry it's about a group of task, and likely with some benefit attached (maybe about cancellation, error propagation etc.). in fact it's so bad that I don't want to bet my codebase for people named it as such. :)
+#### 💬: to be frank, nursery's a pretty bad choice of name, yet another random concept. in comparison TaskGroup, immediately carry it's about a group of task, and likely with some benefit attached (maybe about cancellation, error propagation etc.). in fact it's so bad that I don't want to bet my codebase for people named it as such. :)
 
 🤖:[Claude-Sonnet]
 
@@ -501,7 +501,7 @@ The good news is that as the async Python ecosystem matures, we're seeing more c
 📝: you asked about why "nursery" is a poor name choice compared to TaskGroup, I answered that it's a valid criticism as nursery is metaphorical and non-obvious while TaskGroup is descriptive and intuitive, affecting adoption and maintainability
 
 
-💬: I guess one issue with await style syntax, is the "tree structure" of async task dependencies became less clear, or scope etc. In the nested monadic world, you have that benefit. 
+#### 💬: I guess one issue with await style syntax, is the "tree structure" of async task dependencies became less clear, or scope etc. In the nested monadic world, you have that benefit. 
 
 Remember the answer structure: 
 
@@ -618,7 +618,7 @@ Modern async libraries are increasingly finding this balance by providing struct
 
 📝: you asked about how async/await obscures task dependency structure compared to monadic approaches, I answered with examples showing how monadic chains make dependencies explicit while async/await hides them, and how structured concurrency patterns help restore visibility of task relationships
 
-💬: lol, you started with trying to hide inherent complexity of concurrency (it's a tree), failed (as you lost the tree, so cancellation/error handling become flaky), then you add back all the tree structure using yet more syntax? can't we just do monads from get go? 
+#### 💬: lol, you started with trying to hide inherent complexity of concurrency (it's a tree), failed (as you lost the tree, so cancellation/error handling become flaky), then you add back all the tree structure using yet more syntax? can't we just do monads from get go? 
 
 🤖:[Claude-Sonnet]
 
@@ -685,6 +685,4 @@ Maybe we'd have been better off embracing the tree-like nature of concurrency fr
 📝: you asked if we should have just used monads from the beginning rather than hiding concurrency's tree structure with async/await and then adding it back, I answered that this cycle reveals we can't escape the fundamental tree-like nature of concurrency and hiding it created the very problems we're now solving with structured concurrency
 
 
-💬: 
-
-
+#### 💬: 
