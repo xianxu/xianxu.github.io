@@ -1,5 +1,9 @@
-# topic: Conversation around concurrent programming models
-- file: 2025-05-12.09-04-30.846.md
+---
+layout: post
+title:  "Designing a Fairer Electoral System"
+date:   2025-09-01
+tags: tech
+comments: true
 ---
 
 The following’s a transcript to understand Python asyncio, trio and relationship to monadic functional program paradigm, generated using Parley. I came to realize the `async/await`, or the async callback async programming models has really failed. `async/await` started as attempt to simplify programming in a concurrent world (call back hell); they made oversimplification to make happy case very easy to write, error handling and cancellation semantics harder to express. That leaves monadic approach, and actor model as the better alternatives.
