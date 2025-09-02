@@ -2,7 +2,7 @@
 layout: post
 title:  "Designing a Fairer Electoral System"
 date:   2025-08-24
-tags: law, philosophy
+tags: law philosophy
 comments: true
 ---
 
