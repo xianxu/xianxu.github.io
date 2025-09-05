@@ -9,7 +9,7 @@ comments: true
 
 Have you ever thought about what it takes to build the infrastructure layer of the U.S. healthcare system, one that enables hundreds of different EHRs (Electronic Health Record systems), whether running in the cloud or under desks in doctors’ offices, to exchange health records seamlessly?
 
-Imagine a future where patients can book and reschedule appointments as easily as work meetings; where ChatGPT can analyze your lab results and give second opinions on your X-rays; where you have a bird’s-eye view of your health over time, and AI agents monitor and flag preventable issues before they become serious. Intake forms are auto-filled because you’ve already submitted your data countless times. Your healthcare expenses are all in one place, organized, itemized, and easy to understand. And recruiting for clinical trials or tracking new drug effects becomes fast and frictionless.
+Imagine a future where patients can book and reschedule appointments as easily as work meetings, or seamlessly handled by your AI assistant; where ChatGPT can analyze your lab results and give second opinions on your X-rays; where you have a bird’s-eye view of your health over time, and AI agents monitor and flag preventable issues before they become serious. Intake forms are auto-filled because you’ve already submitted your data countless times. Your healthcare expenses are all in one place, organized, itemized, and easy to understand. And recruiting for clinical trials or tracking new drug effects becomes fast and frictionless.
 
 **Software and AI are eating the world. It’s time they ate healthcare, too!**
 
