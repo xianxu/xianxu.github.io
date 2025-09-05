@@ -11,7 +11,7 @@ Have you ever thought about what it takes to build the infrastructure layer of t
 
 Imagine a future where patients can book and reschedule appointments as easily as work meetings; where ChatGPT can analyze your lab results and give second opinions on your X-rays; where you have a bird’s-eye view of your health over time, and AI agents monitor and flag preventable issues before they become serious. Intake forms are auto-filled because you’ve already submitted your data countless times. Your healthcare expenses are all in one place, organized, itemized, and easy to understand. And recruiting for clinical trials or tracking new drug effects becomes fast and frictionless.
 
-**Software and AI are eating the world. It’s time they ate healthcare, too! **
+**Software and AI are eating the world. It’s time they ate healthcare, too!**
 
 This isn’t a pipe dream. At [NexHealth](https://www.nexhealth.com/), we’ve already started building that future. We’re on a mission to become the infrastructure layer for the entire healthcare system. Here’s our **three-step Master Plan**:
 
