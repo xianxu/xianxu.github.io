@@ -65,3 +65,42 @@
     text-decoration: underline;
   }
 }
+
+// Footnotes styling
+sup.footnote {
+  font-size: 0.75em;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  top: -0.5em;
+}
+
+.footnotes {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid $border-color-01;
+  font-size: 0.9em;
+  
+  ol {
+    margin-left: 0;
+    padding-left: 1.5rem;
+  }
+  
+  li {
+    margin-bottom: 0.5rem;
+    
+    p {
+      margin-bottom: 0;
+    }
+  }
+  
+  .reversefootnote {
+    text-decoration: none;
+    margin-left: 0.5rem;
+    color: $brand-color;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
