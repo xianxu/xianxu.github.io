@@ -32,7 +32,7 @@ One special case is when the communication’s counterparts are not online. In t
 
 ### Parallelism
 
-At the base level, you have an Erlang process, organized in `gen_server`[^1]. `gen_factory` is used to manage a group of worker `gen_server`, and `gen_industry` is used to manage shards of many `gen_factory` handling some entity, with sharding mapping as part of static cluster configuration. So in this setup, given the identity of an entity, you can easily find which early process handles it, inspect if that portion of the system is having any problems, including inspecting its current state, from any connected Erlang node. 
+At the base level, you have an Erlang process, organized in `gen_server[^1]`. `gen_factory` is used to manage a group of worker `gen_server`, and `gen_industry` is used to manage shards of many `gen_factory` handling some entity, with sharding mapping as part of static cluster configuration. So in this setup, given the identity of an entity, you can easily find which early process handles it, inspect if that portion of the system is having any problems, including inspecting its current state, from any connected Erlang node. 
 
 Typical stateful services (services fronting a database) are managed by `gen_industry`, stateless services often by it, just for uniformity, not for necessity, as it’s easy to operate. The chat routing layer (`chatd`) has its own routing layer. Due to the location transparency of Erlang, those “service discovery” mechanisms are extremely simple: they are just some state stored somewhere on the computing mesh. Accessing the servicing routing information is not that different from accessing any piece of data. 
 
@@ -44,19 +44,19 @@ Since Erlang handles distributed aspects of the system really well, we also impl
 
 After the acquisition, it took some years to move from the bare metal hosts they rented in Softlayer into Facebook data centers. Before such move, they ran only in one data center and weren’t able to fall over between data centers. So as part of the migration, first step was to improve the overall system, so the system can operate in multiple data centers.
 
-Beyond the computing machines we use in Facebook data center, they also started leveraging key infrastructure components, like time series database for observability (`ods`[^2]), real-time debugging dataset in `Scuba`[^3], and databases (`zippy db`[^4]). Later, as WhatsApp's business case expanded, it also started leveraging its `WWW`[^5] layer. 
+Beyond the computing machines we use in Facebook data center, they also started leveraging key infrastructure components, like time series database for observability (`ods[^2]`), real-time debugging dataset in `Scuba[^3]`, and databases (`zippy db[^4]`). Later, as WhatsApp’s business case expanded, it also started leveraging its `WWW[^5]` layer. 
 
 ## Reference 
 
 1. [WhatsApp 2014 Talk](https://videog.infoq.com/downloads/pdfdownloads/presentations/Erlang2014-RickReed-ThatsBillionwithaBScalingtotheNextLevelatWhatsApp.pdf)   
 2. [WhatsApp 2018 Talk](https://www.codemesh.io/uploads/media/default/0001/01/190cbb93b3aeab99aba07d051a857d05a46bf4d1.pdf) 
 
-[^1]: gen_server is wrap around a single Erlang process, think it as a server; gen_factory manage a group of gen_server that provide same functionality for parallelism; gen_industry managed sharding support. 
+[^1]:  `gen_server` is wrap around a single Erlang process, think it as a server; `gen_factory` manage a group of `gen_server` that provide same functionality for parallelism; `gen_industry` managed sharding support. 
 
-[^2]: Time series database, similar to metric in datadog. 
+[^2]:  Time series database, similar to metric in datadog. 
 
-[^3]: A realtime hybrid of relational and time series table, used heavily for debugging. You can view it as structured application log, stored largely in memory, allowing SQL query over it, and an intuitive UI that support typical queries for debugging. 
+[^3]:  A realtime hybrid of relational and time series table, used heavily for debugging. You can view it as structured application log, stored largely in memory, allowing SQL query over it, and an intuitive UI that support typical queries for debugging. 
 
-[^4]: Key value database, similar in interface to Dynamo. 
+[^4]:  Key value database, similar in interface to Dynamo. 
 
-[^5]: Facebook's common front end server environment, a managed monolith that works.
+[^5]:  Facebook’s common front end server environment, a managed monolith that works.
