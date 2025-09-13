@@ -22,7 +22,7 @@ The Erlang’s concurrency model revolves around actors and its native implement
 
 It is also about functional programming. Erlang is functional, but also designed to be practical: with simple dynamic typing, simple syntax, and everything is pattern matching. You can even do pattern matching on bit streams, making protocol parsing and handling elegant and a breeze\! There are even mutable states in the form of `ETS table`. I don't know Elixir well, but it seems they've kept pretty much the key consideration of Erlang/BEAM, only a thin wrapper, cleaned up some quirks, and added some meta-programming capabilities, a welcome update to Erlang. 
 
-In short, Erlang is consistent in how it models systems: concurrency (processes, supervisor, share-none), state, and business logic (functions) are each first-class, but also separated into distinct parts of the language and runtime. In contrast, object-oriented programming ties state and behavior together. That’s useful for simple models, but breaks down at large scale, where concurrency and state management need to be isolated and observable. Erlang’s model avoids that trap, which is why it was such a natural fit for WhatsApp’s workload. 
+In short, Erlang is consistent in how it models systems: concurrency (processes, supervisor, share-none), state, and business logic (functions) are each first-class, but also separated into distinct parts of the language and runtime. In contrast, object-oriented programming ties state and behavior together. That’s useful for simple models, but breaks down at large scale, where concurrency and state management need to be isolated and observable. Erlang’s model avoids that trap, kept things very simple. 
 
 ## How WhatsApp Works 
 
@@ -48,8 +48,8 @@ Beyond the computing machines we use in Facebook data center, they also started 
 
 ## Reference 
 
-1. [WhatsApp 2014 Talk](https://videog.infoq.com/downloads/pdfdownloads/presentations/Erlang2014-RickReed-ThatsBillionwithaBScalingtotheNextLevelatWhatsApp.pdf)   
-2. [WhatsApp 2018 Talk](https://www.codemesh.io/uploads/media/default/0001/01/190cbb93b3aeab99aba07d051a857d05a46bf4d1.pdf) 
+1. Rick Reed's [WhatsApp 2014 Talk](https://videog.infoq.com/downloads/pdfdownloads/presentations/Erlang2014-RickReed-ThatsBillionwithaBScalingtotheNextLevelatWhatsApp.pdf)   
+2. Anton Lavrik's [WhatsApp 2018 Talk](https://www.codemesh.io/uploads/media/default/0001/01/190cbb93b3aeab99aba07d051a857d05a46bf4d1.pdf) 
 
 [^1]:  `gen_server` is wrap around a single Erlang process, think it as a server; `gen_factory` manage a group of `gen_server` that provide same functionality for parallelism; `gen_industry` managed sharding support. 
 
