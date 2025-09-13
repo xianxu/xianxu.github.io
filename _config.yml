@@ -47,8 +47,11 @@ social:
 
 markdown: kramdown
 kramdown:
+  parse_block_html: true
+  parse_span_html: true
   footnote_nr: 1
   footnote_backlink: "&#8617;&#xfe0e;"
+  enable_coderay: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.
