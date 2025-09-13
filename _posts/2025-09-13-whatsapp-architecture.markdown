@@ -51,12 +51,12 @@ Beyond the computing machines we use in Facebook data center, they also started 
 1. [WhatsApp 2014 Talk](https://videog.infoq.com/downloads/pdfdownloads/presentations/Erlang2014-RickReed-ThatsBillionwithaBScalingtotheNextLevelatWhatsApp.pdf)   
 2. [WhatsApp 2018 Talk](https://www.codemesh.io/uploads/media/default/0001/01/190cbb93b3aeab99aba07d051a857d05a46bf4d1.pdf) 
 
-[^1]:  gen\_server is wrap around a single Erlang process, think it as a server; gen\_factory manage a group of gen\_server that provide same functionality for parallelism; gen\_industry managed sharding support. 
+[^1]: gen_server is wrap around a single Erlang process, think it as a server; gen_factory manage a group of gen_server that provide same functionality for parallelism; gen_industry managed sharding support. 
 
-[^2]:  Time series database, similar to metric in datadog. 
+[^2]: Time series database, similar to metric in datadog. 
 
-[^3]:  A realtime hybrid of relational and time series table, used heavily for debugging. You can view it as structured application log, stored largely in memory, allowing SQL query over it, and an intuitive UI that support typical queries for debugging. 
+[^3]: A realtime hybrid of relational and time series table, used heavily for debugging. You can view it as structured application log, stored largely in memory, allowing SQL query over it, and an intuitive UI that support typical queries for debugging. 
 
-[^4]:  Key value database, similar in interface to Dynamo. 
+[^4]: Key value database, similar in interface to Dynamo. 
 
-[^5]:  Facebook’s common front end server environment, a managed monolith that works.
+[^5]: Facebook's common front end server environment, a managed monolith that works.
