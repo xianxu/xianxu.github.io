@@ -76,21 +76,33 @@ sup.footnote {
 }
 
 .footnotes {
-  margin-top: 2rem;
-  padding-top: 1rem;
-  border-top: 1px solid $border-color-01;
-  font-size: 0.9em;
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 2px solid $border-color-01;
+  font-size: 0.8em;
+  color: lighten($text-color, 15%);
+  
+  &::before {
+    content: "";
+    display: block;
+    width: 30%;
+    height: 1px;
+    background-color: $border-color-01;
+    margin: -1.5rem auto 1.5rem auto;
+  }
   
   ol {
     margin-left: 0;
     padding-left: 1.5rem;
+    line-height: 1.4;
   }
   
   li {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.8rem;
     
     p {
       margin-bottom: 0;
+      line-height: 1.4;
     }
   }
   
@@ -98,6 +110,7 @@ sup.footnote {
     text-decoration: none;
     margin-left: 0.5rem;
     color: $brand-color;
+    font-size: 0.9em;
     
     &:hover {
       text-decoration: underline;
