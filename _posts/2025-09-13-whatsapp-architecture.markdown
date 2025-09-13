@@ -6,10 +6,6 @@ tags: tech
 comments: true
 ---
 
-# WhatsApp Architecture 
-
-## The case for Erlang-based systems
-
 This is a counterpart to [WhatsApp Culture](https://xianxu.github.io/2025/04/18/culture-wa.html). Here, I introduce how WhatsApp works. WhatsApp, for the longest time, went with 1\) finding the biggest machine; 2\) emphasis on raw efficiency; 3\) relying on semi-manual operation posture. It was an eye-opening experience as they basically bucked all the canons in the “Cloud Computing”. 
 
 ## The Founding Story 
