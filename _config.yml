@@ -47,7 +47,8 @@ social:
 
 markdown: kramdown
 kramdown:
-  input: GFM
+  footnote_nr: 1
+  footnote_backlink: "&#8617;&#xfe0e;"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
