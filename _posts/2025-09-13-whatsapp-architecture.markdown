@@ -9,6 +9,7 @@ highlight: true
 
 This is a counterpart to [WhatsApp Culture](https://xianxu.github.io/2025/04/18/culture-wa.html). Here, I introduce how WhatsApp works. WhatsApp, for the longest time, took a contrarian approach: 1\) finding the biggest machine; 2\) emphasis on raw efficiency; 3\) relying on semi-manual operation posture. It was an eye-opening experience for me as they basically bucked the canons in the "Cloud Computing" and charted their own path. They proved it working and operated the worlds largest messaging system reliably with a tiny team. 
 
+
 ## The Founding Story 
 
 Legend has it that when WhatsApp was founded, they were in need of an open-source implementation of the Jabber protocol. They searched around, and this little guy called `ejabberd` stood out. It performed and scaled significantly better than anything else on the market. The founder decided to start using that for the message routing, despite having no experience in the language or ecosystem at all, while implementing the other portion of the stack using a more typical web stack. As time passed, they grew more comfortable with it and eventually migrated almost everything to Erlang-based systems. This trend reversed after the Facebook acquisition. It settled with all messaging and control channels on Erlang, and the media-related (images, files, videos, VoIP) data plane on C++, which is a sensible position to be in. 
