@@ -45,6 +45,8 @@ header_pages:
 social:
   linkedin: xianxu
 
+google_analytics: G-CY33L153PE
+
 markdown: kramdown
 kramdown:
   parse_block_html: true
