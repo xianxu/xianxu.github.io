@@ -3,6 +3,7 @@ layout: post
 title:  "My Operation Principles"
 date:   2025-09-20
 tags: philosophy 
+highlight: true
 comments: true
 ---
 
