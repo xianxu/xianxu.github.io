@@ -16,7 +16,7 @@ This fragmentation makes innovation harder. Imagine a startup building an AI rec
 
 That is why NexHealth exists: to be the integration layer between fragmented EHRs and the developers who want to innovate on top of them.
 
-Fragmentation is only half the story. Misaligned incentives are the other [^othman]. As Charlie Munger has noted, misalignment shapes outcomes. EHR vendors profit by locking in customers, so they have little incentive to open data. SaaS companies, by contrast, need access to data to deliver value. When incentives diverge, failure is predictable: startups intending to create uniform API inevitably discover the limitations of official APIs, fall victim to sudden API policy changes, or face exorbitant fees that make their businesses unsustainable.
+Fragmentation is only half the story. Misaligned incentives are the other [^othman]. As Charlie Munger has noted, misalignment shapes outcomes. EHR vendors profit by locking in customers, so they have little incentive to open data. Innovators in the healthcare space, by contrast, need access to data to deliver value. When incentives diverge, failure is predictable: startups intending to create uniform API inevitably discover the limitations of official APIs, fall victim to sudden API policy changes, or face exorbitant fees that make their businesses unsustainable.
 
 NexHealth took a fundamentally different approach. Instead of relying solely on vendor-provided APIs, or absence of which, we built the Synchronizer: using myriad of technical means to access directly at different layers in EHR's technical stack. This native integration gives us the necessary flexibility and adaptability to serve customers regardless of what EHR vendors choose to support.
 
