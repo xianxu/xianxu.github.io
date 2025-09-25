@@ -3,7 +3,7 @@ layout: post
 title:  "This is the Way"
 date:   2025-09-24
 tags:   tech philosophy business
-comments: true
+comments: false
 ---
 
 `"Show me the incentive, and I will show you the outcome." - Charlie Munger`
@@ -18,9 +18,9 @@ That is why NexHealth exists: to be the integration layer between fragmented EHR
 
 Fragmentation is only half the story. Misaligned incentives are the other [^othman]. As Charlie Munger has noted, misalignment shapes outcomes. EHR vendors profit by locking in customers, so they have little incentive to open data. SaaS companies, by contrast, need access to data to deliver value. When incentives diverge, failure is predictable: startups intending to create uniform API inevitably discover the limitations of official APIs, fall victim to sudden API policy changes, or face exorbitant fees that make their businesses unsustainable.
 
-NexHealth took a different approach. Instead of relying solely on vendor-provided APIs (or absence of which), we built the Synchronizer: using myriad of technical means to access at different layers, the database, network, and even user interface. This gives us the flexibility to serve customers regardless of what an EHR vendor chooses to support.
+NexHealth took a fundamentally different approach. Instead of relying solely on vendor-provided APIs, or absence of which, we built the Synchronizer: using myriad of technical means to access directly at different layers in EHR's technical stack. This native integration gives us the necessary flexibility and adaptability to serve customers regardless of what EHR vendors choose to support.
 
-Is this legal? This sounds many shades of gray. The law is actually on our side. The government is on our side against [EHR information block](https://www.hhs.gov/press-room/hhs-crackdown-health-data-blocking.html), as they always want to promote innovations in the healthcare space, and allowing data freely flowing is a key part of it. Courts are siding with innovators too: the 4th Circuit recently held that EHRs can be [held accountable](https://www.ca4.uscourts.gov/opinions/241773.p.pdf) under state unfair competition laws when they leverage their position to block rivals.
+Is this legal? This sounds many shades of gray. The law is actually on our side. The government is on our side against [EHR information block](https://www.hhs.gov/press-room/hhs-crackdown-health-data-blocking.html)[^info-blocking], as they always want to promote innovations in the healthcare space, and allowing data freely flowing is a key part of it. Courts are siding with innovators too: the 4th Circuit recently held that EHRs can be [held accountable](https://www.ca4.uscourts.gov/opinions/241773.p.pdf) under state unfair competition laws when they leverage their position to block rivals.
 
 Taking many steps back, at its core, this is just common sense. The data belongs to doctors and patients, not to EHR vendors, who are merely custodians. Blocking authorized access undermines care and innovation. While this may not be the only reason for rising healthcare cost, it must be one of them.
 
@@ -36,3 +36,4 @@ We’re building something ambitious, and we’re looking for talented engineers
 
 
 [^othman]: Othman Laraki, "To Learn a New Market, Start by Building Your Product", [link](https://review.firstround.com/to-learn-a-new-market-start-by-building-your-product/)
+[^info-blocking]: Read more about federal government's position around [information blockin](https://www.healthit.gov/topic/information-blocking)
