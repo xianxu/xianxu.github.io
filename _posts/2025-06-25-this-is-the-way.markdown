@@ -28,7 +28,7 @@ So how does the landscape change from here? The secret of NexHealth is to align 
 
 We are early in this journey, but the path is clear and we see market changing. It is indeed an exciting time.
 
-So, this is the way: to disrupt the status quo in healthcare, focus on customers and change market dynamics by creating aligned incentives.
+**So, this is the way: to disrupt the status quo in healthcare, focus on customers and change market dynamics by creating aligned incentives.**
 
 ### We Are Hiring!
 
