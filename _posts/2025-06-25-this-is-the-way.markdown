@@ -40,6 +40,5 @@ We are pirates with great ambitions and Synchronizer is the way! This is the way
 
 We’re building something ambitious, and we’re looking for talented engineers to join us on this journey. If this mission excites you, connect with me on [LinkedIn](https://www.linkedin.com/in/xianxu/), I’d love to hear from you!
 
----
 
 [^othman]: Othman Laraki, "To Learn a New Market, Start by Building Your Product", [link](https://review.firstround.com/to-learn-a-new-market-start-by-building-your-product/)
