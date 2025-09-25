@@ -28,11 +28,11 @@ So how does the landscape change from here? The secret of NexHealth is to align 
 
 We are early in this journey, but the path is clear and we see market changing. It is indeed an exciting time.
 
-We are pirates with great ambitions and Synchronizer is the way! This is the way: to disrupt the status quo in healthcare, focus on customers and change market dynamics by creating aligned incentives.
+So, this is the way: to disrupt the status quo in healthcare, focus on customers and change market dynamics by creating aligned incentives.
 
 ### We Are Hiring!
 
-We’re building something ambitious, and we’re looking for talented engineers to join us on this journey. If this mission excites you, connect with me on [LinkedIn](https://www.linkedin.com/in/xianxu/), I’d love to hear from you!
+We’re building something ambitious, and we’re looking for talented engineers to join us on this journey. If this mission excites you, connect with me on [LinkedIn](https://www.linkedin.com/in/xianxu/), I’d love to hear from you! Check out our [jobs page](https://www.linkedin.com/company/nexhealth-inc/jobs/).
 
 
 [^othman]: Othman Laraki, "To Learn a New Market, Start by Building Your Product", [link](https://review.firstround.com/to-learn-a-new-market-start-by-building-your-product/)
