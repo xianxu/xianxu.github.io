@@ -20,7 +20,7 @@ When it comes to work, I take commitments seriously. If I give my word, I will g
 
 At the same time, seriousness should not mean burnout. We are in a profession where people’s lives don’t depend on us directly. Unlike an ER or battlefield, our standard should be an abundance of effort to honor commitments, but not stress to the point of harm.
 
-Take leadership’s guidance seriously, but not literally. Understanding their reasoning and goal goes a long way. 
+Take leadership’s guidance seriously, but not literally. Understanding their reasoning and goal goes a long way to align at a more fundamental level. 
 
 ## Be Curious
 
