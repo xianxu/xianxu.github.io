@@ -8,7 +8,7 @@ comments: true
 
 "Show me the incentive, and I will show you the outcome." - Charlie Munger
 
-===
+---
 
 One striking feature of the American healthcare system is its fragmentation. This stems both from the locally oriented nature of healthcare and from the divided authority between federal and state governments in our constitutional setup. The effect is especially visible in the software behind the system: you have hundreds of Electronic Health Record (EHR) systems! 
 
@@ -18,7 +18,7 @@ This fragmentation makes innovation harder. Imagine a startup building an AI rec
 
 That is why NexHealth exists: to be the integration layer between fragmented EHRs and the developers who want to innovate on top of them.
 
-===
+---
 
 Fragmentation is only half the story. Misaligned incentives are the other [^othman]. As Charlie Munger has noted, misalignment shapes outcomes. EHR vendors profit by locking in customers, so they have little incentive to open data. SaaS companies, by contrast, need access to data to deliver value. When incentives diverge, failure is predictable: startups intending to create uniform API inevitably discover the limitations of official APIs, fall victim to sudden API policy changes, or face exorbitant fees that make their businesses unsustainable.
 
@@ -28,7 +28,7 @@ Is this legal? This sounds many shades of gray. The law is actually on our side.
 
 Taking many steps back, at its core, this is just common sense. The data belongs to doctors and patients, not to EHR vendors, who are merely custodians. Blocking authorized access undermines care and innovation. While this may not be the only reason for rising healthcare cost, it must be one of them.
 
-===
+---
 
 So how does the landscape change from here? The secret of NexHealth is to align incentives, one market vertical at a time. By delivering the best customer experience to doctors and patients, we establish ourselves as the de facto standard in that market: the only platform that consistently can offer seamless access across diverse EHRs in that market. Once we reach a critical point, market dynamics shift: big enterprises come to us to make previously impossible integration happen. And in time, EHR vendors will have to work with us rather than fight us.
 
@@ -36,10 +36,10 @@ We are early in this journey, but the path is clear and we see market changing. 
 
 We are pirates with great ambitions and Synchronizer is the way! This is the way: to disrupt the status quo in healthcare, focus on customers and change market dynamics by creating aligned incentives.
 
-===
+---
 
 We’re building something ambitious, and we’re looking for talented engineers to join us on this journey. If this mission excites you, connect with me on [LinkedIn](https://www.linkedin.com/in/xianxu/), I’d love to hear from you!
 
-===
+---
 
 [^othman]: Othman Laraki, "To Learn a New Market, Start by Building Your Product", [link](https://review.firstround.com/to-learn-a-new-market-start-by-building-your-product/)
