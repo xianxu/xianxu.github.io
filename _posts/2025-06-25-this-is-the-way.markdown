@@ -2,7 +2,7 @@
 layout: post
 title:  "This is the Way"
 date:   2025-09-24
-tags:   tech philosophy business
+tags:   tech philosophy business nexhealth
 comments: false
 ---
 
