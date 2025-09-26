@@ -7,6 +7,8 @@ highlight: true
 comments: true
 ---
 
+`Stay hungry, stay foolish. - Steve Jobas`
+
 In my panel presentation during NexHealth’s hiring process, I listed the following operation principles. Here I want to shed more light on them:
 
 1. Be serious, but not too serious.
