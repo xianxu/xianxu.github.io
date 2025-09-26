@@ -8,6 +8,8 @@ comments: false
 
 `"Show me the incentive, and I will show you the outcome." - Charlie Munger`
 
+### The Fragmentation in Healthcare
+
 One striking feature of the American healthcare system is its fragmentation. This stems both from the locally oriented nature of healthcare and from the divided authority between federal and state governments in our constitutional setup. The effect is especially visible in the software behind the system: you have hundreds of Electronic Health Record (EHR) systems! 
 
 On the market side, healthcare is a physical service built on local, personal relationships. Unlike digital products, it resists centralization; beyond a certain scale, efficiency gains are likely limited. On the regulatory side, federalism entrenches state authority, particularly in healthcare, leaving the federal government with only partial influence, mostly through an expansive but not unlimited commerce clause. That's why you have laws that promote interoperability, with penalty of exclusion from the Medicare and Medicaid programs...
@@ -16,13 +18,19 @@ This fragmentation makes innovation harder. Imagine a startup building an AI rec
 
 That is why NexHealth exists: to be the integration layer between fragmented EHRs and the developers who want to innovate on top of them.
 
+### The Misaligned Incentives
+
 Fragmentation is only half the story. Misaligned incentives are the other [^othman]. As Charlie Munger has noted, misalignment shapes outcomes. EHR vendors profit by locking in customers, so they have little incentive to open data. Innovators in the healthcare space, by contrast, need access to data to deliver value. When incentives diverge, failure is predictable: startups intending to create uniform API inevitably discover the limitations of official APIs, fall victim to sudden API policy changes, or face exorbitant fees that make their businesses unsustainable.
+
+### The Synchronizer Way
 
 NexHealth took a fundamentally different approach. Instead of relying solely on vendor-provided APIs, or absence of which, we built the Synchronizer: using myriad of technical means to access directly at different layers in EHR's technical stack. This native integration gives us the necessary flexibility and adaptability to serve customers regardless of what EHR vendors choose to support.
 
 Is this legal? This sounds many shades of gray. The law is actually on our side. The government is on our side against [EHR information block](https://www.hhs.gov/press-room/hhs-crackdown-health-data-blocking.html)[^info-blocking], as they always want to promote innovations in the healthcare space, and allowing data freely flowing is a key part of it. Courts are siding with innovators too: the 4th Circuit recently held that EHRs can be [held accountable](https://www.ca4.uscourts.gov/opinions/241773.p.pdf) under state unfair competition laws when they leverage their position to block rivals.
 
 Taking many steps back, at its core, this is just common sense. The data belongs to doctors and patients, not to EHR vendors, who are merely custodians. Blocking authorized access undermines care and innovation. While this may not be the only reason for rising healthcare cost, it must be one of them.
+
+### Changing the Market Dynamics
 
 So how does the landscape change from here? The secret of NexHealth is to align incentives, one market vertical at a time. By delivering the best customer experience to doctors and patients, we establish ourselves as the de facto standard in that market: the only platform that consistently can offer seamless access across diverse EHRs in that market. Once we reach a critical point, market dynamics shift: big enterprises come to us to make previously impossible integration happen. And in time, EHR vendors will have to work with us rather than fight us.
 
