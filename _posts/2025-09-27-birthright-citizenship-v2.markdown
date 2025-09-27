@@ -78,3 +78,5 @@ Reasoning:
 
 1. Court like to rule narrow, kicking can to political branches and down the road, let it develop further in the political arena.
 2. How Wong Kim Ark was interpreted feels pretty sloppy (not following holding but dicta), so the conservative Court may want to clean it up.
+
+As to how the court would rule, if it is congress not the executive that tries to restrict birthright citizenship, I'll entertain that when the actual controversy arises, so to speak! 
