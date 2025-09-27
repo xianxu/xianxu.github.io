@@ -26,10 +26,10 @@ The key phrase is "permanent domicil and residence in the United States". At the
 
 Read narrowly, the holding is:
 
-1) Children born in the U.S.
-2) To parents  who are legal permanent residents
-3) Who are not diplomats
-4) Are U.S. citizens
+1. Children born in the U.S.
+2. To parents  who are legal permanent residents
+3. Who are not diplomats
+4. Are U.S. citizens
 
 That means the holding does not cover the children of temporary visitors or of immigrants residing unlawfully. Then where all the broader interpretations come from?
 
