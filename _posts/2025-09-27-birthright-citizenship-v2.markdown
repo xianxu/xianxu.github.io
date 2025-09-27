@@ -76,7 +76,7 @@ This may be the blockbuster case of the century. My best guess, given the Courtâ
 
 Reasoning:
 
-1. Court like to rule narrow, kicking can to political branches and down the road, let it develop further in the political arena.
+1. Court likes to rule narrow, kicking can to political branches and down the road, let it develop further in the political arena.
 2. How Wong Kim Ark was interpreted feels pretty sloppy (not following holding but dicta), so the conservative Court may want to clean it up.
 
-As to how the court would rule, if it is congress not the executive that tries to restrict birthright citizenship, I'll entertain that when the actual controversy arises, so to speak! 
+As to how the court would rule, if it is congress not the executive that tries to restrict birthright citizenship, I'll entertain that when the actual controversy arises. I doubt anything regarding birthright citizenship can pass congress in the current polarized environment. This would become the new Roe v. Wade, a perennial culture war issue. 
