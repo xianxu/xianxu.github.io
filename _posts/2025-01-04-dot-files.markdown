@@ -18,10 +18,10 @@ Being old-fashioned, I always want simplicity and speed. That's why I use the te
     5. Install Alfred, point settings sync to ~/settings.
         1. Unbind Cmd+Space from Spotlight to Alfred.
     6. Set screenshot to iCloud location
-```
+    ```
         1. defaults write com.apple.screencapture location "$HOME/Library/Mobile Documents/com~apple~CloudDocs/screenshots"
         2. killall SystemUIServer
-```
+    ```
 2. Set up the terminal
     1. Install [Gostty](https://ghostty.org/), which is much clearer/faster than `iTerm2`, with less features as it's pretty new.
         1. By now I use Ghostty full time. iTerm's support for integration with remote tmux is still unique, but I don't log on remote server for long duration nowadays, so not a requirement anymore.
