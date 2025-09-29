@@ -51,7 +51,7 @@ In the context of birthright citizenship, nobody could show harm. Until now, bec
 
 ### Reliance Interest
 
-Another key principle is reliance interest: people order their lives around settled law, and courts are reluctant to disturb those settled expectations. Even wrongly decided precedents may be left standing if society has deeply relied on them.
+Another key principle is reliance interest: people order their lives around settled laws, and courts are reluctant to disturb those settled expectations. Even wrongly decided precedents may be left standing if society has deeply relied on them.
 
 Example:
 

@@ -18,10 +18,10 @@ Being old-fashioned, I always want simplicity and speed. That's why I use the te
     5. Install Alfred, point settings sync to ~/settings.
         1. Unbind Cmd+Space from Spotlight to Alfred.
     6. Set screenshot to iCloud location
-       ```
+```
         1. defaults write com.apple.screencapture location "$HOME/Library/Mobile Documents/com~apple~CloudDocs/screenshots"
         2. killall SystemUIServer
-       ```
+```
 2. Set up the terminal
     1. Install [iTerm2](https://iterm2.com/).
         1. Set it to load from a custom folder in: `Preferences> General > Settings`. We will recover settings later in `yadm`. It's OK for now. 
@@ -85,6 +85,9 @@ I started to use yadm to keep dotfiles in sync. yadm wraps around git and create
 font-family = DejaVuSansM Nerd Font Mono
 font-size = 15
 theme = Apple System Colors
+quick-terminal-position = bottom
+focus-follows-mouse = true
+
 keybind = cmd+left=previous_tab
 keybind = cmd+right=next_tab
 keybind = cmd+shift+left=move_tab:-1
@@ -97,6 +100,15 @@ keybind = cmd+shift+d=new_split:down
 keybind = cmd+shift+enter=toggle_split_zoom
 keybind = cmd+shift+equal=equalize_splits
 copy-on-select = clipboard
+
+keybind = ctrl+h=goto_split:left
+keybind = ctrl+j=goto_split:bottom
+keybind = ctrl+k=goto_split:top
+keybind = ctrl+l=goto_split:right
+keybind = shift+enter=text:\n
+
+macos-titlebar-style = tabs
+link-url = true 
 ```
 * Install [Alfred](https://www.alfredapp.com). I use the `1/` multi clipboard, `2/` global hot keys, and `3/` snippets (e.g. having quick access to ASCII art like `¯\_(ツ)_/¯`, for example).
 * Use `zsh`, a modern shell.
