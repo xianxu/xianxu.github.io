@@ -23,11 +23,13 @@ Being old-fashioned, I always want simplicity and speed. That's why I use the te
         2. killall SystemUIServer
 ```
 2. Set up the terminal
-    1. Install [iTerm2](https://iterm2.com/).
+    1. Install [Gostty](https://ghostty.org/), which is much clearer/faster than `iTerm2`, with less features as it's pretty new.
+        1. By now I use Ghostty full time. iTerm's support for integration with remote tmux is still unique, but I don't log on remote server for long duration nowadays, so not a requirement anymore.
+    2. Or install [iTerm2](https://iterm2.com/).
         1. Set it to load from a custom folder in: `Preferences> General > Settings`. We will recover settings later in `yadm`. It's OK for now. 
-    2. Or install [Gostty](https://ghostty.org/), which is much clearer/faster than `iTerm2`, with less features as it's pretty new.
     2. Install [Oh My Zsh](https://ohmyz.sh/), with command: `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
-        1. Additional `zsh` plugins: `git clone https://github.com/Aloxaf/fzf-tab ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fzf-tab`, `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions` and `git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fast-syntax-highlighting`
+        1. `Oh My Zsh` provides out of box great defaults for `zsh` users.
+        2. Additional `zsh` plugins: `git clone https://github.com/Aloxaf/fzf-tab ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fzf-tab`, `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions` and `git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fast-syntax-highlighting`
     3. Get a new font, I use [DejaVuSansM Nerd Font](https://www.nerdfonts.com/font-downloads), direct [link](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/DejaVuSansMono.zip). If you are using `Ghostty`, built-in font is already good enough, so no need to install this.
 3. Set up `SSH` and access to `Github`
     1. Assuming you don't have the keys: `ls ~/.ssh/id\_\*`, use `ssh-keygen -t ed25519 -C "your-email@example.com"` to generate, and set up a passphrase to protect it.
@@ -54,6 +56,7 @@ Being old-fashioned, I always want simplicity and speed. That's why I use the te
     3. Get Amazon Q `brew install amazon-q`
     4. Get Claude Code `npm install -g @anthropic-ai/claude-code`
     5. Get OpenAI Codex `npm install -g @openai/codex`
+    6. Get Gemini CLI `npm install -g @google/gemini-cli`
 6. Install other Mac Apps
     1. `ChatGPT`, `Chrome`, `Edge`, `VimR`, `WhatsApp`, `Grammerly`, `Zettlr`
     2. Chrome plugins: `Grammarly`, `Save Pinned Tabs`, `Switch between recent tabs (MRU tabs switch)`, `Video DownloadHelper`.
