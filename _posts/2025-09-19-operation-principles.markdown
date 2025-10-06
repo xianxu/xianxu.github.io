@@ -7,7 +7,7 @@ highlight: true
 comments: true
 ---
 
-`Stay hungry, stay foolish. - Steve Jobas`
+`Stay hungry, stay foolish. - Steve Jobs`
 
 In my panel presentation during NexHealth’s hiring process, I listed the following operation principles. Here I want to shed more light on them:
 
