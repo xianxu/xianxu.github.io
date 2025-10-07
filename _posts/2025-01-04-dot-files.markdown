@@ -18,7 +18,7 @@ Being old-fashioned, I always want simplicity and speed. That's why I use the te
     5. Install Alfred, point settings sync to ~/settings (I put settings here so I can easily `yadm` later)
         1. Alfred is a much nicer command switcher, including 1) multiple clipboard history, 2) global hotkey, 3) snippets (e.g. easy access to `¯\_(ツ)_/¯`)
         2. Unbind Cmd+Space from Spotlight to Alfred.
-    6. Set screenshot to iCloud location
+    6. Set screenshot to iCloud location.
     ```
         1. defaults write com.apple.screencapture location "$HOME/Library/Mobile Documents/com~apple~CloudDocs/screenshots"
         2. killall SystemUIServer
