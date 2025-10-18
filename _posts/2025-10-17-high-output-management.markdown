@@ -4,6 +4,7 @@ title:  "Information as Leverage"
 date:   2025-10-17
 tags: tech philosophy
 comments: true
+highlight: true
 ---
 
 I admit I don’t read many business books. I often find them anecdotal. They’re fine as entertainment, though I’d rather play games. But as career advice, they usually feel empty, overfitting into some neat-sounding narrative where your mileage may vary a lot, and your odds might not be better than Vegas.
