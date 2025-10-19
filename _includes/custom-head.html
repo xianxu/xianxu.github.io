@@ -5,7 +5,19 @@
   2. Customize default _includes/custom-head.html in your source directory and insert the given code snippet.
 {% endcomment %}
 
+<link rel="icon" type="image/png" href="{{ '/assets/favicon.png' | relative_url }}">
+<link rel="shortcut icon" type="image/png" href="{{ '/assets/favicon.png' | relative_url }}">
+
 <style>
+  /* Site logo in header */
+  .site-logo {
+    height: 1.5em;
+    width: auto;
+    vertical-align: middle;
+    margin-right: 0.5em;
+    display: inline-block;
+  }
+
   /* Anchor link styles for headers */
   .header-link {
     opacity: 0;
