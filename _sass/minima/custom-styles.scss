@@ -79,6 +79,26 @@ li.has-deep-anchor:target > .deep-anchor {
   .has-deep-anchor {
     padding-right: 2rem;
   }
+
+  li.has-deep-anchor {
+    padding-right: 2rem;
+  }
+
+  li.has-deep-anchor > .deep-anchor {
+    position: relative;
+    inset: auto;
+    margin-left: 0;
+    transform: translateX(0);
+    width: auto;
+    align-items: flex-end;
+    flex-direction: row;
+    gap: 0.25rem;
+    padding-top: 0;
+  }
+
+  li.has-deep-anchor > .deep-anchor::after {
+    display: none;
+  }
 }
 
 .highlight-card {
