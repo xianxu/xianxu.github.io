@@ -14,39 +14,70 @@
   }
 }
 
+// Inline deep-link anchors appended by anchors.js
 .has-deep-anchor {
   position: relative;
+  padding-right: 2.5rem;
 }
 
 .has-deep-anchor > .deep-anchor {
   position: absolute;
-  top: 0.1rem;
-  font-size: 0.85em;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 1.75rem;
+  min-height: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.35rem;
+  padding-top: 0.2rem;
   text-decoration: none;
   color: lighten($text-color, 25%);
   opacity: 0;
-  transition: opacity 0.2s ease;
+  pointer-events: none;
+  transform: translateX(0.5rem);
+  transition: opacity 0.18s ease, transform 0.18s ease;
 }
 
-p.has-deep-anchor > .deep-anchor {
-  left: -1.6rem;
+.has-deep-anchor > .deep-anchor::after {
+  content: "";
+  flex: 1;
+  width: 2px;
+  background: lighten($text-color, 40%);
+  border-radius: 999px;
 }
 
-li.has-deep-anchor > .deep-anchor {
-  left: -2.2rem;
+.has-deep-anchor > .deep-anchor .deep-anchor-icon {
+  font-size: 0.85em;
+  line-height: 1;
 }
 
 .has-deep-anchor:hover > .deep-anchor,
 .has-deep-anchor:focus-within > .deep-anchor,
 .has-deep-anchor > .deep-anchor:focus,
+.has-deep-anchor > .deep-anchor:hover,
 p.has-deep-anchor:target > .deep-anchor,
 li.has-deep-anchor:target > .deep-anchor {
-  opacity: 0.75;
+  opacity: 0.85;
+  pointer-events: auto;
+  transform: translateX(0);
 }
 
 .has-deep-anchor > .deep-anchor:focus {
   outline: none;
   text-decoration: underline;
+}
+
+@media screen and (max-width: $on-palm) {
+  .has-deep-anchor > .deep-anchor {
+    width: 1.4rem;
+  }
+
+  .has-deep-anchor {
+    padding-right: 2rem;
+  }
 }
 
 .highlight-card {

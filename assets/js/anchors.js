@@ -41,11 +41,13 @@
     anchor.className = "deep-anchor";
     anchor.href = `#${id}`;
     anchor.setAttribute("aria-label", "Link to this section");
-    anchor.textContent = "¶";
+    anchor.setAttribute("title", "Link to this section");
     anchor.tabIndex = -1;
+    anchor.innerHTML = '<span class="deep-anchor-icon" aria-hidden="true">🔗</span>';
 
     element.classList.add("has-deep-anchor");
     element.classList.add("deep-anchor-initialized");
+
     element.appendChild(anchor);
   }
 
