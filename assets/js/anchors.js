@@ -3,6 +3,7 @@
   const globalCounters = {
     para: 1,
     item: 1,
+    head: 1,
   };
 
   function onReady(callback) {
@@ -169,6 +170,16 @@
         return;
       }
       register(li, "item");
+    });
+
+    const headings = container.querySelectorAll(
+      "h1, h2, h3, h4, h5, h6"
+    );
+    headings.forEach((heading) => {
+      if (heading.closest(".footnotes")) {
+        return;
+      }
+      register(heading, "head");
     });
   }
 
