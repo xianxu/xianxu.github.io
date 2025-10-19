@@ -58,6 +58,7 @@
 .has-deep-anchor:focus-within > .deep-anchor,
 .has-deep-anchor > .deep-anchor:focus,
 .has-deep-anchor > .deep-anchor:hover,
+.has-deep-anchor.deep-anchor-active > .deep-anchor,
 p.has-deep-anchor:target > .deep-anchor,
 li.has-deep-anchor:target > .deep-anchor {
   opacity: 0.85;
