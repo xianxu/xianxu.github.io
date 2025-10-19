@@ -54,6 +54,8 @@ kramdown:
   footnote_nr: 1
   footnote_backlink: "&#8617;&#xfe0e;"
   enable_coderay: false
+  auto_ids: true
+  auto_id_stripping: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.

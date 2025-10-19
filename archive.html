@@ -7,14 +7,21 @@ permalink: /archive.html
   Search through all of my posts by tag!
 </div> </br>
 
+<div id="tag-links">
+  {% for tag in site.tags %}
+    {% assign tag_name = tag | first %}
+    <a href="#{{ tag_name }}">#{{ tag_name }}</a>
+    {% unless forloop.last %} | {% endunless %}
+  {% endfor %}
+</div>
+</br>
+
 <div id="tags-list">
 {% for tag in site.tags %}
   {% assign tag_name = tag | first %}
   {% assign tag_name_pretty = tag_name | replace: "_", " " | capitalize %}
   <div class="tag-list">
-    <div id="#{{ tag_name | slugize }}"></div>
-    <h3 class="post-list-heading line-bottom"> In #{{ tag_name }}: </h3>
-    <a name="{{ tag_name | slugize }}"></a>
+    <h3 class="post-list-heading line-bottom" id="{{ tag_name }}"> In <a href="#{{ tag_name }}">#{{ tag_name }}</a>: </h3>
     <ul class="post-list post-list-narrow">
      {% for post in site.tags[tag_name] %}
      <li>
