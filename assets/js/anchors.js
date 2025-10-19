@@ -54,6 +54,8 @@
     }
   }
 
+  const pointerSupported = typeof window !== "undefined" && "PointerEvent" in window;
+
   function appendAnchorLink(element, id) {
     for (let i = 0; i < element.children.length; i += 1) {
       const child = element.children[i];
@@ -79,6 +81,19 @@
 
     element.appendChild(anchor);
 
+    const handleActivation = function (event) {
+      if (anchor.contains(event.target)) {
+        return;
+      }
+
+      const selection = window.getSelection ? window.getSelection() : null;
+      if (selection && selection.toString && selection.toString().length > 0) {
+        return;
+      }
+
+      setActiveAnchorHost(element);
+    };
+
     anchor.addEventListener("focus", function () {
       setActiveAnchorHost(element);
     });
@@ -88,18 +103,23 @@
       setActiveAnchorHost(element);
     });
 
-    element.addEventListener("click", function (event) {
-      if (anchor.contains(event.target)) {
-        return;
-      }
+    if (pointerSupported) {
+      anchor.addEventListener("pointerdown", function (event) {
+        event.stopPropagation();
+        setActiveAnchorHost(element);
+      });
 
-      const selection = window.getSelection ? window.getSelection() : null;
-      if (selection && selection.toString().length > 0) {
-        return;
-      }
+      element.addEventListener("pointerdown", handleActivation);
+    } else {
+      anchor.addEventListener("touchstart", function (event) {
+        event.stopPropagation();
+        setActiveAnchorHost(element);
+      });
 
-      setActiveAnchorHost(element);
-    });
+      element.addEventListener("touchstart", handleActivation);
+    }
+
+    element.addEventListener("click", handleActivation);
   }
 
   function assignAnchors(container) {
@@ -154,6 +174,11 @@
 
   onReady(function () {
     document.addEventListener("click", clearActiveAnchorHost);
+    if (pointerSupported) {
+      document.addEventListener("pointerdown", clearActiveAnchorHost);
+    } else {
+      document.addEventListener("touchstart", clearActiveAnchorHost);
+    }
 
     document.querySelectorAll("[id]").forEach((element) => {
       if (element.id) {
