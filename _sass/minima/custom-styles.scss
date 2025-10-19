@@ -14,6 +14,41 @@
   }
 }
 
+.has-deep-anchor {
+  position: relative;
+}
+
+.has-deep-anchor > .deep-anchor {
+  position: absolute;
+  top: 0.1rem;
+  font-size: 0.85em;
+  text-decoration: none;
+  color: lighten($text-color, 25%);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+p.has-deep-anchor > .deep-anchor {
+  left: -1.6rem;
+}
+
+li.has-deep-anchor > .deep-anchor {
+  left: -2.2rem;
+}
+
+.has-deep-anchor:hover > .deep-anchor,
+.has-deep-anchor:focus-within > .deep-anchor,
+.has-deep-anchor > .deep-anchor:focus,
+p.has-deep-anchor:target > .deep-anchor,
+li.has-deep-anchor:target > .deep-anchor {
+  opacity: 0.75;
+}
+
+.has-deep-anchor > .deep-anchor:focus {
+  outline: none;
+  text-decoration: underline;
+}
+
 .highlight-card {
   border: 1px solid $border-color-01;
   border-radius: 8px;
