@@ -17,7 +17,7 @@
 // Inline deep-link anchors appended by anchors.js
 .has-deep-anchor {
   position: relative;
-  padding-right: 2.5rem;
+  padding-right: 2.2rem;
 }
 
 .has-deep-anchor > .deep-anchor {
@@ -25,7 +25,7 @@
   top: 0;
   bottom: 0;
   right: 0;
-  width: 1.75rem;
+  width: 1.6rem;
   min-height: 1.4rem;
   display: flex;
   flex-direction: column;
@@ -73,31 +73,11 @@ li.has-deep-anchor:target > .deep-anchor {
 
 @media screen and (max-width: $on-palm) {
   .has-deep-anchor > .deep-anchor {
-    width: 1.4rem;
+    width: 1.25rem;
   }
 
   .has-deep-anchor {
-    padding-right: 2rem;
-  }
-
-  li.has-deep-anchor {
-    padding-right: 2rem;
-  }
-
-  li.has-deep-anchor > .deep-anchor {
-    position: relative;
-    inset: auto;
-    margin-left: 0;
-    transform: translateX(0);
-    width: auto;
-    align-items: flex-end;
-    flex-direction: row;
-    gap: 0.25rem;
-    padding-top: 0;
-  }
-
-  li.has-deep-anchor > .deep-anchor::after {
-    display: none;
+    padding-right: 1.8rem;
   }
 }
 
