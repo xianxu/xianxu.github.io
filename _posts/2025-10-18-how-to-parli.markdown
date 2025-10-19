@@ -38,11 +38,13 @@ For example, mentioning Iraq and Afghanistan war after 911, elicit the common fa
 
 ## What I Hope the Kids Learn
 
-1. Understand current and recent events more deeply and critically (you argue on both sides after all). Hope this makes social science, civics, ethics study funner. 
+1. Understand contemporary events more deeply and critically (you argue on both sides after all). Hope this makes social science, civics/ethic study funner. 
 
-2. Learn to speak in public. 
+2. Learn to speak in public more confidently and persuasively. 
 
-3. Learn to construct a consistent logical systems surrounding an issue, which is a skill that will benefit you for life.
+3. Learn to be serious. I like them dressing up for debates. 
+
+4. Learn to construct a consistent logical systems surrounding an issue, which is a skill that will benefit you for life. 
 
 
 [^this-house]: "This House" is a traditional term used in parliamentary debates to refer to the debating chamber itself, symbolizing the collective body of members who participate in discussions and decision-making. This House includes both the government, and surprise, the opposition as well.
