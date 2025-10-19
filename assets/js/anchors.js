@@ -4,6 +4,7 @@
     para: 1,
     item: 1,
     head: 1,
+    foot: 1,
   };
 
   function onReady(callback) {
@@ -167,6 +168,7 @@
     const listItems = container.querySelectorAll("li");
     listItems.forEach((li) => {
       if (li.closest(".footnotes")) {
+        register(li, "foot");
         return;
       }
       register(li, "item");
