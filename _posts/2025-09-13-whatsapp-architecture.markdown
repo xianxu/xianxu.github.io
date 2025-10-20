@@ -7,7 +7,7 @@ comments: true
 highlight: true
 ---
 
-This is a counterpart to [WhatsApp Culture](https://xianxu.github.io/2025/04/18/culture-wa.html). Here, I introduce how WhatsApp works. WhatsApp, for the longest time, took a contrarian approach: 1\) finding the biggest machine; 2\) emphasis on raw efficiency; 3\) relying on semi-manual operation posture. It was an eye-opening experience for me as they basically bucked the canons in the "Cloud Computing" and charted their own path. They proved it working and operated the worlds largest messaging system reliably with a tiny team. 
+This is a counterpart to [WhatsApp Culture]({% post_url 2025-02-27-culture-wa %}). Here, I introduce how WhatsApp works. WhatsApp, for the longest time, took a contrarian approach: 1\) finding the biggest machine; 2\) emphasis on raw efficiency; 3\) relying on semi-manual operation posture. It was an eye-opening experience for me as they basically bucked the canons in the "Cloud Computing" and charted their own path. They proved it working and operated the worlds largest messaging system reliably with a tiny team. 
 
 
 ## The Founding Story 
