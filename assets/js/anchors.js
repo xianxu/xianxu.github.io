@@ -183,6 +183,58 @@
       }
       register(heading, "head");
     });
+
+    const codeBlocks = container.querySelectorAll(
+      "figure.highlight, div.highlighter-rouge, pre.highlight"
+    );
+    codeBlocks.forEach((block) => {
+      const host =
+        block.closest("figure.highlight") ||
+        block.closest("div.highlighter-rouge") ||
+        block;
+      register(host, "code");
+    });
+
+    const mathScripts = container.querySelectorAll('script[type^="math/tex"]');
+    mathScripts.forEach((script) => {
+      if (!script.type || !/mode=display/i.test(script.type)) {
+        return;
+      }
+
+      if (script.closest(".has-deep-anchor")) {
+        return;
+      }
+
+      let host = script.parentElement;
+      if (!host || host === container) {
+        host = document.createElement("div");
+        host.className = "math-block";
+        script.parentNode.insertBefore(host, script);
+        host.appendChild(script);
+      } else if (!host.classList.contains("math-block")) {
+        const wrapper = document.createElement("div");
+        wrapper.className = "math-block";
+        host.insertBefore(wrapper, script);
+        wrapper.appendChild(script);
+        host = wrapper;
+      }
+
+      register(host, "math");
+    });
+
+    const mathContainers = container.querySelectorAll("mjx-container");
+    mathContainers.forEach((mjx) => {
+      const displayAttr = mjx.getAttribute("display");
+      if (displayAttr && displayAttr !== "block" && displayAttr !== "true") {
+        return;
+      }
+
+      if (!displayAttr && mjx.style.display && mjx.style.display !== "block") {
+        return;
+      }
+
+      register(mjx, "math");
+    });
   }
 
   onReady(function () {
@@ -200,6 +252,40 @@
     });
 
     document.querySelectorAll(".post-content").forEach(assignAnchors);
+
+    function scheduleMathAnchors() {
+      const contents = document.querySelectorAll(".post-content");
+      contents.forEach(assignAnchors);
+    }
+
+    function waitForMathJax() {
+      if (
+        window.MathJax &&
+        window.MathJax.startup &&
+        window.MathJax.startup.promise
+      ) {
+        window.MathJax.startup.promise
+          .then(function () {
+            scheduleMathAnchors();
+          })
+          .catch(function () {
+            scheduleMathAnchors();
+          });
+        return true;
+      }
+      return false;
+    }
+
+    if (!waitForMathJax()) {
+      let attempts = 0;
+      const maxAttempts = 20;
+      const poll = window.setInterval(function () {
+        attempts += 1;
+        if (waitForMathJax() || attempts >= maxAttempts) {
+          window.clearInterval(poll);
+        }
+      }, 250);
+    }
 
     if (window.location.hash) {
       const target = document.getElementById(

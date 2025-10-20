@@ -71,6 +71,11 @@ li.has-deep-anchor:target > .deep-anchor {
   text-decoration: underline;
 }
 
+.math-block.has-deep-anchor,
+mjx-container.has-deep-anchor {
+  display: block;
+}
+
 @media screen and (max-width: $on-palm) {
   .has-deep-anchor > .deep-anchor {
     width: 1.25rem;
