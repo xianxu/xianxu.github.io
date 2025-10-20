@@ -14,7 +14,7 @@ Here's how to use GitHub to manage multiple blogs with separate identities. I ho
 
 After following the instructions here, you will get:
 
-* Free blog hosting service backed by GitHub Pages that supports the Markdown format, with good formatting support for `code` and <span>$math$</spam>.
+* Free blog hosting service backed by GitHub Pages that supports the Markdown format, with good formatting support for `code` and <span>$math$</span>.
 * Private repo where you can have your private unpublished drafts or other things. There is a folder representing all published posts, so when you are ready, copy the markdown file to that folder and run a script.
 * You can manage multiple blogs with different identities this way, but share a single private where you tinker. The private repo aspect is important for me, as I often update my draft several times before it's ready to be published.
 
