@@ -10,25 +10,27 @@ If you, like me, have decided that this is a good time to start blogging, the ne
 
 Here's how to use GitHub to manage multiple blogs with separate identities. I hope to get the tinkering part out of your way so you can focus on writing. By *you*, I also meant my future self.
 
-# TL;DR
+## TL;DR
 
 After following the instructions here, you will get:
 
-* Free blog hosting service backed by GitHub Pages that supports the Markdown format, with good formatting support for `code` and '`math. '
+* Free blog hosting service backed by GitHub Pages that supports the Markdown format, with good formatting support for `code` and <span>$math$</spam>.
 * Private repo where you can have your private unpublished drafts or other things. There is a folder representing all published posts, so when you are ready, copy the markdown file to that folder and run a script.
 * You can manage multiple blogs with different identities this way, but share a single private where you tinker. The private repo aspect is important for me, as I often update my draft several times before it's ready to be published.
 
-# 0/ Sketches of what we are doing
+## 0/ Sketches of what we are doing
 
 We want to create `1/` a private repo, where you can draft without prying eyes. `2/` a public repo to host your blog, from where GitHub manages hosting and publishing. And `3/` a script is used to publish the from your private repo to the public repo.
 
-# 1/ Create a private repo for your private stuff
+## 1/ Create a private repo for your private stuff
 
 Nothing special, but if you are brand new, check out [GitHub's tutorial](https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories) on it.
 
-# 2/ Create a public GitHub repo for your blog
+## 2/ Create a public GitHub repo for your blog
 
-Note that to keep your authorship private, you must pay attention to using a GitHub account that is not easily traceable to your real identity. After that, create a public repo with the name following some rules. For example, for the account `username`, if you use `username.github.io` as the repo name, then the blog, when online, can be accessed with `https://username.github.io`. Pretty neat.
+Note that to keep your authorship private, you must pay attention to using a GitHub account that is not easily traceable to your real identity. See [4/ And One More Thing: Keep Things Private](#4-and-one-more-thing-keep-things-private) for more details.
+
+After that, create a public repo with the name following some rules. For example, for the account `username`, if you use `username.github.io` as the repo name, then the blog, when online, can be accessed with `https://username.github.io`. Pretty neat.
 
 A single account `username` can have multiple blogs. Just that a single can be addressed as `https://username.github.io`. The others: `https://username.github.io/reponame`. There's that.
 
@@ -44,7 +46,7 @@ Locally, you can take a preview of what it looks like. You can use any Markdown 
 
 You can use `bundle exec jekyll serve` to start a static website locally so you can see the effect of your changes. Before that, you need to run `bundle install` to ensure necessary local dependencies are installed.
 
-# 3/ Using a private repo as a staging area
+## 3/ Using a private repo as a staging area
 
 OK, so by now, you have a blog website up. If you want to hide some part of the blog from the public, let's say during writing, you can pick any private repo and create a folder with the following structures.
 
@@ -53,7 +55,7 @@ OK, so by now, you have a blog website up. If you want to hide some part of the 
 blogs/
   username.github.io/
     publish.sh
-    _posts/
+    posts/
       2025-01-01-your-post.markdown
       ...
     draft/
@@ -81,16 +83,19 @@ rm -rf $CLONE_DIR
 git clone --depth=1 $PUBLIC_REPO $CLONE_DIR
 
 # Copy only _posts/ from private repo
-rsync -av --delete _posts/ $CLONE_DIR/_posts/
+rsync -av --delete posts/ $CLONE_DIR/_posts/
+rsync -av --delete images/ $CLONE_DIR/assets/images/
+rsync -av --delete static/ $CLONE_DIR/assets/static/
 
 # Commit and push changes
 cd $CLONE_DIR
 
-git config user.name "USERNAME"
-git config user.email "USEREMAIL"
+git config user.name "Xian Xu"               # use a secret name
+git config user.email "xianxu@gmail.com"     # use a secret email
 
 git add _posts/
-git commit -m "Sync latest _posts from private repo" || echo "No changes to commit"
+git add assets/
+git commit -m "Sync posts from remote land" || echo "Nothing to commit"
 git push origin main
 
 # Cleanup
@@ -100,7 +105,7 @@ rm -rf $CLONE_DIR
 echo "Sync complete!"
 ```
 
-# 4/ And One More Thing: Keep Things Private
+## 4/ And One More Thing: Keep Things Private
 
 To really keep things private, you will need to make sure your identity used for your *secret* yet public blog is not traced back to your real identity or your private repo. At least not easily traceable. To do that, here is something to think about:
 
