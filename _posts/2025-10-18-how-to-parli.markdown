@@ -6,7 +6,7 @@ tags: life parli
 comments: true
 ---
 
-People who know me, likely would know I like debates. After all, I'm the guy who listen to Supreme Court [oral arguments](https://www.supremecourt.gov/oral_arguments/argument_transcript/) for fun and [write about them](https://xianxu.github.io/archive.html#law).
+People who know me, likely would know I like debates. After all, I'm the guy who listen to Supreme Court [oral arguments](https://www.supremecourt.gov/oral_arguments/argument_transcript/) for fun and [write about them](archive.html#law).
 
 This weekend, I served as a judge in a high school parliamentary debate tournament, as my young high schooner was participating. It's a very fun experience, though quickly, I got more interested into the structure of the format, and can't help but pondering how to really help those young debaters, to focus on learning. Here are some thoughts.
 
