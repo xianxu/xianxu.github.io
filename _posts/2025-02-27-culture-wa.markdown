@@ -53,4 +53,4 @@ If we look at WhatsApp's competitors, both inside and outside Facebook, such as 
 
 As I embark on a new journey in startup world, I wrote this down as a reminder to keep things real. **Keep it Simple, and Stay Focused**. Until the next time when I will talk about Facebook culture. 
 
-[^wa-system]: Read more about [WhatsApp Architecture](2025-09-13-whatsapp-architecture.markdown).
+[^wa-system]: Read more about [WhatsApp Architecture](./2025-02-27-culture-wa.markdown)
