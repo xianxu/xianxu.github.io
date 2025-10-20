@@ -124,6 +124,26 @@
     element.addEventListener("click", handleActivation);
   }
 
+  function isSingleLineCodeBlock(host) {
+    if (!host) {
+      return false;
+    }
+
+    const codeElement = host.querySelector("code");
+    if (!codeElement) {
+      return false;
+    }
+
+    const text = codeElement.textContent || "";
+    const normalized = text.replace(/\r\n/g, "\n").trim();
+
+    if (!normalized) {
+      return true;
+    }
+
+    return !normalized.includes("\n");
+  }
+
   function assignAnchors(container) {
     function register(element, prefix) {
       if (!element) {
@@ -192,6 +212,11 @@
         block.closest("figure.highlight") ||
         block.closest("div.highlighter-rouge") ||
         block;
+
+      if (isSingleLineCodeBlock(host)) {
+        return;
+      }
+
       register(host, "code");
     });
 
@@ -218,8 +243,6 @@
         wrapper.appendChild(script);
         host = wrapper;
       }
-
-      register(host, "math");
     });
 
     const mathContainers = container.querySelectorAll("mjx-container");
@@ -232,8 +255,6 @@
       if (!displayAttr && mjx.style.display && mjx.style.display !== "block") {
         return;
       }
-
-      register(mjx, "math");
     });
   }
 
