@@ -2,6 +2,7 @@
 layout: post
 title:  "Joining NexHealth: A New Chapter in My Career"
 date:   2025-05-28
+permalink: /p/nexhealth
 tags: tech nexhealth
 highlight: true
 comments: true
