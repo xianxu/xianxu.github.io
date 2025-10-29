@@ -69,8 +69,8 @@ Being old-fashioned, I always want simplicity and speed. That's why I use the te
     7. Or just use `brew bundle --file=~/settings/Brewfile` to recover brew state.
 6. Install other Mac Apps
     1. `ChatGPT`, `Chrome`, `Edge`, `VimR`, `WhatsApp`, `Grammerly`, `Zettlr`
-    2. Chrome plugins: `Grammarly`, `Save Pinned Tabs`, `Switch between recent tabs (MRU tabs switch)`, `Video DownloadHelper`.
-    3. Safari plugins: `Grammarly`, `TabBack`. 
+    2. Chrome plugins: `Grammarly`, `Save Pinned Tabs`, `Quick Tab Switch`, `Video DownloadHelper`.
+    3. Safari plugins: `Grammarly` (Spelling and syntax check everywhere), `TabBack` (Jump back and forth between two most recently used tabs, similar to Chrome's Switch between recent tabs (MRU tabs switch, and I bind to same key `option+q`). 
     4. Some small utilities: `Horo` (timer), `Quick View Calendar` for dates, `Magnet` for window control.
 7. Other settings
     1. Some shortcuts from ~ to usual locations

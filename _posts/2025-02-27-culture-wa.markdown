@@ -7,7 +7,7 @@ highlight: true
 comments: false
 ---
 		
-I have been fortunate to work for WhatsApp and have always wanted to write about its distinctive culture and the differences between it and its parent company, Facebook/Meta. In another post, I shall discuss Facebook culture, more precisely, the Facebook of then and the Meta of now. As you have probably guessed, the six years I worked at WhatsApp were my happiest days during my tenure at Facebook/Meta.
+I have been fortunate to work for WhatsApp and have always wanted to write about its distinctive culture and the differences between it and its parent company, Facebook/Meta. In [another post]({% post_url 2025-05-02-facebook-move-on %}), I shall discuss Facebook culture, more precisely, the Facebook of then and the Meta of now. As you have probably guessed, the six years I worked at WhatsApp were my happiest days during my tenure at Facebook/Meta.
 
 So, what do I remember most about WhatsApp? Their motto: **Keep it Simple** and **The F word is Focus**. 
 
