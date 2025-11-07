@@ -68,7 +68,7 @@ And there was discussion around defunct practice of legislative veto, where one 
 
 There is an argument that emergency powers are inherently broad, as in the emergency situation, you want to give the executive branch enough power to address emergency. On the other hand, emergencies begets emergencies, someone lamented before. As a result, the statute for emergency power tend to be broad, but constrained in other ways, such as limited in time (150 days), in intensity (10% tariff), for example, in Trade Expansion Act.
 
-## In The Court Roo
+## In The Court Room
 
 Fireworks began from the very beginning. Every justice piled on the solicitor general with questions, showing their skepticism. 
 
@@ -78,6 +78,7 @@ The solicitor general Sauer knows how to twist words, and put on an impressive s
 
 ## My Prediction
 
-I think the court will rule against the administration, by a near unanimous vote, if not unanimous vote. There are just too many avenues for each justices to find a path to arrive at that conclusion. I think they would probably only provide prospective relief for non-parties to the suits, as to not to be too disruptive to the existing tariff regime.
+1. I think the court will rule against the administration, by a near unanimous vote, if not unanimous vote. There are just too many avenues for each justices to find a path to arrive at that conclusion.
+2. I think they would probably only provide prospective relief for non-parties to the suits, as to not to be too disruptive to the existing tariff regime.
 
 [^IEEPA]: Congressional Report: The International Emergency Economic Powers Act: Origins, Evolution, and Use, [link](https://www.congress.gov/crs-product/R45618)
