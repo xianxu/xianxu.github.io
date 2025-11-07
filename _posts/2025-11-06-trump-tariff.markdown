@@ -22,7 +22,7 @@ This doctrine asserts that Congress cannot delegate its core powers to the execu
 
 The question in this particular case is whether the statutes granting tariff authority to the president provides sufficient guidance. And in this case, "regulate importation" is about the only thing you can find, and thus can't be considered an intelligible guidance in my opinion.
  
-## The IEEPA (International Emergency Economic Powers Act) and the TWEA (Trade With Enemy Act) Before It
+## IEEPA and TWEA
 
 The question at the center of this controversy, is the IEEPA (International Emergency Economic Powers Act), and as a legislative history, the TWEA (Trade With Enemy Act) before it. Basically, TWEA was enacted during World War I to give the president broad authority to regulate trade with enemy nations. Being a wartime measure, it's extremely broad, allowing president to do pretty much anything when it comes to trade relationship with enemy nations and their nationals. It was subsequently expanded to cover other national emergency during the New Deal era, to any emergencies so declared by the president, and FDR used it (well, it was created for FDR) to close banks and ban gold hoarding in 1933. By the time of Nixon, US had been technically in emergencies continuously for over 40 years[^IEEPA]. So Congress finally decided in 1977, enough is enough, and enacted IEEPA to limit the president's emergency trade powers. 
 
