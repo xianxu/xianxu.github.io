@@ -30,4 +30,10 @@
       </div>
     </nav>
   </div>
+
+  {% unless page.hide_tag_bar %}
+    <div class="wrapper tag-bar-container">
+      {%- include tag-bar.html -%}
+    </div>
+  {% endunless %}
 </header>
