@@ -1,7 +1,6 @@
 {% assign all_tags = site.tags | sort %}
 {% if all_tags and all_tags != empty %}
 <div class="site-tag-bar" role="navigation" aria-label="Blog tags">
-  <span class="site-tag-bar-label">Tags:</span>
   <div class="site-tag-bar-links">
     {% for tag in all_tags %}
       {% assign tag_name = tag | first %}
