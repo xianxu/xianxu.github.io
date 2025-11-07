@@ -2,7 +2,7 @@
 layout: post
 title:  "How to Parli"
 date:   2025-10-18
-tags: life parli 
+tags: life
 comments: true
 ---
 
