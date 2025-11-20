@@ -20,7 +20,10 @@ This isn’t a pipe dream. At [NexHealth](https://www.nexhealth.com/), we’ve a
 
 **Step Two**: Open up this data connectivity to healthcare innovators. We provide the integration infrastructure so they can focus on building the next generation of healthcare products. That’s our API platform, and it’s gaining serious traction.
 
-**Step Three**: Continue integrating with more EHRs until we become the platform for healthcare data. On top of that platform, we’ll enable a marketplace of ideas powered by fully synchronized, well-organized healthcare data.
+**Step Three**: Continue integrating with more EHRs until we become the platform for healthcare data. On top of that platform, we’ll enable a marketplace of ideas powered by fully synchronized, well-organized healthcare data, to the benefit of everyone in the ecosystem:
+* the doctors having a large selection of apps to help all aspects of patient care and running their business.
+* the app developers having access to the whole healthcare industry.
+* and the patients having full control over their healthcare data, no matter where they get care.
 
 It’s a bold vision, and hard as hell to pull off. But that’s what makes it worth doing.
 
