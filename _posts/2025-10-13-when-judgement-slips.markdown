@@ -12,11 +12,10 @@ To me, it's when decisions are driven by emotional reactions that cloud objectiv
 
 Some signals I have noticed in my earlier self and in others:
 
-1. You tell yourself it’s not your job to help; you assume the other person should already have it figured out.
-2. You dwell on points that are either not actionable or have limited impact.
-3. You get pulled into abstract debates about principles or philosophies that sound foolproof but don’t resolve the actual disagreement.
-4. You critique someone’s proposal before understanding their goal, skipping the question: how can I help them accomplish it?
-5. You feel a stronger urge to be heard than to hear.
+1. You dwell on points that are either not actionable or have limited impact.
+2. You get pulled into abstract debates about principles or philosophies that sound foolproof but don’t resolve the actual disagreement.
+3. You critique someone’s proposal before understanding their goal, skipping the question: how can I help them accomplish it?
+4. You feel a stronger urge to be heard than to hear.
 
 How do we guard against that tendency?
 
