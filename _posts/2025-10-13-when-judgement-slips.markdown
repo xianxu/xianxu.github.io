@@ -26,7 +26,7 @@ How do we guard against that tendency?
 
 And one more thing, a universal trick: be the first to be vulnerable; that's often the fastest way to build trust.
 
-[^high-impact-leadership]: In *High Output Management*, Andrew Grove argued that in tech companies, people with the knowledge and experience to make high-impact decisions naturally take on leadership roles. Leadership is not limited to people managers; senior engineers, architects, and product managers often lead because they make high-impact decisions.
+[^high-impact-leadership]: In **[High Output Management](https://www.amazon.com/High-Output-Management-Andrew-Grove/dp/0679762884/)**, Andrew Grove argued that in tech companies, people with the knowledge and experience to make high-impact decisions naturally take on leadership roles. Leadership is not limited to people managers; senior engineers, architects, and product managers often lead because they make high-impact decisions.
 
-[^right-a-lot]: “Being Right A Lot” is one of Amazon’s Leadership Principles.
+[^right-a-lot]: “Being Right A Lot” is one of [Amazon’s Leadership Principles](https://www.amazon.jobs/content/en/our-workplace/leadership-principles).
 
