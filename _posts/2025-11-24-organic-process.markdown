@@ -12,6 +12,8 @@ There is always a cost to running a process, and there are benefits you hope to 
 
 A few questions might help guide the evaluation. Before we dive in, let's define process here as manual repeatable steps that a team follows.
 
+---
+
 #### 1. Is there a clear goal for the process?
 
 Surprisingly often there isn’t. Sometimes the motivation is vague: "more consistency", "more accountability", "more visibility". Without a well-articulated outcome, it’s hard to judge anything that follows.
@@ -43,6 +45,8 @@ Processes rarely die on their own. Over time, the purpose fades and the ritual r
 #### 8. And ask: how many processes are already in place?
 
 Teams only have so much cognitive bandwidth. A process you introduce competes with every other process people are already following. This is especially true for those that are inorganic.
+
+---
 
 After thinking through these, you might notice that introducing a new process is often more costly than it first appears. And that there are usually lighter-weight alternatives that achieve similar ends with less overhead. This isn’t an argument against process in general. Well-designed processes absolutely have their place. It’s more a reminder to be a bit more mindful about when and how we introduce them.
 
