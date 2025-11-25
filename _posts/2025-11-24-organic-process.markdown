@@ -12,35 +12,35 @@ There is always a cost to running a process, and there are benefits you hope to 
 
 A few questions might help guide the evaluation. Before we dive in, let's define process here as manual repeatable steps that a team follows.
 
-### 1. Is there a clear goal for the process?
+#### 1. Is there a clear goal for the process?
 
 Surprisingly often there isn’t. Sometimes the motivation is vague: "more consistency", "more accountability", "more visibility". Without a well-articulated outcome, it’s hard to judge anything that follows.
 
-### 2. If there is a goal, is it measurable?
+#### 2. If there is a goal, is it measurable?
 
 It's hard to improve on things that you can't measure. Be wary of being overly generous toward whatever we put effort into.
 
-### 3. If the goal is measurable, can this process meaningfully influence it?
+#### 3. If the goal is measurable, can this process meaningfully influence it?
 
 Processes rarely work in isolation. They often work much better as part of larger initiatives. Is this new process part of a larger initiative? 
 
-### 4. Are there existing mechanisms that already move toward that goal?
+#### 4. Are there existing mechanisms that already move toward that goal?
 
 Maybe we’re better off adjusting something we already do, rather than creating something new. And those mechanisms don't need to be processes. 
 
-### 5. Who is actually going to run it?
+#### 5. Who is actually going to run it?
 
 Do they have the time, the capability, and the authority to keep it going? 
 
-### 6. Will the team naturally adopt it, or will it require constant reminding?
+#### 6. Will the team naturally adopt it, or will it require constant reminding?
 
 A process that needs ongoing enforcement is expensive to maintain. It's often more effective to identify how people work and make small adjustments. 
 
-### 7. Does the process have an end, or is it effectively perpetual?
+#### 7. Does the process have an end, or is it effectively perpetual?
 
 Processes rarely die on their own. Over time, the purpose fades and the ritual remains. Like alerts, they’re easy to create and surprisingly hard to decommission. 
 
-### 8. And ask: how many processes are already in place?
+#### 8. And ask: how many processes are already in place?
 
 Teams only have so much cognitive bandwidth. A process you introduce competes with every other process people are already following. This is especially true for those that are inorganic.
 
