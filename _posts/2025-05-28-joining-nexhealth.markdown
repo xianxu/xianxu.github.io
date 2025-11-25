@@ -18,12 +18,12 @@ This isn’t a pipe dream. At [NexHealth](https://www.nexhealth.com/), we’ve a
 
 **Step One**: Connect enough EHRs in a single healthcare vertical to reach critical mass and create a thriving SaaS product that delivers real value to doctors. We’ve done this in the dental space and are now rapidly expanding into other elective care verticals.
 
-**Step Two**: Open up this data connectivity to healthcare innovators. We provide the integration infrastructure so they can focus on building the next generation of healthcare products. That’s our API platform, and it’s gaining serious traction.
+**Step Two**: Open up this data connectivity to healthcare innovators, think of companies behind AI receptionist and new kinds of healthcare insurance product. We provide the integration infrastructure so they can focus on building the next generation of healthcare products and business models. That’s our API platform, and it’s gaining serious traction, signing up ever larger customers. 
 
-**Step Three**: Continue integrating with more EHRs until we become the platform for healthcare data. On top of that platform, we’ll enable a marketplace of ideas powered by fully synchronized, well-organized healthcare data, to the benefit of everyone in the ecosystem:
-* the doctors having a large selection of apps to help all aspects of patient care and running their business.
-* the app developers having access to the whole healthcare industry.
-* and the patients having full control over their healthcare data, no matter where they get care.
+**Step Three**: Continue integrating with more EHRs and attracting more developers to build on top of NexHealth, it's a virtuous cycle. On top of that platform, we’ll enable a marketplace powered by fully synchronized, well-organized healthcare data, to the benefit of everyone in the ecosystem:
+* the doctors having an ever larger selection of apps to help all aspects of patient care and running their business.
+* the app developers having access to ever larger amount of doctors and patients to scale their products.
+* the patients having full control over their healthcare data, wherever they need them, no matter where they receive care. 
 
 It’s a bold vision, and hard as hell to pull off. But that’s what makes it worth doing.
 
