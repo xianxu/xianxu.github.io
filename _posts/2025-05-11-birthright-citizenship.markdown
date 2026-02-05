@@ -2,7 +2,7 @@
 layout: post
 title:  "Birthright Citizenship"
 date:   2025-05-11
-tags: law philosophy 
+tags: law 
 comments: true
 ---
 
