@@ -2,7 +2,7 @@
 layout: post
 title:  "Data vs. Anecdotes: Which to Trust?"
 date:   2026-02-04
-tags: placeholder 
+tags: philosophy 
 comments: true
 ---
 
