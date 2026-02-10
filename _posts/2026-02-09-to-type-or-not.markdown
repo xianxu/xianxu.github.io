@@ -24,3 +24,4 @@ P.S. As a programming language enthusiast, of course I want to design a perfect 
 - optional-by-default
 - strict Option[T]
 - open enums
+- algebraic data types + functions
