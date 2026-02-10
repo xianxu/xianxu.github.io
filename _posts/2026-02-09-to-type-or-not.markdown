@@ -18,10 +18,9 @@ You may then ask: why do we do types at all? I think the answer is mostly histor
 
 So, a piece of advice for startups? Don’t get too hung up on type checks in programming languages. Avoid micro-services. Focus on the business. Use a duck-typed language early on. If you are wildly successful, you will have the billions of dollars to hire people to rewrite some core components in typed languages, once your understanding of the domain stabilizes. You will have understood the proper service boundaries in time. 
 
-P.S. As a programming language enthusiast, of course I want to design a perfect industrial programming language! And here’s my wish list. I believe such a language would avoid the pitfalls mentioned above. 
+P.S. As a programming language enthusiast, of course I want to design a perfect industrial programming language! And here’s my wish list.
 
 - structural typing
 - optional-by-default
 - strict Option[T]
 - open enums
-- type classes
