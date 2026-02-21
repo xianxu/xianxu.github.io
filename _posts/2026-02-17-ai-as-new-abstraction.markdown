@@ -24,4 +24,6 @@ The second category covers much of today’s white-collar work. Within this cate
 
 What are the implications for today’s SaaS companies? They can apply the above framing and start investing in AI to mitigate the risk of disruption. Incumbents still retain the advantage of deep domain understanding, but if a domain is profitable enough, a competitor will eventually emerge that approaches the problem very differently in an AI-first fashion. The relevant question is not whether to adopt AI, but whether any durable moat remains once development costs collapse and profitable domains inevitably attract AI-first competitors.
 
+And one more thing, just like the advances in faster CPU in the early 2000s was consumed by all the JavaScript and CSS of the world wide web, LLM tokens are going to chew up GPUs for breakfast! There are at least two kinds of token usages, the one using LLM to write code and the one to directly use LLM to solve business problems. The first is much more scalable than the second and likely much easier to ground. 
+
 [^supervised] here we glance through the whole area of traditional unsupervised learning setup. 
