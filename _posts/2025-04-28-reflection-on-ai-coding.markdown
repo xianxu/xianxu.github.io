@@ -2,7 +2,7 @@
 layout: post
 title:  "Reflecting on AI Coding"
 date:   2025-04-29
-tags: tech 
+tags: tech AI
 comments: true
 ---
 
