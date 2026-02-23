@@ -26,4 +26,4 @@ What are the implications for today’s SaaS companies? They can apply the above
 
 And one more thing, just like the advances in faster CPU in the early 2000s was consumed by all the JavaScript and CSS of the world wide web, LLM tokens are going to chew up GPUs for breakfast! There are at least two kinds of token usages, the one using LLM to write code and the one to directly use LLM to solve business problems. The first is much more scalable than the second and probably easier to ground. 
 
-[^supervised]: here we glance through the whole area of traditional unsupervised learning setup. 
+[^supervised]: here we skip the whole area of traditional unsupervised learning setup, I found those classic approaches there less interesting.
