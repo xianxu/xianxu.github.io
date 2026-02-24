@@ -6,7 +6,7 @@ tags: tech AI
 comments: true
 ---
 
-I have some time switching jobs, so I picked up AI coding tools and worked on a real project. The journey was a bit fortuitous but a pretty interesting and revealing experience. Here's my recount of it. Am I a Prompt Engineer now? Am I an AI engineer now? ¯\_(ツ)_/¯
+I have some time switching jobs, so I picked up AI coding tools and worked on a real project. The journey was a bit fortuitous but a pretty interesting and revealing experience. Here's my recount of it. Am I a Prompt Engineer now? Am I an AI engineer now? ¯\\_(ツ)_/¯
 
 ## About Me
 
