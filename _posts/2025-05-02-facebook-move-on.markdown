@@ -2,7 +2,7 @@
 layout: post
 title:  "Moving On [Meta]"
 date:   2025-05-04
-tags: life philosophy 
+tags: life philosophy tech
 highlight: true
 comments: true
 ---

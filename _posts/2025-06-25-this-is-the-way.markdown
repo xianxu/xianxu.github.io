@@ -3,7 +3,7 @@ layout: post
 title:  "This is the Way"
 date:   2025-09-24
 permalink: /p/the-way
-tags:   tech philosophy nexhealth
+tags:   tech nexhealth
 comments: false
 ---
 

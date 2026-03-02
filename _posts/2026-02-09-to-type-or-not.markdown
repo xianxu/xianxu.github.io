@@ -2,7 +2,7 @@
 layout: post
 title:  "To Type or Not to Type"
 date:   2026-02-09
-tags: philosophy tech 
+tags: tech 
 comments: true
 ---
 
