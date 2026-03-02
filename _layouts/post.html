@@ -29,7 +29,7 @@ layout: base
       {%- if page.tags -%}
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         {% for tag in page.tags %}
-            <a href="{{site.baseurl}}/archive.html#{{tag | slugize}}">
+            <a href="{{site.baseurl}}/tag-{{tag | downcase}}.html">
                 #{{ tag }}
             </a>
         {% endfor %}

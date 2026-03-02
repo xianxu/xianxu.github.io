@@ -4,7 +4,7 @@
   <div class="site-tag-bar-links">
     {% for tag in all_tags %}
       {% assign tag_name = tag | first %}
-      <a class="site-tag-link" href="{{ '/archive.html#' | append: tag_name | relative_url }}">#{{ tag_name }}</a>
+      <a class="site-tag-link" href="{{ '/tag-' | append: tag_name | downcase | append: '.html' | relative_url }}">#{{ tag_name }}</a>
       {% unless forloop.last %}
         <span aria-hidden="true" class="site-tag-separator">·</span>
       {% endunless %}
