@@ -35,9 +35,9 @@ Over 2 days, I pretty much reorganized and rewrote the entire code base with abo
 
 Several of my original hunch still hold up.
 
-* It's very important to [ground LLM to reality](https://xianxu.github.io/2025/04/29/reflection-on-ai-coding.html#item-maybe-what-humans-can-do-is-ground-llms-in-reali).
-* It's very important to have [more and faster tests](https://xianxu.github.io/2025/05/14/ai-coding-take-2.html#item-llms-need-to-be-grounded-and-exposing-more-tests).
-* And AI assisted development going to become [new software development discipline](https://xianxu.github.io/2025/05/14/ai-coding-take-2.html#item-in-the-end-i-suspect-enabling-ai-in-the-software)
+1. It's very important to [ground LLM to reality](https://xianxu.github.io/2025/04/29/reflection-on-ai-coding.html#item-maybe-what-humans-can-do-is-ground-llms-in-reali).
+2. It's very important to have [more and faster tests](https://xianxu.github.io/2025/05/14/ai-coding-take-2.html#item-llms-need-to-be-grounded-and-exposing-more-tests).
+3. And AI assisted development going to become [new software development discipline](https://xianxu.github.io/2025/05/14/ai-coding-take-2.html#item-in-the-end-i-suspect-enabling-ai-in-the-software)
 
 Immediate implications to the industry? 
 
