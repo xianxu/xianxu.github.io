@@ -12,10 +12,10 @@ Previously, I wrote about my understanding of current AI wave as [a new abstract
 
 This weekend, I picked up the latest generation of agentic coding tools, to tinker on my personal project [parley.nvim](https://github.com/xianxu/parley.nvim). This was triggered by the news cycle, where in the week of February 23rd:
 
-1. Block's CEO, Jack Dorsey, [laid off 40% of the company](https://x.com/jack/status/2027129697092731343), claiming to prepare for the AI coding future,
-2. Cloudflare's Steve Faulkner published a [blog post](https://blog.cloudflare.com/vinext/) on their use of AI to rewrite Next.js from scratch, a significant endeavor, by a single Engineering Manager,
-3. Andrej Karpathy [tweeted](https://x.com/karpathy/status/2026731645169185220) about the astonishing speed of evolution of AI coding,
-4. Ahmad Al-Dahle's [Medium post](https://medium.com/@ahmad.al.dahle/the-future-of-software-engineering-isnt-what-you-think-96abb293d70a) on the future of software programming
+1. Jack Dorsey, Block's CEO and co-founder of Twitter, [laid off 40% of the company](https://x.com/jack/status/2027129697092731343), claiming in part to prepare for the AI coding future;
+2. Cloudflare's Steve Faulkner published a [blog post](https://blog.cloudflare.com/vinext/) on their use of AI to rewrite Next.js from scratch, a significant endeavor, by a single Engineering Manager, in a week;
+3. Andrej Karpathy, founding member of OpenAI and who coined the phrase vibe-coding, [tweeted](https://x.com/karpathy/status/2026731645169185220) about the astonishing speed of evolution of AI coding,
+4. Ahmad Al-Dahle, VP of Meta's GenAI org, wrote in [Medium post](https://medium.com/@ahmad.al.dahle/the-future-of-software-engineering-isnt-what-you-think-96abb293d70a) on the future of software programming
 
 This was a week that surely made you feel like the week the world forever changed.
 
