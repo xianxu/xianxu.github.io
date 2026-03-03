@@ -51,7 +51,7 @@ Are you learning? It can be anything: technology, product, business, soft skills
 
 Is your organization's mission exciting and inspiring so that you can learn and become a better version of yourself?
 
-## And one last thing: Are You Having Fun at Work?
+## And one last thing: ARE YOU HAVING FUN AT WORK?
 
 To have fun at work, it needs to be energy-positive. Work itself should not be a net drain on your creative energy. Do you feel well-rested and energized to return to work on a Monday morning? That's often the tell-tale sign of whether you are in the right place. Not saying that every Monday is fun, but overall, you should feel excited about going to work after a restful weekend, more often than not. 
 

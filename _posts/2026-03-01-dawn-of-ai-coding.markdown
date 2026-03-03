@@ -3,6 +3,7 @@ layout: post
 title:  "The Week Everything Changed"
 date:   2026-03-01
 tags: AI tech
+highlight: true
 comments: true
 ---
 

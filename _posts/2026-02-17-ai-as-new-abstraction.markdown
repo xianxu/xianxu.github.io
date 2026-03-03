@@ -3,6 +3,7 @@ layout: post
 title:  "AI as the Next Abstraction Layer"
 date:   2026-02-16
 tags: tech AI
+highlight: true
 comments: true
 ---
 
