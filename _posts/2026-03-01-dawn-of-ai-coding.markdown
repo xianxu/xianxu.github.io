@@ -51,3 +51,7 @@ Immediate implications to the industry?
 7. When the speed of writing code is increased by 100x, the speed and types of the test harness (aka grounding mechanisms) need to be created and sped up accordingly to reap the benefits. Fundamentally, we will need to be in a world where our confidence of agentic coding does not anchor on human code reviews. 
 
 Last but not least, it's such a fun time to be in this trade! 
+
+---
+
+P.S. 3K lines to build Google OAuth flow, `Conductor` broke it down to 9 tasks, completed with some of my help in manual testing, and clarification of feature requirements.
