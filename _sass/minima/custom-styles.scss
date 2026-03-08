@@ -237,7 +237,7 @@ sup.footnote {
   
   li {
     margin-bottom: 0.8rem;
-    
+
     p {
       margin-bottom: 0;
       line-height: 1.4;
@@ -254,4 +254,10 @@ sup.footnote {
       text-decoration: underline;
     }
   }
+}
+
+// Mermaid: allow wide diagrams to scroll horizontally on narrow screens
+.mermaid {
+  overflow-x: auto;
+  max-width: 100%;
 }
