@@ -95,6 +95,8 @@ With those files, they are managed by instructions in [`AGENTS.md`](https://gith
 
 7. **My job** is review and evolve specs, the `todo.md`, and help manual verification steps. I haven't found it useful to review code itself, as I'm not good at lua. But sometimes I can identify code not DRY enough, and would guide agent to refactor.
 
+8. **Still missing**: need to have tests on performance of agent produced code.
+
 As I use AI to construct more complex features, I find this workflow is pretty effective. It's not perfect, but it's dramatically better than what I had 10 months ago. It is already very usable for my personal project now. Looking forward to leverage AI fully at work, in a similar vein what [OpenAI did](https://openai.com/index/harness-engineering/).
 
 [^go_work]: The following is in AGENTS.md: "Work for you is in tasks/issue.md, you MUST make plan in tasks/todo.md"
