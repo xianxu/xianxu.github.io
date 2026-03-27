@@ -11,7 +11,7 @@ layout: page
          <a href="{{ post.url | relative_url }}">
            {{ post.title | escape }}
          </a>
-       </b> - <i>{{ post.date | date: date_format }}</i>
+       </b>{%- if post.date -%} - <i>{{ post.date | date: date_format }}</i>{%- endif -%}
      </li>
      {% endfor %}
     </ul>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "what is "CRT scanlines""
+title:  'what is "CRT scanlines"'
 date:   2026-03-26
 tags: unclassified
 comments: true
@@ -58,5 +58,4 @@ Ghostty supports **custom fragment shaders**, which means you can apply a CRT sc
 📝: You asked about what CRT scanlines are, I answered with: they are the visible horizontal line gaps on old Cathode Ray Tube monitors caused by the electron beam scanning method, now recreated as a shader effect for aesthetic/nostalgic purposes in apps like Ghostty.
 
 ## Question
-
 
