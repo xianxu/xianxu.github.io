@@ -8,7 +8,7 @@ comments: true
 
 *I used to write code; now I write poems...* - so to speak
 
-Previously, I introduced my thoughts that [AI is the new abstraction layer]({% post_url 2026-02-17-ai-as-new-abstraction %}), and marveled at how far [AI coding has matured]({% post_url 2026-03-01-dawn-of-ai-coding %}). So I went in a big way into tinkering in [parley.nvim](https://github.com/xianxu/parley.nvim) and would love to share the experience and the workflow I follow. If you remember my post [10 months ago]({% post_url 2025-05-02-ai-coding-take-2 %}#examples-of-the-bad), I got stuck in some semi-complex features. This round, it was easy to power through them, I haven't found anything that I wanted to create that I couldn't get the agent to do it for me!
+Previously, I introduced my thoughts that [AI is the new abstraction layer]({% post_url 2026-02-16-ai-as-new-abstraction %}), and marveled at how far [AI coding has matured]({% post_url 2026-03-01-dawn-of-ai-coding %}). So I went in a big way into tinkering in [parley.nvim](https://github.com/xianxu/parley.nvim) and would love to share the experience and the workflow I follow. If you remember my post [10 months ago]({% post_url 2025-05-14-ai-coding-take-2 %}#examples-of-the-bad), I got stuck in some semi-complex features. This round, it was easy to power through them, I haven't found anything that I wanted to create that I couldn't get the agent to do it for me!
 
 ## The workflow orchestration space
 
