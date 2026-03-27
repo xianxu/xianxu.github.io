@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>what is "navigate between splits"</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <style>
+        /* Base styling inspired by glow */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+            color: #2d3748;
+            font-size: 16px;
+        }
+
+        /* Headers with glow-like styling */
+        .main-header {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #1a365d;
+            margin: 2rem 0 1.5rem 0;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid #4299e1;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+        }
+
+        .section-header {
+            font-size: 2rem;
+            font-weight: 600;
+            color: #2b6cb0;
+            margin: 2.5rem 0 1rem 0;
+            padding-bottom: 0.3rem;
+            border-bottom: 2px solid #bee3f8;
+            position: relative;
+        }
+
+        .section-header::before {
+            content: '📋';
+            margin-right: 0.5rem;
+            font-size: 1.5rem;
+        }
+
+        .sub-header {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #3182ce;
+            margin: 2rem 0 0.8rem 0;
+            padding-left: 1rem;
+            border-left: 4px solid #90cdf4;
+        }
+
+        /* Enhanced paragraphs */
+        .paragraph {
+            margin: 1.2rem 0;
+            color: #4a5568;
+            text-align: justify;
+            text-justify: inter-word;
+        }
+
+        /* Code blocks with enhanced styling */
+        .code-block {
+            margin: 1.5rem 0;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            border: 1px solid #e2e8f0;
+        }
+
+        .code-block pre {
+            margin: 0;
+            padding: 1.5rem;
+            background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+            border: none;
+            overflow-x: auto;
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+
+        .code-block code {
+            font-family: 'Fira Code', 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
+            background: none;
+            padding: 0;
+            color: #2d3748;
+        }
+
+        /* Inline code with better styling */
+        .inline-code {
+            background: linear-gradient(135deg, #fed7e2 0%, #fbb6ce 100%);
+            color: #97266d;
+            padding: 0.2rem 0.4rem;
+            border-radius: 6px;
+            font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
+            font-size: 0.9em;
+            font-weight: 500;
+            border: 1px solid #f687b3;
+        }
+
+        /* Text formatting */
+        .bold-text {
+            color: #2d3748;
+            font-weight: 700;
+        }
+
+        .italic-text {
+            color: #4a5568;
+            font-style: italic;
+        }
+
+        /* Lists with better styling */
+        .bullet-list {
+            margin: 1rem 0;
+            padding-left: 0;
+            list-style: none;
+        }
+
+        .list-item {
+            position: relative;
+            padding-left: 2rem;
+            margin: 0.5rem 0;
+            color: #4a5568;
+        }
+
+        .list-item::before {
+            content: '•';
+            color: #4299e1;
+            font-weight: bold;
+            position: absolute;
+            left: 0.5rem;
+            font-size: 1.2em;
+        }
+
+        /* Enhanced blockquotes */
+        .quote {
+            background: linear-gradient(135deg, #e6fffa 0%, #b2f5ea 100%);
+            border-left: 4px solid #38b2ac;
+            margin: 1.5rem 0;
+            padding: 1rem 1.5rem;
+            border-radius: 0 8px 8px 0;
+            color: #234e52;
+            font-style: italic;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        /* Special styling for chat elements */
+        .chat-question {
+            background: linear-gradient(135deg, #ebf8ff 0%, #bee3f8 100%);
+            border-left: 4px solid #3182ce;
+            border-radius: 0 12px 12px 0;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            position: relative;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .chat-question::before {
+            content: '💬';
+            position: absolute;
+            left: -0.5rem;
+            top: 1rem;
+            background: white;
+            padding: 0.3rem;
+            border-radius: 50%;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        /* Branch navigation links */
+        .branch-nav {
+            margin: 1rem 0;
+            padding: 0.6rem 1rem;
+            border-radius: 8px;
+            font-size: 0.95em;
+        }
+
+        .branch-nav a {
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .branch-nav a:hover {
+            text-decoration: underline;
+        }
+
+        .branch-nav.parent-link {
+            background: linear-gradient(135deg, #fefcbf 0%, #faf089 100%);
+            border-left: 4px solid #d69e2e;
+            color: #744210;
+        }
+
+        .branch-nav.parent-link a {
+            color: #975a16;
+        }
+
+        .branch-nav.child-link {
+            background: linear-gradient(135deg, #c6f6d5 0%, #9ae6b4 100%);
+            border-left: 4px solid #38a169;
+            color: #22543d;
+        }
+
+        .branch-nav.child-link a {
+            color: #276749;
+        }
+
+        /* Inline branch links (footnote-style) */
+        .branch-inline {
+            color: #2b6cb0;
+            text-decoration: none;
+            border-bottom: 1px dashed #90cdf4;
+            font-weight: 500;
+        }
+
+        .branch-inline:hover {
+            color: #1a365d;
+            border-bottom-style: solid;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            body {
+                padding: 20px 15px;
+                font-size: 15px;
+            }
+            .main-header {
+                font-size: 2rem;
+            }
+            .section-header {
+                font-size: 1.6rem;
+            }
+            .code-block pre {
+                padding: 1rem;
+                font-size: 0.8rem;
+            }
+        }
+
+        /* Syntax highlighting overrides */
+        .hljs {
+            background: transparent !important;
+        }
+
+        .hljs-keyword { color: #d73a49; font-weight: 600; }
+        .hljs-string { color: #032f62; }
+        .hljs-comment { color: #6a737d; font-style: italic; }
+        .hljs-function { color: #6f42c1; }
+        .hljs-number { color: #005cc5; }
+        .hljs-variable { color: #e36209; }
+    </style>
+</head>
+<body>
+<p class="paragraph">---
+topic: what is "navigate between splits"
+file: 2026-03-27.00-15-36.711.md
+tags:
+---
+<div class="branch-nav parent-link"><a href="2026-03-26-ghostty_customization_options.html">&larr; Ghostty customization options</a></div>
+</p>
+<h2 class="section-header">Question</h2>
+<p class='paragraph'>
+ what is "navigate between splits"?
+</p>
+<p class='paragraph'>
+🤖:[Claude-Code-Opus]
+</p>
+<p class='paragraph'>
+🧠: The user is asking about "navigate between splits" in the context of Ghostty. I mentioned this in passing or it's a concept they encountered. In Ghostty (and many terminal emulators), "splits" refer to splitting the terminal window into multiple panes — similar to tmux or iTerm2 splits. "Navigate between splits" means moving focus from one split pane to another. Let me explain this concisely since the user seems to be exploring Ghostty's features.
+</p>
+<p class='paragraph'>
+In Ghostty, <strong class="bold-text">splits</strong> are multiple terminal panes within a single window — you can divide your window horizontally or vertically, each running its own shell session (similar to tmux panes or iTerm2 splits).
+</p>
+<p class='paragraph'>
+<strong class="bold-text">"Navigate between splits"</strong> simply means moving your keyboard focus from one pane to another. Ghostty provides keybindings for this:
+</p>
+<h3 class="sub-header">Default Keybindings (macOS)</h3>
+<p class='paragraph'>
+| Action | Default Keybinding |
+|---|---|
+| Split right (vertical) | <code class="inline-code">Cmd + D</code> |
+| Split down (horizontal) | <code class="inline-code">Cmd + Shift + D</code> |
+| Navigate to split above | <code class="inline-code">Ctrl + Alt + ↑</code> (or <code class="inline-code">Cmd + Alt + ↑</code> on macOS) |
+| Navigate to split below | <code class="inline-code">Ctrl + Alt + ↓</code> |
+| Navigate to split left | <code class="inline-code">Ctrl + Alt + ←</code> |
+| Navigate to split right | <code class="inline-code">Ctrl + Alt + →</code> |
+| Close split | <code class="inline-code">Cmd + W</code> |
+</p>
+<h3 class="sub-header">Why It Matters</h3>
+<p class='paragraph'>
+Without split navigation keybindings, you'd have to click with your mouse to focus a different pane. The keybindings let you stay fully keyboard-driven.
+</p>
+<p class='paragraph'>
+This is also where <code class="inline-code">unfocused-split-opacity</code> becomes relevant — it visually dims the panes you're <em class="italic-text">not</em> focused on, making it obvious which split is active as you navigate between them.
+</p>
+<p class='paragraph'>
+You can customize all of these keybindings in your Ghostty config file using the <code class="inline-code">keybind</code> directive, e.g.:
+</p>
+<div class="code-block"><pre><code>keybind = ctrl+h=goto_split:left
+keybind = ctrl+j=goto_split:bottom
+keybind = ctrl+k=goto_split:top
+keybind = ctrl+l=goto_split:right</code></pre></div>
+<p class='paragraph'>
+These vim-style bindings (<code class="inline-code">h/j/k/l</code>) are a popular customization.
+</p>
+<p class='paragraph'>
+📝: You asked what "navigate between splits" means in Ghostty, I answered that splits are multiple terminal panes in one window, and navigating between them means moving keyboard focus from one pane to another using directional keybindings, with examples of defaults and vim-style custom bindings.
+</p>
+<h2 class="section-header">Question</h2>
+
+</body>
+</html>

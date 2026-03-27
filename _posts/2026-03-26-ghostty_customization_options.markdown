@@ -1,10 +1,9 @@
 ---
 layout: post
-title:  "Ghostty customization options"
+title:  'Ghostty customization options'
 date:   2026-03-26
 tags: unclassified
 comments: true
-hidden: true
 ---
 
 <style>
@@ -72,7 +71,7 @@ Here's a broader overview of what Ghostty lets you configure:
 - Ghostty supports flexible, custom keybindings through the `keybind` configuration option.
 
 ### Splits & Panes
-- Split vertically/horizontally, navigate between splits
+- Split vertically/horizontally, <a href="{% post_url 2026-03-27-what_is_navigate_between_splits %}" class="branch-inline">navigate between splits</a>
 - The unfocused split opacity/fill options discussed above
 
 ### Advanced Features

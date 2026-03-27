@@ -1,10 +1,9 @@
 ---
 layout: post
-title:  "what is "CRT scanlines""
+title:  'what is "CRT scanlines"'
 date:   2026-03-26
 tags: unclassified
 comments: true
-hidden: true
 ---
 
 <style>
