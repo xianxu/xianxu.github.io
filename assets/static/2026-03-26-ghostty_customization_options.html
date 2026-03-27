@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghostty customization options</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <style>
+        /* Base styling inspired by glow */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+            color: #2d3748;
+            font-size: 16px;
+        }
+
+        /* Headers with glow-like styling */
+        .main-header {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #1a365d;
+            margin: 2rem 0 1.5rem 0;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid #4299e1;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+        }
+
+        .section-header {
+            font-size: 2rem;
+            font-weight: 600;
+            color: #2b6cb0;
+            margin: 2.5rem 0 1rem 0;
+            padding-bottom: 0.3rem;
+            border-bottom: 2px solid #bee3f8;
+            position: relative;
+        }
+
+        .section-header::before {
+            content: '📋';
+            margin-right: 0.5rem;
+            font-size: 1.5rem;
+        }
+
+        .sub-header {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #3182ce;
+            margin: 2rem 0 0.8rem 0;
+            padding-left: 1rem;
+            border-left: 4px solid #90cdf4;
+        }
+
+        /* Enhanced paragraphs */
+        .paragraph {
+            margin: 1.2rem 0;
+            color: #4a5568;
+            text-align: justify;
+            text-justify: inter-word;
+        }
+
+        /* Code blocks with enhanced styling */
+        .code-block {
+            margin: 1.5rem 0;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            border: 1px solid #e2e8f0;
+        }
+
+        .code-block pre {
+            margin: 0;
+            padding: 1.5rem;
+            background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+            border: none;
+            overflow-x: auto;
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+
+        .code-block code {
+            font-family: 'Fira Code', 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
+            background: none;
+            padding: 0;
+            color: #2d3748;
+        }
+
+        /* Inline code with better styling */
+        .inline-code {
+            background: linear-gradient(135deg, #fed7e2 0%, #fbb6ce 100%);
+            color: #97266d;
+            padding: 0.2rem 0.4rem;
+            border-radius: 6px;
+            font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
+            font-size: 0.9em;
+            font-weight: 500;
+            border: 1px solid #f687b3;
+        }
+
+        /* Text formatting */
+        .bold-text {
+            color: #2d3748;
+            font-weight: 700;
+        }
+
+        .italic-text {
+            color: #4a5568;
+            font-style: italic;
+        }
+
+        /* Lists with better styling */
+        .bullet-list {
+            margin: 1rem 0;
+            padding-left: 0;
+            list-style: none;
+        }
+
+        .list-item {
+            position: relative;
+            padding-left: 2rem;
+            margin: 0.5rem 0;
+            color: #4a5568;
+        }
+
+        .list-item::before {
+            content: '•';
+            color: #4299e1;
+            font-weight: bold;
+            position: absolute;
+            left: 0.5rem;
+            font-size: 1.2em;
+        }
+
+        /* Enhanced blockquotes */
+        .quote {
+            background: linear-gradient(135deg, #e6fffa 0%, #b2f5ea 100%);
+            border-left: 4px solid #38b2ac;
+            margin: 1.5rem 0;
+            padding: 1rem 1.5rem;
+            border-radius: 0 8px 8px 0;
+            color: #234e52;
+            font-style: italic;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        /* Special styling for chat elements */
+        .chat-question {
+            background: linear-gradient(135deg, #ebf8ff 0%, #bee3f8 100%);
+            border-left: 4px solid #3182ce;
+            border-radius: 0 12px 12px 0;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            position: relative;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .chat-question::before {
+            content: '💬';
+            position: absolute;
+            left: -0.5rem;
+            top: 1rem;
+            background: white;
+            padding: 0.3rem;
+            border-radius: 50%;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        /* Branch navigation links */
+        .branch-nav {
+            margin: 1rem 0;
+            padding: 0.6rem 1rem;
+            border-radius: 8px;
+            font-size: 0.95em;
+        }
+
+        .branch-nav a {
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .branch-nav a:hover {
+            text-decoration: underline;
+        }
+
+        .branch-nav.parent-link {
+            background: linear-gradient(135deg, #fefcbf 0%, #faf089 100%);
+            border-left: 4px solid #d69e2e;
+            color: #744210;
+        }
+
+        .branch-nav.parent-link a {
+            color: #975a16;
+        }
+
+        .branch-nav.child-link {
+            background: linear-gradient(135deg, #c6f6d5 0%, #9ae6b4 100%);
+            border-left: 4px solid #38a169;
+            color: #22543d;
+        }
+
+        .branch-nav.child-link a {
+            color: #276749;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            body {
+                padding: 20px 15px;
+                font-size: 15px;
+            }
+            .main-header {
+                font-size: 2rem;
+            }
+            .section-header {
+                font-size: 1.6rem;
+            }
+            .code-block pre {
+                padding: 1rem;
+                font-size: 0.8rem;
+            }
+        }
+
+        /* Syntax highlighting overrides */
+        .hljs {
+            background: transparent !important;
+        }
+
+        .hljs-keyword { color: #d73a49; font-weight: 600; }
+        .hljs-string { color: #032f62; }
+        .hljs-comment { color: #6a737d; font-style: italic; }
+        .hljs-function { color: #6f42c1; }
+        .hljs-number { color: #005cc5; }
+        .hljs-variable { color: #e36209; }
+    </style>
+</head>
+<body>
+<p class="paragraph">---
+topic: Ghostty customization options
+file: 2026-03-26.20-18-27.340.md
+tags:
+---
+</p>
+<h2 class="section-header">Question</h2>
+<p class='paragraph'>
+ what are the options to customize ghostty, for example, can you change the transparency level of inactive panes?
+</p>
+<p class='paragraph'>
+🤖:[Claude-Code-Opus]
+</p>
+<p class='paragraph'>
+🧠: The user is asking about Ghostty terminal emulator customization options, specifically about transparency for inactive panes. Ghostty is a relatively new terminal emulator by Mitchell Hashimoto. Let me search for the latest information on its configuration options since it's been evolving rapidly.Yes, Ghostty definitely supports customizing the transparency of inactive panes — and much more. Here's a structured overview:
+</p>
+<h3 class="sub-header">Inactive Pane Transparency</h3>
+<p class='paragraph'>
+Ghostty has a dedicated config option for this: <strong class="bold-text"><code class="inline-code">unfocused-split-opacity</code></strong>.
+</p>
+<p class='paragraph'>
+The opacity level of an unfocused split controls how faded out inactive splits appear. Unfocused splits by default are slightly faded out to make it easier to see which split is focused. To disable this feature, set the value to 1.
+</p>
+<p class='paragraph'>
+A value of 1 is fully opaque and 0 is fully transparent. Because "0" is not useful, the minimum value is 0.15 — which "still looks weird but you can at least see what's going on." Values outside 0.15–1 are clamped.
+</p>
+<p class='paragraph'>
+Additionally, there's a companion option <strong class="bold-text"><code class="inline-code">unfocused-split-fill</code></strong>:
+This sets the color used to dim the unfocused split. Unfocused splits are dimmed by rendering a semi-transparent rectangle over the split. This defaults to the background color and can be specified as hex (<code class="inline-code">#RRGGBB</code>) or a named X11 color.
+</p>
+<p class='paragraph'>
+Example config:
+</p>
+<div class="code-block"><pre><code>unfocused-split-opacity = 0.7
+unfocused-split-fill = #1a1a2e</code></pre></div>
+<h3 class="sub-header">Other Major Customization Categories</h3>
+<p class='paragraph'>
+Here's a broader overview of what Ghostty lets you configure:
+</p>
+<h3 class="sub-header">Appearance &amp; Transparency</h3>
+<ul class="bullet-list"><li class="list-item"><strong class="bold-text"><code class="inline-code">background-opacity</code></strong> — the opacity of the background, from 0 (fully transparent) to 1 (fully opaque), with values clamped to valid range. On macOS, background opacity is disabled when the terminal enters native fullscreen.</li></ul>
+<ul class="bullet-list"><li class="list-item"><strong class="bold-text"><code class="inline-code">background-blur</code></strong> — blur effect behind the transparent background, supported on macOS and some Linux desktop environments. On macOS there are also glass effects (<code class="inline-code">macos-glass-regular</code>, <code class="inline-code">macos-glass-clear</code>).</li></ul>
+<ul class="bullet-list"><li class="list-item"><strong class="bold-text"><code class="inline-code">cursor-opacity</code></strong> — the opacity of the cursor, from 0 (fully transparent) to 1 (fully opaque).</li></ul>
+<h3 class="sub-header">Themes</h3>
+<ul class="bullet-list"><li class="list-item">Ghostty ships with hundreds of built-in themes that can be selected with one line of configuration.</li></ul>
+<ul class="bullet-list"><li class="list-item">The built-in themes are sourced from iterm2-color-schemes and updated weekly.</li></ul>
+<ul class="bullet-list"><li class="list-item">You can also author custom themes and set separate themes for light/dark mode.</li></ul>
+<h3 class="sub-header">Fonts &amp; Typography</h3>
+<ul class="bullet-list"><li class="list-item"><code class="inline-code">font-family</code>, <code class="inline-code">font-size</code>, <code class="inline-code">font-thicken</code>, <code class="inline-code">font-feature</code> (for ligatures), <code class="inline-code">adjust-cell-height</code></li></ul>
+<ul class="bullet-list"><li class="list-item">Ghostty embeds a default font (JetBrains Mono) and has built-in nerd fonts.</li></ul>
+<h3 class="sub-header">Keybindings</h3>
+<ul class="bullet-list"><li class="list-item">Ghostty supports flexible, custom keybindings through the <code class="inline-code">keybind</code> configuration option.</li></ul>
+<h3 class="sub-header">Splits &amp; Panes</h3>
+<ul class="bullet-list"><li class="list-item">Split vertically/horizontally, navigate between splits</li></ul>
+<ul class="bullet-list"><li class="list-item">The unfocused split opacity/fill options discussed above</li></ul>
+<h3 class="sub-header">Advanced Features</h3>
+<ul class="bullet-list"><li class="list-item"><strong class="bold-text">Custom shaders</strong> — apply visual effects with GLSL shaders via <code class="inline-code">custom-shader</code> and <code class="inline-code">custom-shader-animation</code> (CRT scanlines, retro glow, etc.)</li></ul>
+<ul class="bullet-list"><li class="list-item"><strong class="bold-text">Quick terminal</strong> — configure a quake-style dropdown terminal with <code class="inline-code">quick-terminal-position</code>, <code class="inline-code">quick-terminal-animation-duration</code>, etc.</li></ul>
+<ul class="bullet-list"><li class="list-item"><strong class="bold-text">Window options</strong> — <code class="inline-code">window-decoration</code>, <code class="inline-code">window-height</code>, <code class="inline-code">window-width</code>, <code class="inline-code">macos-titlebar-style</code>, etc.</li></ul>
+<ul class="bullet-list"><li class="list-item"><strong class="bold-text">Minimum contrast ratio</strong> — a configurable contrast ratio between foreground and background colors, valued between 1 and 21.</li></ul>
+<h3 class="sub-header">Configuration Basics</h3>
+Ghostty uses a simple <code class="inline-code">key = value</code> syntax in <code class="inline-code">~/.config/ghostty/config</code>. It supports hundreds of configuration options. You can also split configs across multiple files using <code class="inline-code">config-file</code> directives. To see all options with docs, run:
+</p>
+<div class="code-block"><pre><code class="language-bash">ghostty +show-config --default --docs</code></pre></div>
+<h3 class="sub-header">Caveats</h3>
+<ul class="bullet-list"><li class="list-item">On macOS, changing <code class="inline-code">background-opacity</code> requires restarting Ghostty completely (hot-reload doesn't apply it).</li></ul>
+<ul class="bullet-list"><li class="list-item"><code class="inline-code">background-opacity</code> normally only applies to the window background. Cells with explicit background colors (e.g. from Neovim or Tmux) remain fully opaque, unless <code class="inline-code">background-opacity-cell</code> is used.</li></ul>
+<h3 class="sub-header">References</h3>
+<ul class="bullet-list"><li class="list-item">[Official config reference](https://ghostty.org/docs/config/reference)</li></ul>
+<ul class="bullet-list"><li class="list-item">[Configuration overview](https://ghostty.org/docs/config)</li></ul>
+<ul class="bullet-list"><li class="list-item">[Ghostty Config Generator](https://ghostty.zerebos.com/) — a web-based visual tool</li></ul>
+<p class='paragraph'>
+📝: You asked about Ghostty customization options, specifically inactive pane transparency. I answered with <code class="inline-code">unfocused-split-opacity</code> (0.15–1) and <code class="inline-code">unfocused-split-fill</code> for inactive panes, plus a broad overview of Ghostty's config categories: background opacity, blur, themes, fonts, keybindings, custom shaders, quick terminal, and more, all via simple key=value config file.
+</p>
+<h2 class="section-header">Question</h2>
+<p class='paragraph'>
+ give me a list of interesting options I can customize ghostty
+</p>
+<p class='paragraph'>
+🤖:[Claude-Code-Opus]
+</p>
+<p class='paragraph'>
+🧠: The user wants a curated list of interesting/notable Ghostty configuration options. They already know about unfocused-split-opacity from the previous message. I should focus on options that are genuinely interesting, surprising, or powerful — not just list every option. Let me search for the latest config reference to make sure I'm accurate and up-to-date.🧠: The user wants a curated list of <em class="italic-text">interesting</em> options — not an exhaustive dump. They already know about unfocused-split-opacity, background-opacity, background-blur, themes, fonts, keybinds, custom shaders, and quick terminal from our previous exchange. So I should go deeper and highlight the more surprising, creative, or lesser-known options that make Ghostty stand out. I'll organize by category and focus on what's genuinely noteworthy or unique. I'll draw from the full config reference I just fetched.
+</p>
+<p class='paragraph'>
+Here's a curated list of the most <strong class="bold-text">interesting and unique</strong> Ghostty config options — skipping the basics we already discussed (themes, fonts, transparency, splits). I'm focusing on options that are surprising, powerful, or that you might not expect a terminal to have.
+</p>
+<p class='paragraph'>
+---
+</p>
+<h3 class="sub-header">🎨 Visual Effects &amp; Eye Candy</h3>
+<p class='paragraph'>
+| Option | What it does |
+|---|---|
+| <code class="inline-code">custom-shader</code> | Custom shaders now receive terminal cursor information, enabling effects like a "cursor blaze" trail behind the cursor as it moves. You can stack multiple GLSL shaders (CRT scanlines, bloom, retro glow, etc.). Community repos like [ghostty-shaders](https://github.com/0xhckr/ghostty-shaders) and [cursor shaders](https://github.com/sahaj-b/ghostty-cursor-shaders) have ready-made effects. |
+| <code class="inline-code">custom-shader-animation</code> | Controls whether shaders animate continuously. Set to <code class="inline-code">always</code> to animate even when unfocused (more CPU), <code class="inline-code">true</code> for focused-only, or <code class="inline-code">false</code> for static. |
+| <code class="inline-code">background-image</code> | Set a PNG/JPEG as a terminal background image — with sub-options for <code class="inline-code">background-image-opacity</code>, <code class="inline-code">background-image-position</code> (<code class="inline-code">center</code>, <code class="inline-code">top-left</code>, etc.), <code class="inline-code">background-image-fit</code> (<code class="inline-code">contain</code>, <code class="inline-code">cover</code>, <code class="inline-code">stretch</code>, <code class="inline-code">none</code>), and <code class="inline-code">background-image-repeat</code>. <em class="italic-text">(Since 1.2.0)</em> |
+| <code class="inline-code">background-blur</code> | On macOS 26.0+, special values <code class="inline-code">macos-glass-regular</code> and <code class="inline-code">macos-glass-clear</code> enable native glass effects. On Linux KDE, it integrates with KWin's global blur. |
+| <code class="inline-code">window-colorspace</code> | Switch between <code class="inline-code">srgb</code> and <code class="inline-code">display-p3</code> for interpreting terminal colors. macOS only, but notable for color-accurate work. |
+</p>
+<div class="branch-nav child-link"><a href="2026-03-26-whats_shader.html">&rarr; What's shader</a></div>
+<h3 class="sub-header">⌨️ Keybinding Power Features</h3>
+<p class='paragraph'>
+| Option | What it does |
+|---|---|
+| <code class="inline-code">performable:</code> prefix | A keybinding is activated only if the action can actually be performed. E.g., <code class="inline-code">performable:ctrl+c=copy<em class="italic-text">to</em>clipboard</code> copies only when there's a selection — otherwise it sends the interrupt signal. |
+| Key sequences (chords) | Bind multi-key combos like <code class="inline-code">ctrl+a&gt;n=new_window</code> — a leader-key system with no timeout. |
+| Key Tables <em class="italic-text">(1.3.0)</em> | Create named modal keybinding sets (like vim modes). Activate/deactivate with <code class="inline-code">activate<em class="italic-text">key</em>table:&lt;name&gt;</code>. You can build a full "copy mode" or "navigation mode" this way. |
+| Chained Actions <em class="italic-text">(1.3.0)</em> | A single keybind can trigger multiple sequential actions using <code class="inline-code">chain=</code>. |
+| <code class="inline-code">key-remap</code> | Remap modifier keys at the app level — e.g., <code class="inline-code">key-remap = ctrl=super</code> to swap Ctrl and Cmd within Ghostty only. |
+| <code class="inline-code">global:</code> prefix | Make a keybind system-wide — works even when Ghostty isn't focused. Supported on macOS and GNOME 48+/KDE Plasma 5.27+. |
+</p>
+<h3 class="sub-header">🖥️ Quick Terminal (Quake-style dropdown)</h3>
+<p class='paragraph'>
+| Option | What it does |
+|---|---|
+| <code class="inline-code">quick-terminal-position</code> | <code class="inline-code">top</code>, <code class="inline-code">bottom</code>, <code class="inline-code">left</code>, <code class="inline-code">right</code>, or <code class="inline-code">center</code>. |
+| <code class="inline-code">quick-terminal-size</code> | Percentage or pixel-based, with separate primary/secondary axis sizes (e.g. <code class="inline-code">50%,500px</code>). |
+| <code class="inline-code">quick-terminal-animation-duration</code> | Control the slide-in/out speed (set to <code class="inline-code">0</code> to disable animation). |
+| <code class="inline-code">quick-terminal-autohide</code> | Auto-hide when focus leaves (default <code class="inline-code">true</code> on macOS, <code class="inline-code">false</code> on Linux). |
+| <code class="inline-code">gtk-quick-terminal-layer</code> | On Wayland, control z-ordering: <code class="inline-code">overlay</code>, <code class="inline-code">top</code>, <code class="inline-code">bottom</code>, or <code class="inline-code">background</code>. |
+</p>
+<h3 class="sub-header">🔧 Behavioral / QoL Gems</h3>
+<p class='paragraph'>
+| Option | What it does |
+|---|---|
+| <code class="inline-code">cursor-click-to-move</code> | Click anywhere in the prompt to reposition the cursor — requires shell integration (works natively with Fish v4, Nu 0.111+). |
+| <code class="inline-code">notify-on-command-finish</code> <em class="italic-text">(1.3.0)</em> | Get notified when a long-running command finishes. Configurable threshold (<code class="inline-code">notify-on-command-finish-after = 30s</code>) and action (<code class="inline-code">bell</code>, <code class="inline-code">notify</code>). |
+| <code class="inline-code">minimum-contrast</code> | The contrast ratio between foreground and background, valued 1–21 per WCAG 2.0. A value of 1.1 avoids invisible text; 3+ avoids hard-to-read text. Great accessibility feature. |
+| <code class="inline-code">window-save-state</code> | On macOS, set to <code class="inline-code">always</code> to persist window positions, tabs, splits, and working directories across restarts. |
+| <code class="inline-code">focus-follows-mouse</code> | In split-pane mode, hovering over a split auto-focuses it — no click needed. |
+| <code class="inline-code">mouse-reporting = false</code> | Completely disable mouse reporting to applications. Useful if you always want native selection behavior. |
+| <code class="inline-code">clipboard-paste-protection</code> | Warns before pasting text that looks dangerous (contains newlines, potential command injection). |
+| <code class="inline-code">wait-after-command</code> | Keep the terminal open after the command exits — great for scripts and debugging. |
+| <code class="inline-code">input</code> | Pre-send data to the terminal on startup: <code class="inline-code">input = "neofetch\n"</code> will run a command immediately. Supports raw strings and file paths. |
+| <code class="inline-code">selection-word-chars</code> <em class="italic-text">(1.3.0)</em> | Customize word boundary characters for double-click selection. |
+</p>
+<h3 class="sub-header">🍎 macOS-Specific Highlights</h3>
+<p class='paragraph'>
+| Option | What it does |
+|---|---|
+| <code class="inline-code">macos-icon</code> | Choose from built-in icon variants: <code class="inline-code">blueprint</code>, <code class="inline-code">holographic</code>, <code class="inline-code">retro</code>, <code class="inline-code">xray</code>, <code class="inline-code">glass</code>, etc. Or use <code class="inline-code">custom-style</code> to set your own <code class="inline-code">macos-icon-ghost-color</code> and <code class="inline-code">macos-icon-screen-color</code> (gradient!). |
+| <code class="inline-code">macos-titlebar-style</code> | <code class="inline-code">tabs</code> merges the tab bar into the titlebar for a clean look. <code class="inline-code">transparent</code> lets your background color bleed through. <code class="inline-code">hidden</code> removes the titlebar but keeps rounded corners. |
+| <code class="inline-code">macos-hidden</code> | Hide Ghostty from the dock and app switcher entirely — ideal for quick-terminal-only usage. |
+| <code class="inline-code">macos-auto-secure-input</code> | Automatically enables macOS Secure Input when a password prompt is detected. |
+| <code class="inline-code">macos-option-as-alt</code> | Treat Option as Alt for terminal keybinds (auto-detects US keyboard layouts). Can be set to <code class="inline-code">left</code> or <code class="inline-code">right</code> only. |
+</p>
+<h3 class="sub-header">🐧 Linux-Specific Highlights</h3>
+<p class='paragraph'>
+| Option | What it does |
+|---|---|
+| <code class="inline-code">linux-cgroup</code> | Put every surface into a transient systemd scope for per-tab/split resource isolation. If one tab OOMs, only that tab gets killed — not all of Ghostty. |
+| <code class="inline-code">linux-cgroup-memory-limit</code> | Set a soft memory limit per terminal surface. |
+| <code class="inline-code">gtk-custom-css</code> | Load arbitrary GTK4 CSS files to restyle Ghostty's chrome. Use <code class="inline-code">GTK_DEBUG=interactive ghostty</code> to live-edit. |
+| <code class="inline-code">gtk-tabs-location</code> | <code class="inline-code">top</code>, <code class="inline-code">bottom</code>, or <code class="inline-code">hidden</code> (shows a tab count button + overview). |
+</p>
+<h3 class="sub-header">🔤 Typography Deep Cuts</h3>
+<p class='paragraph'>
+| Option | What it does |
+|---|---|
+| <code class="inline-code">font-codepoint-map</code> | Force specific Unicode ranges to use a specific font — e.g., map all CJK characters to Noto Sans CJK while keeping your main font for Latin. |
+| <code class="inline-code">font-variation</code> | Set variable font axes directly: <code class="inline-code">font-variation = wght=300</code> for light weight, <code class="inline-code">slnt=-12</code> for slant, etc. |
+| <code class="inline-code">font-shaping-break</code> <em class="italic-text">(1.2.0)</em> | Control where ligatures break — by default, ligatures break under the cursor so you can see individual characters while editing. |
+| <code class="inline-code">palette-generate</code> <em class="italic-text">(1.3.0)</em> | Auto-generate the 256-color palette from just the 16 ANSI colors — gives a cohesive look without specifying all 256 manually. |
+| <code class="inline-code">bold-color</code> | Set a specific color for bold text, or use <code class="inline-code">bright</code> to map bold to bright palette colors. |
+</p>
+<h3 class="sub-header">🛠️ Command Palette <em class="italic-text">(1.2.0)</em></h3>
+<p class='paragraph'>
+<code class="inline-code">command-palette-entry</code> lets you add custom entries to the command palette with arbitrary actions:
+</p>
+<div class="code-block"><pre><code>command-palette-entry = title:Reset Font Style, action:csi:0m
+command-palette-entry = title:Focus Right Split, action:goto_split:right</code></pre></div>
+<p class='paragraph'>
+---
+</p>
+<h3 class="sub-header">Quick Reference</h3>
+<p class='paragraph'>
+To explore all options interactively:
+</p>
+<div class="code-block"><pre><code class="language-bash"># List all config options with documentation
+ghostty +show-config --default --docs | less
+</p>
+<h1 class="main-header">Preview themes live</h1>
+ghostty +list-themes
+</p>
+<h1 class="main-header">Edit config in your $EDITOR</h1>
+ghostty +edit-config</code></pre></div>
+<h3 class="sub-header">References</h3>
+<ul class="bullet-list"><li class="list-item">[Full option reference](https://ghostty.org/docs/config/reference)</li></ul>
+<ul class="bullet-list"><li class="list-item">[Ghostty 1.2.0 release notes](https://ghostty.org/docs/install/release-notes/1-2-0) — cursor shaders, background images, key remapping</li></ul>
+<ul class="bullet-list"><li class="list-item">[Community shader collection](https://github.com/0xhckr/ghostty-shaders)</li></ul>
+<ul class="bullet-list"><li class="list-item">[Cursor shader effects](https://github.com/sahaj-b/ghostty-cursor-shaders) — trails, ripples, pulse animations</li></ul>
+<ul class="bullet-list"><li class="list-item">[Fun with Ghostty Shaders](https://catskull.net/fun-with-ghostty-shaders.html) — visual previews of shader combos</li></ul>
+<p class='paragraph'>
+📝: You asked for a curated list of interesting Ghostty config options, I answered with a categorized deep-dive covering custom shaders &amp; cursor effects, background images, performable keybinds, key tables &amp; chords, quick terminal, cursor-click-to-move, command notifications, minimum contrast, cgroup isolation, macOS icon customization, font codepoint mapping, variable font axes, palette generation, command palette entries, and more — all sourced from the official config reference.
+</p>
+<h2 class="section-header">Question</h2>
+
+</body>
+</html>
