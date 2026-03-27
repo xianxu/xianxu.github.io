@@ -4,6 +4,7 @@ title:  'what is "navigate between splits"'
 date:   2026-03-27
 tags: unclassified
 comments: true
+hidden: true
 ---
 
 <style>
