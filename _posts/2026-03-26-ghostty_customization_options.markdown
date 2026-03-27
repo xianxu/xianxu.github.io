@@ -4,7 +4,6 @@ title:  "Ghostty customization options"
 date:   2026-03-26
 tags: unclassified
 comments: true
-hidden: true
 ---
 
 <style>
@@ -119,7 +118,9 @@ Here's a curated list of the most **interesting and unique** Ghostty config opti
 | `background-blur` | On macOS 26.0+, special values `macos-glass-regular` and `macos-glass-clear` enable native glass effects. On Linux KDE, it integrates with KWin's global blur. |
 | `window-colorspace` | Switch between `srgb` and `display-p3` for interpreting terminal colors. macOS only, but notable for color-accurate work. |
 
+
 <div class="branch-nav child-link"><a href="{% post_url 2026-03-26-whats_shader %}">→ What's shader</a></div>
+
 
 ### ⌨️ Keybinding Power Features
 
