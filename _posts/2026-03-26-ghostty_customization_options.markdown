@@ -75,7 +75,7 @@ Here's a broader overview of what Ghostty lets you configure:
 - The unfocused split opacity/fill options discussed above
 
 ### Advanced Features
-- **Custom shaders** — apply visual effects with <a href="{% post_url 2026-03-26-what_is_glsl_shaders %}" class="branch-inline">GLSL shaders</a> via `custom-shader` and `custom-shader-animation` (CRT scanlines, retro glow, etc.)
+- **Custom shaders** — apply visual effects with <a href="{% post_url 2026-03-26-what_is_glsl_shaders %}" class="branch-inline">GLSL shaders</a> via `custom-shader` and `custom-shader-animation` (<a href="{% post_url 2026-03-26-what_is_crt_scanlines %}" class="branch-inline">CRT scanlines</a>, retro glow, etc.)
 - **Quick terminal** — configure a quake-style dropdown terminal with `quick-terminal-position`, `quick-terminal-animation-duration`, etc.
 - **Window options** — `window-decoration`, `window-height`, `window-width`, `macos-titlebar-style`, etc.
 - **Minimum contrast ratio** — a configurable contrast ratio between foreground and background colors, valued between 1 and 21.
