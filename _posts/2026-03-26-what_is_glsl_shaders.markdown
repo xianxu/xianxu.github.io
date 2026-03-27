@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  'what is "GLSL shaders"?'
+title:  "what is "GLSL shaders"?"
 date:   2026-03-26
 tags: unclassified
 comments: true
+hidden: true
 ---
 
 <style>
@@ -80,4 +81,5 @@ Think of it as a programmable Instagram filter, but running on your GPU in real-
 📝: You asked about what GLSL shaders are, I answered with: GLSL = OpenGL Shading Language, small GPU programs that control pixel rendering in parallel, Ghostty uses fragment shaders for post-processing effects like CRT simulation, color grading, blur; essentially real-time programmable visual filters on the terminal output.
 
 ## Question
+
 
