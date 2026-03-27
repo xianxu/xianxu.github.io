@@ -119,7 +119,7 @@ Here's a curated list of the most **interesting and unique** Ghostty config opti
 | `window-colorspace` | Switch between `srgb` and `display-p3` for interpreting terminal colors. macOS only, but notable for color-accurate work. |
 
 
-<div class="branch-nav child-link"><a href="{% post_url 2026-03-26-whats_shader %}">→ What's shader</a></div>
+<div class="branch-nav child-link" markdown="0"><a href="{% post_url 2026-03-26-whats_shader %}">→ What's shader</a></div>
 
 
 ### ⌨️ Keybinding Power Features
