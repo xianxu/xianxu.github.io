@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  'Further on the ideal of log.md'
+title:  'Conversation: Further on the Idea of log.md'
 date:   2026-03-28
 tags: tech 404
 comments: true

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  'Agentic state management'
+title:  'Conversation: Agentic State Management'
 date:   2026-03-28
 tags: tech 404
 comments: true
