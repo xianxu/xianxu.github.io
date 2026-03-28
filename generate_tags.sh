@@ -26,12 +26,13 @@ mkdir -p "$TAGS_DIR"
 
 for tag in $tags; do
   lower_tag=$(echo "$tag" | tr '[:upper:]' '[:lower:]')
+  escaped_tag=$(printf '%s' "$tag" | sed 's/\\/\\\\/g; s/"/\\"/g')
   file="$TAGS_DIR/${lower_tag}.html"
   cat > "$file" <<EOF
 ---
 layout: tag-page
-tag: ${tag}
-title: "Posts tagged #${tag}"
+tag: "${escaped_tag}"
+title: "Posts tagged #${escaped_tag}"
 permalink: /tag-${lower_tag}.html
 ---
 EOF
