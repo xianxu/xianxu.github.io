@@ -2,7 +2,7 @@
 layout: post
 title:  'Conversation: Further on the Idea of log.md'
 date:   2026-03-28
-tags: tech 404
+tags: tech 404 ai
 comments: true
 hidden: true
 ---
