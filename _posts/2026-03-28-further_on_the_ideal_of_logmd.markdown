@@ -2,7 +2,7 @@
 layout: post
 title:  'Further on the ideal of log.md'
 date:   2026-03-28
-tags: tech, 404
+tags: tech 404
 comments: true
 hidden: true
 ---
