@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "AI Workflow Evolved"
+title:  "AI Workflow Evolved, One Year Jouney"
 date:   2026-03-28
 tags: tech ai 
 comments: true
 ---
 
-It's three weeks after my last post on [AI coding workflow]({% post_url 2026-03-08-ai-coding-workflow %}), so many things have changed, both my understanding of such workflows and the world around it. For example, Nvidia open sourced [OpenShell](https://github.com/NVIDIA/OpenShell). Let's take a look at my evolution, I think this might be useful for people new to the space.
+It's been about a year since I've been vibe coding on [Parley.nvim](https://github.com/xianxu/parley.nvim). It has also been three weeks since my last post on [AI coding workflow]({% post_url 2026-03-08-ai-coding-workflow %}). So many things have changed, both my understanding of such workflows and the world around it. For example, Nvidia open sourced [OpenShell](https://github.com/NVIDIA/OpenShell). Let's take a look at my evolution, I think this might be useful for people new to the space.
 
-1. Archaic time, where I just used coding agent like `claude` directly, sending prompt directly inside its cli. It's a fun but flaky workflow. You can read it [here]({% post_url 2025-04-29-reflection-on-ai-coding %}) and [here]({% post_url 2025-05-14-ai-coding-take-2 %}).
+1. Archaic time, a year ago, where I just used coding agent like `claude` directly, sending prompt directly inside its cli. It's a fun but flaky workflow. You can read it [here]({% post_url 2025-04-29-reflection-on-ai-coding %}) and [here]({% post_url 2025-05-14-ai-coding-take-2 %}).
 
 2. Using workflow management like [Conductor](https://www.conductor.build/), or [Vibe Kanban](https://vibekanban.com/), that's when I was when I wrote [this]({% post_url 2026-03-08-ai-coding-workflow %}). OpenAI also open sourced [Symphony](https://github.com/openai/symphony) which pushed boundary of such "workflow management" software.
 
