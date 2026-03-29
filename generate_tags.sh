@@ -8,7 +8,7 @@ POSTS_DIR="$SCRIPT_DIR/_posts"
 TAGS_DIR="$SCRIPT_DIR/tags"
 
 # Collect all unique tags from posts
-tags=$(grep -h '^tags:' "$POSTS_DIR"/*.markdown 2>/dev/null \
+tags=$(grep -rh '^tags:' "$POSTS_DIR"/ --include='*.md' --include='*.markdown' 2>/dev/null \
   | sed 's/^tags://' \
   | tr ' ' '\n' \
   | sed 's/^[[:space:]]*//;s/[[:space:]]*$//' \
