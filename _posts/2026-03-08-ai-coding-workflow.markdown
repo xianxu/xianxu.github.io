@@ -2,7 +2,7 @@
 layout: post
 title:  "My AI Coding Workflow"
 date:   2026-03-08
-tags: AI tech 
+tags: ai tech 
 comments: true
 ---
 

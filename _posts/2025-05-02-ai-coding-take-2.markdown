@@ -2,7 +2,7 @@
 layout: post
 title:  "Claude Code: Take 2"
 date:   2025-05-14
-tags: tech AI
+tags: tech ai
 comments: true
 ---
 

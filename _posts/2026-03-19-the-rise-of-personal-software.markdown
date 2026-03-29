@@ -2,7 +2,7 @@
 layout: post
 title:  "Personalized Software"
 date:   2026-03-19
-tags: AI tech 
+tags: ai tech 
 comments: true
 ---
 
