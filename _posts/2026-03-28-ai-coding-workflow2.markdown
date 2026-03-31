@@ -3,6 +3,7 @@ layout: post
 title:  "AI Workflow Evolved, One Year Jouney"
 date:   2026-03-28
 tags: tech ai 
+highlight: true
 comments: true
 ---
 
