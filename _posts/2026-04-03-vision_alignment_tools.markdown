@@ -2,7 +2,7 @@
 layout: post
 title:  'Vision alignment tools'
 date:   2026-04-03
-tags: [null]
+tags: null
 comments: true
 hidden: true
 ---
