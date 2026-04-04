@@ -2,7 +2,7 @@
 layout: post
 title:  'what is "Graphviz (DOT language)"'
 date:   2026-04-03
-tags: null
+tags: nil
 comments: true
 hidden: true
 ---

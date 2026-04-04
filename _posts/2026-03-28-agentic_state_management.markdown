@@ -2,7 +2,7 @@
 layout: post
 title:  'Conversation: agentic state management'
 date:   2026-03-28
-tags: tech null ai
+tags: tech nil ai
 comments: true
 hidden: true
 ---
