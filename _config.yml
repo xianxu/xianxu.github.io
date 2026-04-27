@@ -4,7 +4,7 @@ description: >
   Personal thoughts on current events, society and technology.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://xianxu.github.io"
+url: "https://xianxu.dev"
 twitter_username: xianxu
 github_username:  xianxu
 
